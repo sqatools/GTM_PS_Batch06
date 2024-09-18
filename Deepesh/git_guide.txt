@@ -1,0 +1,21 @@
+1. clone repo to local system
+   git clone https://github.com/sqatools/GTM_PS_Batch06.git
+
+2. Navigate to repo directory
+   cd GTM_PS_Batch06
+
+3. Add a folder with your name inside the repo dir e.g. Deepesh
+
+4. Add a test file (test_file.txt) inside the your folder
+
+5. run git command to check the status
+   git status -> newly added folder will be visible red color
+
+6. run command 'git add .' -> folder will be added to git
+
+7. check status again with 'git status' command
+   file path should show in green
+
+8. git commit -m "add first file"
+
+9. git push -> push is successful then folder will be visible on git server
