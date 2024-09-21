@@ -1,0 +1,12 @@
+Index: Aman Chaudhary/add_first_python_file.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Aman Chaudhary/add_first_python_file.py b/Aman Chaudhary/add_first_python_file.py
+new file mode 100644
+--- /dev/null	(date 1726951039005)
++++ b/Aman Chaudhary/add_first_python_file.py	(date 1726951039005)
+@@ -0,0 +1,1 @@
++print("Hello World")
+\ No newline at end of file
