@@ -118,3 +118,25 @@ print("square of 2 :", 2**2) # 2*2
 print("cube of 4 :", 4**3) # 4*4*4 : 64
 print("cube of 5 :", 5**3) # 5*5*5 : 125
 
+#__________________________________________________________
+
+#2.(a-b)^2 = a^2+b^2-2ab
+print("_"*50)
+a=125
+b=168
+LHS = (a-b)**2
+print("LHS output",LHS)
+RHS = a**2+b**2-2*a*b
+print("RHS output",RHS)
+#_____________________________________________________________
+#3.(a+b+c)^2 = a^2+b^2+c^2+2(ab+bc+ca)
+print("_"*50)
+a=10
+b=12
+c=22
+LHS = (a+b+c)**2
+print("LHS output",LHS)
+RHS = a**2+b**2+c**2+2*(a*b+b*c+c*a)
+print("RHS output",RHS)
+
+#4.
