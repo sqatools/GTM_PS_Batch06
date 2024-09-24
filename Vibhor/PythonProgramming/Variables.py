@@ -2,6 +2,9 @@ a=10
 print(a) #normal print
 print(id(a)) #memory of the variable
 # if 2 variable holding same value memory address will be same
+
+print('*' *50)
+
 p=q=r=100
 print("P value is:", p)
 print("Q value is:", q)
@@ -15,7 +18,7 @@ print ("B value id:", b, id(b))
 print ("C value id:", c, id(c))
 
 print("_" *50)
-#addition
+
 q=100
 w=50
 print ("addition is:", q+w)
