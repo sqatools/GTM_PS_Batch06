@@ -30,3 +30,5 @@ print("division single slash is:", q/w)
 print("division double slash is:", q//w)
 
 print("cube of 6 is:", 6**3)
+
+print("Average is:", (q+w)/2)
