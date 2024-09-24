@@ -168,3 +168,63 @@ print("square of 2 :",2**2)  #2*2=4
 print("square of 4 :",4**4) # 4*4*4*4=256
 print("square of 2:",2**5) #2*2*2*2*2=32
 print("square of 6 :",6**3) #6*6*6=216
+
+#############################
+print("#"*30)
+a=40
+b=20
+lhs=(a-b)**2
+print("lhs output:",lhs)
+
+rhs=a**2+b**2-2*a*b
+print("rhs output:",rhs)
+
+print("#"*30)
+a=10
+b=5
+c=2
+LHS=(a+b+c)**2
+print(LHS)
+
+RHS = a**2+b**2+2*(a*b+b*c+c*a)
+print(RHS)
+
+print("#"*30)
+
+pi=3.13
+r=5
+x=pi*r
+print(x)
+
+print("#"*30)
+
+#si=(p*r*t)/100
+p=10000
+r=2
+t=1
+print(p*r*t)
+
+print("#"*30)
+
+CI=((p*(1+i)**n)-p)
+p=10000
+i=3
+n=2
+CI=((p*(1+i)**n)-p)
+print(CI)
+
+"""num1=10
+num2=20
+print(num1+num2)
+
+num1=20
+num2=15
+print(num1-num2)
+
+num1=5
+num2=10
+print(num1*num2)"""
+
+
+
+
