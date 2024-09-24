@@ -52,5 +52,12 @@ print("_" *50)
 P=10
 R=5
 T=15
-SI = (P*R*T)/100
+SI = P+(P/R)*T
 print("Simple Intrest is:", SI)
+
+print("_" *50)
+
+p=10
+r=80
+CI= (p*(1+r/100)**2)
+print("Compound Intrest is:", CI)
