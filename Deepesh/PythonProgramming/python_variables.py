@@ -1,3 +1,11 @@
+"""
+Notes and Practice
+
+https://sqatools.in/python-variables-tutorials/
+
+https://sqatools.in/python-basic-programs/
+"""
+
 a = 10
 print(a)  # print function will the value of variable a
 
@@ -65,6 +73,7 @@ Math operators
 % : Remainder operator
 ** : power operator
 == : Equal to operator
+!= : not equal to operator
 """
 
 # This will repeat the # value 50 times to draw a line
@@ -118,3 +127,62 @@ print("square of 2 :", 2**2) # 2*2
 print("cube of 4 :", 4**3) # 4*4*4 : 64
 print("cube of 5 :", 5**3) # 5*5*5 : 125
 
+###################################
+print("_"*50)
+# remainder operator %
+
+var11 = 10
+var2 = 4
+
+print("remainder value :", var11%var2) # 2
+
+print(11%4) # 3
+
+num1 = 30
+print("check for even :", num1%2 == 0) # even True
+
+print("check for odd :", 13%2 != 0) # odd True
+
+
+print("_"*50)
+### equal to operator ####
+
+n1 = 40
+n2 = 50
+n3 = 40
+print(n1 == n2) # False
+print(n1 == n3) # True
+
+print("_"*40)
+#########################################################
+# 1. (a+b)^2  = a^2 + b^2 + 2ab
+a = 40
+b = 23
+LHS = (a+b)**2
+print("LSH output :", LHS)
+
+RHS = a**2 + b**2 + 2*a*b
+print("RHS output :", RHS)
+
+# 2 (a-b)^2 = a^2 + b^2 - 2ab
+
+# 3. (a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)
+
+# 4. area od circle
+# are = (PI)*(R**2)
+PI= 3.13
+R = 5
+
+# 5.  simple interest calculation
+
+# si = (P*R*T)/100
+# P = principle amount
+# R = Rate of interest
+# T = Time
+
+# 6. compound interest calculation
+#
+# CI=  ((P*(1+i)^n) - P)
+# P = principle amount
+# i = interest rate
+# n = time period
