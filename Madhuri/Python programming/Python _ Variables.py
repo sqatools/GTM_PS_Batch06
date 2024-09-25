@@ -105,6 +105,13 @@ PI = 3.13
 R = 5
 LHS = PI*R**2
 print("LHS output:", LHS)
+# 5 simple interest calculation
+#Si = (P*R*T)/100
+
+
+
+
+
 
 
 
