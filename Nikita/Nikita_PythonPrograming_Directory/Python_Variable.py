@@ -39,5 +39,30 @@ n = 5
 CI = ((P*(1+i)*n) - P)
 print(CI)
 
+# 7. Python Program to add two integer values.
+a = 50
+b = 60
+print(a + b)
+
+# 8.Python program to repeat a given string 5 times.
+name = 'Nikita'
+
+print(name*5)
+
+#9. 5). Python program to get the Average of given numbers.
+a = 40
+b = 50
+c = 30
+sum = (a+b+c)/3
+print(sum)
+
+"""10.Python program to get the median of given numbers.
+Note: all the numbers should be arranged in ascending order
+Formula : (n+1)/2"""
+
+
+
+
+
 
 
