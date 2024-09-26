@@ -173,6 +173,7 @@ print("square of 6 :",6**3) #6*6*6=216
 #############################
 print("#"*30)
 #Session 2:24/09/2024
+
 #REMAINDER OPERATOR
 
 var1=10
@@ -295,7 +296,7 @@ print("#"*30)
 #9.Python program to solve this Pythagorous theorem.
 #Theorem : (a2 + b2 = c2)
 
-print("#"*30)
+
 
 #10.Python program to solve the given math formula.
 #Formula : (a + b)2 = a^2 + b^2 + 2ab
@@ -440,6 +441,51 @@ pi=3.14
 r=5
 n=4/3*pi*r**2
 print("volume of a sphere:",n)
+
+print("#"*50)
+
+#Session 3:25/09/2024
+
+#DATA TYPES
+#1.Number ---->Integer,float,complex numbers
+#2.Sequentials--->String,List,Tuple
+#3.Dictionary
+#4.Set
+#5.Boolean
+
+#INTEGER DATA TYPE
+
+a=10
+print("integer type a:",type(a),a)
+
+b=233243536446573473457324324
+print("integer type b:",type(b),b)
+
+c=123
+print("integer type c:",type(c),c)
+c=100
+print("integer type c:",type(c),c)
+
+d=0
+e=-234
+print("integer type d:",type(d),d)
+print("integer type e:",type(e),e)
+
+#FLOAT DATA TYPE
+
+var_a=50.66
+print("float type var_a:",type(var_a),var_a)
+
+var_b=567721873682.1768716821
+print("float type var_b:",type(var_b),var_b)
+
+var_c=55.33454656655765756
+print("float type var_c:",type(var_c),var_c)
+
+var_d=0.0
+print("float type var_d:",type(var_d),var_d)
+
+
 
 
 
