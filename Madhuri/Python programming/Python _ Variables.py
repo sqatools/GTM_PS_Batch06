@@ -96,7 +96,7 @@ b = 5
 c = 2
 LHS = (a+b+c)**2
 print("LHS output:", LHS)
-RHS = a**2+b**2+2**2+2((a*b +b*c +c*a))
+RHS = a**2+b**2+2**2+2(a*b + b*c + c*a)
 print("RHS output:", RHS)
 
 # 4 area od circle
@@ -107,6 +107,8 @@ LHS = PI*R**2
 print("LHS output:", LHS)
 # 5 simple interest calculation
 #Si = (P*R*T)/100
+
+
 
 
 
