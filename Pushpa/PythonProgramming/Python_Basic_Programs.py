@@ -82,10 +82,22 @@ print("_"*40)
 # 6). Python program to get the median of given numbers.
 # Formula : (n+1)/2
 # n = Number of values
+#  0 1 2 3 4
+#  H e l l o
+# -5-4-3-2-1
+
+str_d = "Hello"
+print(str_d[0])  # H
+print(str_d[-1])  # o
+
 # Input : [45, 60, 61, 66, 70, 77, 80]
+#           0,  1,  2,  3,  4,  5,  6
 
 n = [45, 60, 61, 66, 70, 77, 80]
+print("n :", n[3])  # n : 66
+print("n :", n[-4])  # n : 66
 length = (len(n))/2
+print((len(n))/2)  # 3.5 therefore int is 3 (0,1,2,3)
 
 print("6. Median :", n[int(length)])
 # 6. Median : 66
@@ -291,6 +303,52 @@ CI = ((P*(1+i)**n) - P)
 print("27. Compound Interest:", CI)
 # 27. Compound Interest: 136.35450000000037
 print("_"*50)
+
+# 33). Python program to get the current date.
+date_3 = datetime.datetime.now()
+# date_4 = datetime.now() # it doesn't work
+print("33. Current date: ", date_3)
+# print("33. Current date: ", date_4)
+
+# 34). Python program to convert Decimal to Binary.
+# dc_to_bi = int(input("Enter a number: "))
+# print("34. Decimal of 4 to Binary:", "{0:b}".format(int(dc_to_bi)))
+# input in console
+# Enter a number: 4
+# 34. Decimal of 4 to Binary: 100
+
+# 35). Python program to find the sum of natural numbers.
+print("# 35. not done "*5)
+# 35. not done # 35. not done # 35. not done # 35. not done # 35. not done
+
+# 38). Python program to find the square root of a number.
+num = 56
+print("38. Square root of 56: ", math.sqrt(num))
+# 38. Square root of 56:  7.483314773547883
+
+# 39). Python program to calculate the volume of a sphere.
+# Formula = (4/3*pi*r^2)
+# r = radius
+# pi = 3.14
+# r = float(input("radius: ")) # float
+# r = int(input("radius: "))  # int
+# vol_sph = 4/3*(3.14*r**2)
+vol_sph = 4/3*(3*r**2)  # with pi as 3
+# print("39. Volume of sphere: ", vol_sph)
+# input 7
+# radius: 7
+# 39. Volume of sphere:  196.0 #### with pi as 3
+# radius: 7
+# 39. Volume of sphere:  205.14666666666668 #### with pi as 3.14
+
+# 40). Python program to perform mathematical operations on two numbers.
+print("# 40. not done "*5)
+# 40. not done # 40. not done # 40. not done # 40. not done # 40. not done
+
+
+
+
+
 
 
 
