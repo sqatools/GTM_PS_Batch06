@@ -164,13 +164,14 @@ print("LSH output :", LHS)
 RHS = a**2 + b**2 + 2*a*b
 print("RHS output :", RHS)
 
+print("_"*40)
 # 2 (a-b)^2 = a^2 + b^2 - 2ab
 
 # 3. (a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)
 
 # 4. area od circle
 # are = (PI)*(R**2)
-PI= 3.13
+PI = 3.13
 R = 5
 
 # 5.  simple interest calculation
