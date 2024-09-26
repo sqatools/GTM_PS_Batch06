@@ -485,6 +485,9 @@ print("float type var_c:",type(var_c),var_c)
 var_d=0.0
 print("float type var_d:",type(var_d),var_d)
 
+#COMPLEX DATA TYPE
+
+
 
 
 
