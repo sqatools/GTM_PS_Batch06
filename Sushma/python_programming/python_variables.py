@@ -1,4 +1,3 @@
-#Session:1 23/09/2024
 # VARIABLES
 
 a=10
@@ -172,146 +171,6 @@ print("square of 6 :",6**3) #6*6*6=216
 
 #############################
 print("#"*30)
-#Session 2:24/09/2024
-#REMAINDER OPERATOR
-
-var1=10
-var2=4
-print("remainder value:",var1 % var2)
-print("remainder value:", 11%4)
-
-#EQUAL TO OPERATOR
-print("#"*30)
-
-n1=10
-n2=40
-n3=10
-print("eual to:",n1 == n2)
-print("eual to:",n1 == n3)
-
-print("#"*30)
-
-n1=10
-print("check for even:",n1 % 2 == 0)
-print("check for odd:", n1 %2 !=0)
-#or
-print("check for odd:", n1 % 2 ==1)
-
-print("#"*30)
-
-# BASIC ASSIGNMENT PROGRAMS
-
-#1.Python Program to add two integer values.
-num1=10
-num2=20
-print("add two integer values:",num1+num2)
-
-print("#"*30)
-#2.Python Program to subtract two integer values.
-num1=20
-num2=15
-print("to subtract two integer values:",num1-num2)
-
-print("#"*30)
-#3.Python program to multiply two numbers
-num1=5
-num2=10
-print("to multiply two numbers:",num1*num2)
-
-print("#"*30)
-
-#4. Python program to repeat a given string 5 times.
-#Input :
-#str1 = "SQATools"
-#Output :
-#“SQAToolsSQAToolsSQAToolsSQAToolsSQATools”
-
-str1="SQATools"
-print("repeat a given string 5 times:",str1*5)
-
-print("#"*30)
-
-#5.Python program to get the Average of given numbers.
-#Formula: sum of all the number/ total number
-#Input:
-#a = 40
-#b = 50
-#c = 30
-#Output :
-#Average = 40
-
-a = 40
-b = 50
-c = 30
-print("Average of given numbers:",(a+b+c)//3)
-
-print("#"*30)
-
-#6. Python program to get the median of given numbers.
-#Note: all the numbers should be arranged in ascending order
-#Formula : (n+1)/2
-#n = Number of values
-#Input : [45, 60, 61, 66, 70, 77, 80]
-#Output:  66
-
-input = [45, 60, 61, 66, 70, 77, 80]
-input.sort()
-n=(len(input))/2
-print("median of given numbers:",input[int(n)])
-
-print("#"*30)
-
-#7. Python program to print the square and cube of a given number.
-#Input :
-#num1 = 9
-#Output :
-#Square = 81
-#Cube =   729
-
-num1=9
-print("square of given num:",num1**2)
-print("cube of given num:",num1**3)
-
-print("#"*30)
-
-#8. Python program to interchange values between variables.
-#Input :
-#a = 10
-#b = 20
-#Output :
-#a = 20
-#b = 10
-
-a=10
-b=20
-a,b = b,a
-print("after interchanging value of a: ",a)
-print("after interchanging value of b: ",b)
-
-print("#"*30)
-
-#DOUBT
-
-#9.Python program to solve this Pythagorous theorem.
-#Theorem : (a2 + b2 = c2)
-
-print("#"*30)
-
-#10.Python program to solve the given math formula.
-#Formula : (a + b)2 = a^2 + b^2 + 2ab
-
-a=40
-b=20
-lhs=(a+b)**2
-print("lhs output:",lhs)
-
-rhs=a**2+b**2+2*a*b
-print("rhs output:",rhs)
-
-print("#"*30)
-
-#11.Python program to solve the given math formula.
-#Formula : (a – b)2 = a^2 + b^2 – 2ab
 a=40
 b=20
 lhs=(a-b)**2
@@ -321,128 +180,50 @@ rhs=a**2+b**2-2*a*b
 print("rhs output:",rhs)
 
 print("#"*30)
+a=10
+b=5
+c=2
+LHS=(a+b+c)**2
+print(LHS)
 
-#12. Python program to solve the given math formula.
-#Formula : a2 – b2 = (a-b)(a+b)
-
-a=40
-b=20
-lhs=a**2 - b**2
-print("lhs output:",lhs)
-
-rhs=(a-b)*(a+b)
-print("rhs output:",rhs)
+RHS = a**2+b**2+2*(a*b+b*c+c*a)
+print(RHS)
 
 print("#"*30)
 
-#13.Python program to solve the given math formula.
-#Formula : (a + b)3 = a3 + 3ab(a+b) + b3
-
-a=40
-b=20
-lhs=(a+b)**3
-print("lhs output:",lhs)
-
-rhs=a**3+3*a*b*(a+b)+b**3
-print("rhs output:",rhs)
-
-print("#"*30)
-
-#14.Python program to solve the given math formula.
-#Formula : (a – b)3 = a3 – 3a2b + 3ab2 – b3
-
-a=40
-b=20
-lhs=(a-b)**3
-print("lhs output:",lhs)
-
-rhs=a**3-3*a*2*b+3*a*b*2-b**3
-print("rhs output:",rhs)
-
-print("#"*30)
-
-#15.Python program to calculate the area of the square.
-#Formula : area = a*a
-
-a=9
-print("The area of the square:",a*a)
-#or
-print("The area of the square:",a**2)
-
-print("#"*30)
-
-#16.Python program to calculate the area of a circle.
-#Formula = PI*r*r
-#r = radius
-#PI = 3.14
-
-pi=3.14
+pi=3.13
 r=5
-x=pi*r*r
-print("area of a circle:",x)
+x=pi*r
+print(x)
 
 print("#"*30)
 
-#17. Python program to calculate the area of a cube.
-#Formula = 6*a*a
-
-a=2
-print("area of a cube:",6*a*a)
-
-print("#"*30)
-
-#18.Python program to calculate the area of the cylinder.
-#Formula = 2*PI*r*h + 2*PI*r*r
-
-pi=3.14
-r=2
-h=3
-print("area of the cylinder:",2*pi*r*h + 2*pi*r*r)
-
-print("#"*30)
-
-# DOUBT
-
-#19.Python program to check whether the given number is an Armstrong number or not.
-#Example: 153 = 1*1*1 + 5*5*5 + 3*3*3
-
-print("#"*30)
-
-#20.Python program to calculate simple interest.
-#Formula = P+(P/r)*t
-#P = Principle Amount
-#r = Anual interest rate
-#t = time
+#si=(p*r*t)/100
 p=10000
 r=2
 t=1
-print("simple interest:",p+(p/r)*t)
-
+print(p*r*t)
 
 print("#"*30)
 
-#27.Python program to calculate compound interest.
-#CI=p*((1+r/100)**n)
+CI=((p*(1+i)**n)-p)
 p=10000
-r=10
+i=3
 n=2
-CI=p*((1+r/100)**n)
-print("compound  interest:",CI)
+CI=((p*(1+i)**n)-p)
+print(CI)
 
-print("#"*30)
+"""num1=10
+num2=20
+print(num1+num2)
 
-#39.Python program to calculate the volume of a sphere.
-#Formula = (4/3*pi*r^2)
-#r = radius
-#pi = 3
+num1=20
+num2=15
+print(num1-num2)
 
-pi=3.14
-r=5
-n=4/3*pi*r**2
-print("volume of a sphere:",n)
-
-
-
+num1=5
+num2=10
+print(num1*num2)"""
 
 
 
