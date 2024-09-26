@@ -121,3 +121,101 @@ print(str_c, type(str_c))
 str_d = "Hello"
 print(str_d[0])  # H
 print(str_d[-1]) # o
+
+print("_"*50)
+#######################################
+####### list data type ##########
+
+"""
+-> List is mutable data type, we can the values in the list
+-> List follow positive and negative indexing as like string.
+-> List can contains all type of data, int, float, string, list, tuple, dict, set, boolean
+-> List represent with square brackets.
+-> All values are in list will be comma separated
+"""
+
+list1 = [4, 4.5, 'Hello', [1, 4, 6]]
+print("list1 :", list1, type(list1))
+
+#   0   1    2       3
+#  [4, 4.5, 'Hello', [1, 4, 6]]
+#   -4  -3   -2      -1
+
+print(list1[3])  # [1, 4, 6]
+print(list1[-2]) # Hello
+
+list2 = [ 2, 4.5, 'python',
+         [1, 2, 4], (7, 9, 2),
+         {'a': 123, 'b' : 456},
+         {4, 7, 9, 12},
+         True, False, None ]
+
+print(list2, type(list2))
+print("NUmber of values in the list :", len(list2)) # 10
+str1 = "Python"
+print("string length :", len(str1)) # 6
+list3 = [5, 7, 9]
+list3.append(10)
+print("list 3:", list3)  # [5, 7, 9, 10]
+print(dir(list))
+
+# 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+print("_"*50)
+#################################
+##### tuple data type ##########
+
+"""
+-> Tuple is immutable data type, once it is defined we can not modify
+-> Tuple follow positive and negative as like list and string.
+-> Tuple can contains any of data, int, float, string, list, tuple, dict, set, boolean
+-> Tuple represent with round bracket.
+-> Tuple is faster than list data type
+-> We can store fixed data tuple, that we dont want to change in future.
+  e.g. months in year, days in week etc 
+"""
+
+tup1 = (4, 5.6, 'Programming', [3, 6, 7],
+        (1, 5, 7), {'a': 345,'b' : 456})
+
+print(tup1, type(tup1))
+print("total values in the tuple :", len(tup1))
+print("first value in the tuple :", tup1[0]) # 4
+print(tup1[2]) # Programming
+print(tup1[-1]) # {'a': 345, 'b': 456}
+print(tup1[-5]) # 5.6
+
+print(dir(tuple))
+# 'count', 'index'
+
+
+print("_"*50)
+############################################
+########## Dictionary data ################
+# dict1 = {key : value}
+dict1 = {'a' : 123, 'b' : 456}
+print(dict1['a'])
+
+"""
+# properties of dictionary
+-> dictionary is mutable data type, we can update the data at any point of time.
+-> dictionary does not follow positive or negative indexing
+-> dictionary store values in key value format
+-> dictionary represent with {} braces.
+-> dictionary only contains unique keys, duplicate keys are not allowed.
+-> dictionary can contains duplicate values.
+-> Only immutable data type can be key in the dictionary , int, float, string, tuple, boolean
+-> All type of data can store as value in the dictionary
+"""
+
+dict1 = {'name': 'Rahul', 'name' : 'Mohit'}
+dict1[234] = [4, 7, 8]
+dict1['Python'] = 'Good Morning'
+dict1[(5, 7, 9)] = {4, 8, 1, 5, 4}
+# dict1[[4, 7, 9]] = 'Python'  # TypeError: unhashable type: 'list'
+
+dict1[4.5] = True
+dict1[False] = (4, 7, 1, 8)
+dict1[4.5] = 'Hello'
+print(dict1)
