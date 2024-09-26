@@ -110,3 +110,50 @@ r = 4
 t = 2
 si = (p*r*t)/100
 print("Simple Interest is: ", si)
+
+# Python program to reverse a given number
+num = input("Enter the number to reverse: ")
+reverse_str = str(num)
+print("Reversed number: ", reverse_str[-1::-1])
+
+# Python program to check given number is palindrome or not
+num = input("Enter a number to check palindrome: ")
+rev = str(num)
+rev_num = rev[::-1]
+if num == rev_num:
+    print("Entered number is a palindrome")
+else:
+    print("Entered number is not a palindrome")
+
+# Python program to calculate compound interest.
+p = 1000
+i = 4
+n = 2
+ci = (p*((1+i)**n) - p)
+print("Compound Interest: ", ci)
+
+# Python program to check sum of n natural no.s
+n = int(input("Enter a number to get the result of sum of natural no.s: "))
+s = (n*(n+1))/2
+print("Sum of n natural numbers: ", s)
+
+# Python program to calculate the volume of a sphere - (4/3*pi*r^3)
+pi = 3.14
+r = 4
+vol_of_sphere = 4/3*pi*r**3
+print("volume of Sphere: ", round(vol_of_sphere))
+
+# Python program to perform mathematical operations on two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+operator = input("Enter your choice of operator: ")
+if operator == '+':
+    print(num1 + num2)
+elif operator == '-':
+    print(num1 - num2)
+elif operator == '*':
+    print(num1 * num2)
+elif operator == '/':
+    print(num1 / num2)
+else:
+    print("Invalid operation")
