@@ -96,7 +96,7 @@ b = 5
 c = 2
 LHS = (a+b+c)**2
 print("LHS output:", LHS)
-RHS = a**2+b**2+2**2+2((a*b +b*c +c*a))
+RHS = a**2+b**2+c**2+2*(a*b + b*c + c*a)
 print("RHS output:", RHS)
 
 # 4 area od circle
@@ -105,6 +105,29 @@ PI = 3.13
 R = 5
 LHS = PI*R**2
 print("LHS output:", LHS)
+# 5 simple interest calculation
+#Si = (P * R * T)/100
+P = 2000
+R = 600
+T = 3
+RHS = (P*R*T)/100
+print("RHS:", RHS)
+
+# 6 compound interest calculation
+# CI = (p*(1+i)^n-p)
+# p = principal amount
+# i = interest rate
+# n = time period
+P = 30
+i = 5
+n = 2
+RHS = (P * (1+i) ^ n-P)
+print("RHS:" , RHS)
+
+
+
+
+
 
 
 
