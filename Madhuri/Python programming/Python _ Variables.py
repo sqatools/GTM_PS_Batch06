@@ -124,6 +124,72 @@ n = 2
 RHS = (P * (1+i) ^ n-P)
 print("RHS:" , RHS)
 
+# program to add two integers
+a =5
+b = 7
+print(a+b)
+# substract  with two integers
+a =8
+b =9
+print(a-b)
+#multiply number
+a = 6
+b = 8
+print(a*b)
+# program to repeat  a given  string 5 times
+report = "Test"
+print(report*5)
+# Program get the average of given  numbers
+# average (a+b+c)/3
+a = 20
+b = 30
+c = 10
+print("average:", (a+b+c)/3)
+
+# print the square and cube of a given number
+num = 9
+print("square:",  num**2)
+print("cube:", num**3)
+
+# interchange values
+a = 10
+b = 30
+a,b =b,a
+print("a:", a)
+print("b:", b)
+# solve this  pythagorous theorem
+#a2 + b2 = c2
+a = 5
+b = 4
+LHS = a**2 + b**2
+RHS = LHS
+print(LHS**2)
+# solve the  given match formula
+# formula  a2- b2 = (a-b)(a+b)
+a = 2
+b = 6
+LHS = a**2 - b**2
+Result = ((a-b)*(a+b))
+print(("LHS:", Result))
+# slove the formula one
+# formula (a+b)3 =  a3+3ab(a+b)+ b3
+a = 3
+b = 5
+Result = a**3+3*a*b*(a+b)+b**3
+print("(a+b)^ 3:", Result)
+
+# (a-b)3 = a3 -3a2b+3ab2 -b3
+a = 5
+b = 7
+result = a**3-3*a*b+3*a*b*2 -b**3
+print("(a-b)^3):", Result)
+
+
+
+
+
+
+
 
 
 
