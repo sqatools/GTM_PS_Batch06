@@ -219,3 +219,55 @@ dict1[4.5] = True
 dict1[False] = (4, 7, 1, 8)
 dict1[4.5] = 'Hello'
 print(dict1)
+
+print("_"*50)
+###################################
+# set data type
+set1 = {4, 7, 2, 8, 2, 7, 1, 4}
+print(set1, type(set1))  # {1, 2, 4, 7, 8} <class 'set'>
+"""
+# properties:
+->  set is mutable data type
+->  set only store unique values, duplicate values are not allowed.
+->  set can contains only immutable data type
+->  multable data type are not allowed as set member e.g list, dict, set.
+->  set store data in random order.
+->  set does not follow any indexing.
+->  set represent with curly braces
+"""
+
+set2 = {5, 7, 9, 2, 4, 5}
+print("set2 :", set2)
+set2.add(100)
+print("set2 :", set2)
+print(dir(set))
+
+# set3 = {5, 7, (5, 8, 1), {'a': 123, 'b' : 456}}
+# unhashable type: 'dict'
+# print(set3)
+"""
+'add', 'clear', 'copy', 'difference', 'difference_update',
+'discard', 'intersection', 'intersection_update', 'isdisjoint', 
+'issubset', 'issuperset', 'pop', 'remove', 'symmetric_difference',
+ 'symmetric_difference_update', 'union', 'update']
+"""
+
+
+################################
+# boolean data type
+
+"""
+-> Boolean values represent with True and False
+-> Boolean is immutable data type
+-> Boolean always consider as return value of any logical condition
+"""
+var1 = True
+var2 = False
+print(var1, type(var1))  # True <class 'bool'>
+print(var2, type(var2))  # False <class 'bool'>
+
+num1 = 300
+num2 = 400
+num3 = 300
+print(num1 == num2) # False
+print(num1 == num3) # True

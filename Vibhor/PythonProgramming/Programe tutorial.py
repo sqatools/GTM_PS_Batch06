@@ -61,3 +61,41 @@ p=10
 r=80
 CI= (p*(1+r/100)**2)
 print("Compound Intrest is:", CI)
+
+print("_" *50)
+
+print("Area")
+l= int(input("Enter the Number:"))
+b= int(input("Enter the Number:"))
+h= int(input("Enter the Number:"))
+
+Area=l*b*h
+print("Area of Rectangle:", Area)
+
+print("_" *50)
+
+print("Cylinder Area")
+PI=3.14
+r= int(input("Enter the Radius:"))
+h= int(input("Enter the Height"))
+Area = 2*PI*r*h + 2*PI*r**2
+print("Area of Cylinder: ", Area)
+
+print("_" *50)
+
+print("Reverse")
+num= int(input("Enter the Number"))
+reverse =str(num)
+print("Reverse Number is: ", reverse[::-1])
+
+print("_" *50)
+
+print("Calculate days between 2 dates")
+from datetime import date
+date1= date(2024, 9, 27)
+date2= date(2024, 12, 31)
+result= (date2-date1).days
+print("Number od days: ", result, "days")
+
+
+print("******************************** End of the Exercise *****************************")
