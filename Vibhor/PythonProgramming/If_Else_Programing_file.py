@@ -15,3 +15,27 @@ elif marks >=90 and marks <100:
     print("Excellent")
 elif marks >100:
     print("Invalid")
+
+print("*" *50)
+
+num = int(input("Enter the number: "))
+if num%3 ==0:
+    print("Number is divisible by 3")
+else:
+    print("Number is not divisible by 3")
+
+print("*" *50)
+
+num = int(input("Enter the number: "))
+if num%3 ==0 and num%5 ==0:
+    print("Number is divisible by 3 and 5")
+else:
+    print("Number is not divisible by 3 and 5")
+
+print("*" *50)
+
+num = int(input("Enter the number: "))
+if num%11 ==0 :
+    print(num**2)
+else:
+    print("Number is not divisible by 11")
