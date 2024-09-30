@@ -105,7 +105,7 @@ PI = 3.13
 R = 5
 LHS = PI*R**2
 print("LHS output:", LHS)
-<<<<<<< HEAD
+
 # 5 simple interest calculation
 #Si = (P * R * T)/100
 P = 2000
@@ -188,15 +188,6 @@ print("(a-b)^3):", Result)
 
 
 
-
-
-
-
-
-
-
-=======
->>>>>>> 05afb3d817068be9dde9559491a44536c0700b71
 
 
 
