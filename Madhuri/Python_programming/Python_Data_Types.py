@@ -63,6 +63,56 @@ print ( "tup1:" , type("tup1:"))
 print("total values in the tuple:", len("tup1:"))
 print("first value in the tuple:" , Tup1[0])
 
+print(Tup1[2])
+print(Tup1[-1])
+print(Tup1[-5])
+print (dir(tuple))
+
+# Dictionary data type
+# dictionary is mutable data type, we can update tha data at any point of time
+# dictionary doesn't fallow the positive or negative index
+# dictionary store values in key value format
+# dictionary represent with {} braces
+# dictionary only contains unique keys, duplicates keys are not allowed
+# dictionary can contains duplicate values
+# keys are allowed only immutable data type like int float string tuple boolean
+# all types of data can store as value in the dictionary
+
+dict1 = {'name: Rahul; name: madhu'}
+print(dict1)
+
+# set data type
+# set is mutable data type
+# set only stores unique values, duplicate values are not allowed
+# set can contains only immutable data type
+# mutable data type are not allowed as set member eg:- list dic set
+# set store data in random order
+# set does not fallow any indexing
+# set represent with curly braces
+set2 = {5, 7, 6, 8, 8, 7}
+print("set2:", set2)
+#set.add(100)
+print("set2:", set2)
+print(dir(set))
+
+# boolean data type
+# boolean values represent with true and false
+# boolean is immutable data type
+# boolean always consider as return value of any logical condition
+
+var1 = 300
+var2 = 400
+var3 = 300
+print(var1 == var2)
+print(var1 == var3)
+
+
+
+
+
+
+
+
 
 
 
