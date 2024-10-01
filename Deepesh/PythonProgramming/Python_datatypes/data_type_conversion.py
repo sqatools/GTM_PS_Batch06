@@ -249,4 +249,166 @@ bool_y = bool(list_y)
 print(bool_y, type(bool_y))  # True <class 'bool'>
 
 
+########################### Tuple ####################
+
+# tuple -> int # conversion is not possible
+# tuple -> float # conversion is not possible
+
+print("_"*50)
+#### tuple -> string ####
+tup1 = (5, 7, 2, 8)
+str1 = str(tup1)
+print(str1, type(str1), str1[0], str1[1])
+# (5, 7, 2, 8) <class 'str'> ( 5
+
+
+
+print("_"*50)
+#### tuple -> list ####
+tup2 = (5, 7, 2, 8, 1)
+list2 = list(tup2)
+print(list2, type(list2))  # [5, 7, 2, 8, 1] <class 'list'>
+list2.append(100)
+print(list2) # [5, 7, 2, 8, 1, 100]
+
+
+print("_"*50)
+#### tuple -> dict ####   conversion is not possible
+#### tuple -> set ####
+tup3 = (5, 7, 2, 8, 1, 6, 7, 2)
+set3 = set(tup3)
+print(set3, type(set3))
+# {1, 2, 5, 6, 7, 8} <class 'set'>
+
+
+
+# print("_"*50)
+# #### tuple -> boolean ####
+
+tup_a = tuple()
+bool_a = bool(tup_a)
+print(bool_a, type(bool_a))
+# False <class 'bool'>
+
+tup_b = (5, 7, 2, 8)
+bool_b = bool(tup_b)
+print(bool_b, type(bool_b))
+# True <class 'bool'>
+
+
+tup1 = ('Name', 'Age', 'Email')
+tup2 = ('rahul', 20, 'rahul@gmail.com')
+result_dict = dict(zip(tup1, tup2))
+print(result_dict)
+# {'Name': 'rahul', 'Age': 20, 'Email': 'rahul@gmail.com'}
+
+##################### Dictionary #################
+
+## Dict -> int #### conversion is not possible
+## Dict -> float #### conversion is not possible
+
+print("_"*40)
+## Dict -> string ####
+dict1 = {'a' : 123, 'b' : 456}
+str_a = str(dict1)
+print(str_a, type(str_a), str_a[0], str_a[-2])
+# {'a': 123, 'b': 456} <class 'str'> { 6
+
+
+
+print("_"*40)
+## Dict -> list ####
+dict2= {'a' : 123, 'b' : 456, 'c' : 789}
+list_2 = list(dict2)
+print(list_2, type(list_2))
+# ['a', 'b', 'c'] <class 'list'>
+
+
+
+print("_"*40)
+#### Dict -> tuple ####
+dict2= {'a' : 123, 'b' : 456, 'c' : 789}
+tup2 = tuple(dict2)
+print(tup2, type(tup2))
+# ('a', 'b', 'c') <class 'tuple'>
+
+
+
+print("_"*40)
+#### Dict -> set ####
+dict3= {'a' : 123, 'b' : 456, 'c' : 789}
+set3 = set(dict3)
+print(set3, type(set3))
+# {'b', 'c', 'a'} <class 'set'>
+
+print(dict3.values())
+# dict_values([123, 456, 789])
+
+
+print("_"*40)
+#### Dict -> bool ####
+
+dict_a = {}
+bool_a = bool(dict_a)
+print(bool_a, type(bool_a))
+# False <class 'bool'>
+
+dict_b = {'a' : 456, 'b' : 123}
+bool_b = bool(dict_b)
+print(bool_b, type(bool_b))
+# True <class 'bool'>
+
+
+
+####################### Set ########################
+
+### Set -> Int ##### conversion is not possible
+### Set -> Float ##### conversion is not possible
+
+
+print("_"*50)
+### Set -> string #####
+set_a = {4, 7, 9, 1, 5, 4}
+str_a = str(set_a)
+print(str_a, type(str_a))
+print(str_a[0], str_a[1], str_a[-1])  # { 1 }
+
+
+print("_"*50)
+### Set -> list #####
+set_b = {4, 7, 9, 1, 5, 4}
+list_b = list(set_b)
+print(list_b, type(list_b))
+# [1, 4, 5, 7, 9] <class 'list'>
+
+
+print("_"*50)
+### Set -> tuple #####
+set_c = {4, 7, 9, 1, 5, 4}
+tup_c = tuple(set_c)
+print(tup_c, type(tup_c))
+# (1, 4, 5, 7, 9) <class 'tuple'>
+
+print("_"*50)
+### Set -> dict #####   # CONVERSION IS NOT POSSIBLE
+"""
+set_d = {4, 7, 9, 1, 5, 4}
+dict_d = dict(set_d)
+print("dict_d :", dict_d)
+
+# cannot convert dictionary update sequence element #0 to a sequence
+"""
+
+print("_"*50)
+### Set -> Boolean #####
+set_e = set()
+bool_e = bool(set_e)
+print(bool_e, type(bool_e))
+# False <class 'bool'>
+
+
+set_f = {4, 7, 9}
+bool_f = bool(set_f)
+print(bool_f, type(bool_f))
+# True <class 'bool'>
 
