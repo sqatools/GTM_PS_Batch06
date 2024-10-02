@@ -63,3 +63,4 @@ RHS = c**2
 print("LHS and RHS accordingly is :" , LHS, RHS)
 
 
+
