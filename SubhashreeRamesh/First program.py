@@ -42,3 +42,4 @@ i = 50
 n = 25
 CI=((P*(1+i)** n)-P)
 print("value of CI",CI)
+
