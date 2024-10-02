@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="Python variable programs" />
+    <list default="true" id="8343b007-4b9a-4f38-abd7-a132b4440024" name="Changes" comment="Python if else" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +15,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2mZYtOKKYwEQnsDf09qvGCbgcKz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -101,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python Variables" />
     <MESSAGE value="Python variable programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python variable programs" />
+    <MESSAGE value="Python if else" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python if else" />
   </component>
 </project>
