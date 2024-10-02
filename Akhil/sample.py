@@ -51,7 +51,7 @@ print("b value after swapping", b)
 # 11  already done in variables.Py
 
 
-# Python program to solve the given math formula.
+# 12 Python program to solve the given math formula.
 # Formula : a2 – b2 = (a-b)(a+b)
 
 a = 4
@@ -59,5 +59,51 @@ b = 5
 LHS = a**2 - b**2
 RHS = (a-b) * (a+b)
 print("checking both values", LHS == RHS)
+
+
+# 13 Python program to solve the given math formula.
+# Formula : (a + b)3 = a3 + 3ab(a+b) + b3
+
+a = 6
+b = 5
+LHS = (a+b)**3
+print("LHS", LHS)
+RHS = a**3 + 3*(a*b)*(a+b) + b**3
+print("RHS", RHS)
+print("Checking both the values :", LHS == RHS)
+
+
+
+# 14). Python program to solve the given math formula.
+# Formula : (a – b)3 = a3 – 3a2b + 3ab2 – b3
+
+a = 10
+b = 5
+LHS = (a-b)**3
+print("LHS", LHS)
+RHS = a**3 - 3*a**2*b + 3*a*b**2 - b**3
+print("RHS", RHS)
+print("Checking both the values :", LHS == RHS)
+
+
+
+# 15). Python program to calculate the area of the square.
+# Formula : area = a*a
+
+a = 5
+area = a**2
+print("area", area)
+
+
+# (4/3*pi*r^2)
+
+r = 5
+v = 4/3*(3.14*r**2)
+print("v", v)
+
+
+
+
+
 
 
