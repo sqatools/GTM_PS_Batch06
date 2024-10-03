@@ -74,6 +74,15 @@ if round1 == round2:
 else:
    print("not selected")
 
+# Write a program if give  number is
+num = 2
+print("num")
+if num%2 == 0:
+    print(num**2)
+    if num%3 ==0:
+        print
+
+
 
 
 
