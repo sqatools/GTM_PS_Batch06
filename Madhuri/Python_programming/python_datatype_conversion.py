@@ -58,3 +58,46 @@ print(b1, type(b1)) # false,
 f2 = 0.25
 b2 = bool(f2)
 print(b2, type(b2))
+
+#### string conversion ###
+#string----> int
+""""""
+#str_a = "hello345"
+#int1 = int(str_a)
+# print(int1, type(int))
+# invalid lteral for int() with  base 10:
+""""""
+# if string contains only number then conversion  is possible
+str_b = "67899003"
+int_b = int(str_b)
+print(int_b, type(int_b), int_b*2)
+
+# string ---> float
+str_c = 55.89
+f3 = float(str_c)
+print(f3, type(f3))
+
+# string---> list
+str_d = " python "
+list_d = list(str_d)
+print(list_d, type(list_d))
+#[' ', 'p', 'y', 't', 'h', 'o', 'n', ' '] <class 'list'>
+list_d.append('m')
+print(list_d)
+
+# string----> tuple
+str_e = "programming"
+tup_e = tuple(str_e)
+print(tup_e, type(tup_e))
+
+# string------> dictonary
+str_f = "Python"
+
+
+
+
+
+
+
+
+
