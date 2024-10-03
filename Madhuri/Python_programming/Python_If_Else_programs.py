@@ -58,7 +58,7 @@ else:
 #__________________________________________________________
 """
 
-
+"""
 # 4 Describe the  interview process
 # use nested - if  else statements
 round1 = input("enter the round1 result:")
@@ -72,11 +72,28 @@ if round1 == "passed":
 else:
    print("not selected")
 
+"""
 
+# write a python program to check given number is divisible by 2 and 3 and 7
+# if divisible by 2 then square of the value
+#if divisible by 3 then cube of the value
+#if divisible by 7 then quatra of the value
+"""
+num = int(input("enter the number"))
+if num%2 == 0:
+    print(num**2)
+elif num%3 ==0:
+    print(num**3)
+elif num%7 ==0:
+    print(num**4)
+else:
+    print("The number can not divide by 2,3 or 7")
+"""
 
-
-
-
+x , y, z = 40, 50, 60
+a = 60
+b = 70
+a , b = b, a
 
 
 
