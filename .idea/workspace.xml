@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8343b007-4b9a-4f38-abd7-a132b4440024" name="Changes" comment="Adding first_python_program.py">
-      <change afterPath="$PROJECT_DIR$/SubhashreeRamesh/second file.py" afterDir="false" />
+    <list default="true" id="8162894a-c6d1-400d-8682-1ccb2f0630da" name="Changes" comment="Program for elif and nested if else">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pushpa/PythonProgramming/if_else_condition_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pushpa/PythonProgramming/if_else_condition_practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager" show_ignored="true">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,60 +21,25 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="aman_feature_branch" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;amanji0007&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/sqatools/GTM_PS_Batch06.git&quot;,
-    &quot;accountId&quot;: &quot;75e86a2e-9fc8-4c38-b500-a87734e7a8ba&quot;
-  }
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2mOUCpplYaAGRMNDXNHSZHTRvd9" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2mvaKPYlWomGsI7S9lJwfAqUhsM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "Python.adding_first_python_file.executor": "Run",
-    "Python.first_python_file.executor": "Run",
-    "Python.first_python_program.executor": "Run",
-    "Python.first_python_program_py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/pythonrepo/GTM_PS_Batch06",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.second file">
-    <configuration name="add_first_python_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="if_else_condition_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,53 +47,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aman Chaudhary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pushpa/PythonProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aman Chaudhary/add_first_python_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="first python file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch06" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SubhashreeRamesh" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubhashreeRamesh/first python file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="second file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch06" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SubhashreeRamesh" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubhashreeRamesh/second file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pushpa/PythonProgramming/if_else_condition_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,146 +62,27 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.second file" />
-        <item itemvalue="Python.first python file" />
-        <item itemvalue="Python.add_first_python_file" />
+        <item itemvalue="Python.if_else_condition_practice" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8343b007-4b9a-4f38-abd7-a132b4440024" name="Changes" comment="" />
-      <created>1726946992151</created>
+      <changelist id="8162894a-c6d1-400d-8682-1ccb2f0630da" name="Changes" comment="" />
+      <created>1727959441041</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726946992151</updated>
+      <updated>1727959441041</updated>
     </task>
-    <task id="LOCAL-00001" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726947540886</created>
+    <task id="LOCAL-00001" summary="Program for elif and nested if else">
+      <created>1727966214197</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1726947540886</updated>
+      <updated>1727966214197</updated>
     </task>
-    <task id="LOCAL-00002" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726947568175</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726947568175</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726947797633</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726947797633</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726948743273</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726948743273</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726948769599</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726948769599</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726949001200</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726949001200</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726949015215</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726949015215</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726949556038</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1726949556038</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726950196901</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1726950196901</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726950228534</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1726950228534</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726951649352</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1726951649352</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adding first_python_program.py">
-      <option name="closed" value="true" />
-      <created>1726951662345</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1726951662345</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Adding first_python_program.py">
-      <created>1727100913798</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1727100913798</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Adding first_python_program.py">
-      <created>1727100928183</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1727100928183</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Adding first_python_program.py">
-      <created>1727101017765</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1727101017765</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,27 +90,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding first_python_program.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding first_python_program.py" />
+    <MESSAGE value="Program for elif and nested if else" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program for elif and nested if else" />
   </component>
 </project>
