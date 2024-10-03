@@ -51,6 +51,7 @@ else:
 
 #Q)4. If else program to get all the numbers divided by 3 from 1 to 30.
 
-for num in range (1,31):
+"""for num in range (1,31):
     if num % 3 == 0:
-        print(num,end=' ')
+        print(num,end=' ')"""
+
