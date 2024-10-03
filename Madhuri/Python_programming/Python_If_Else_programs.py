@@ -5,6 +5,7 @@
 #1 Python program to check given number is divided by 3 or not
 # take  a number input through the user
 
+"""
 num = int(input("please enter number:"))
 # check whether the number  is divisible by 3
 if  num%3 == 0:
@@ -21,7 +22,7 @@ if user in id_list:
 else:
     print("invalid id")
 #---------------------------------------------------------------------------
-
+"""
 
 # 3 We will assign grades as per total marks
 # we will assign  grades to each students as per total marks scored
@@ -34,6 +35,7 @@ else:
 # marks between 81-90: grade A++
 # marks between 91-100: Excellent
 # Take marks through the user
+"""
 marks = int(input("Enter Marks:"))
 # assign grades based  on marks
 if marks<40:
@@ -54,7 +56,7 @@ else:
     print("Invalid marks")
 
 #__________________________________________________________
-
+"""
 
 
 # 4 Describe the  interview process
@@ -63,24 +65,12 @@ round1 = input("enter the round1 result:")
 round2 = input("enter the round2 result:")
 if round1 == "passed":
     print("Congrats your 1st  round is clear")
-if round2 == "passed":
-    print("Congrats your 2nd round is clear,you are placed")
-elif round1 == "failed":
-    print("failed in 1st round ,please try next time")
-elif round2 == "failed":
-    print("failed in 2nd round, please try next time")
-if round1 == round2:
-    print(" Congrats ")
+    if round2 == "passed":
+        print("Congrats your 2nd round is clear,you are placed")
+    else :
+        print("not selected in second round")
 else:
    print("not selected")
-
-# Write a program if give  number is
-num = 2
-print("num")
-if num%2 == 0:
-    print(num**2)
-    if num%3 ==0:
-        print
 
 
 
