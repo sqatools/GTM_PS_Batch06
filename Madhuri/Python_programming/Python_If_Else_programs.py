@@ -119,7 +119,7 @@ var2 = 3
 var3 = 6
 # operation = + output =12
 var1 = int(input("Enter 1st number:"))
-var2 = int(input("Enter 2nd number:"))
+#var2 = int(input("Enter 2nd number:"))
 Var3 = int(input("Enter 3 rd number"))
 operation = input("Enter operation of your choice")
 if operation == '+':
@@ -153,6 +153,63 @@ if age>18 == 0:
     print("you are eligible")
 else:
     print("you are not eligible")
+"""
+
+"""
+# number is positive or not
+num = int(int("enter the number:"))
+
+if num>0:
+    print("True")
+else:
+    print("false")
+"""
+
+"""
+# Check whether  the given  number is  divisible by 11
+# take input through the user
+num = int(input("Enter a number"))
+if num%11 == 0:
+    print(num**2)
+else:
+    print("number is not divisible by 11")
+"""
+
+"""
+# Check whether the given number is odd or even
+num = int(input("Enter a number"))
+if num%2 == 0:
+    print("it is  an even number")
+else:
+    print ("it is an odd number")
+# ____________________________________-
+"""
+
+"""
+num = int(input("Enter a number"))
+if num%2 == 0:
+    print("squre :", num**2)
+elif num%3 == 0:
+    print ("cube:", num**3)
+elif num%5 == 0:
+    print("addition", num++5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
