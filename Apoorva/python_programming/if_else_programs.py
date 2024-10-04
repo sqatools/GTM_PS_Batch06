@@ -105,9 +105,144 @@ if username == username1 and password ==password1:
     print("Logged in successfully")
 else:
     print("please enter valid username/password")
-''''
+'''
 
 ##########################################################
 
 # 10). Python program to validate user_id in the list of user_ids.
+
+'''user_id = [1,1.2,2,3,4,5,6,7,8]
+
+id = float(input("enter the id ::"))
+
+if id in user_id:
+    print("id is in the list of user ids")
+else:
+    print("id is not in the list of user ids")
+'''
+
+#############################################################
+
+# 11). Python program to print a square or cube if the given number is divided by 2 or 3 respectively.
+
+'''num1 = int(input("enter the number::"))
+
+if num1%2 == 0:
+    print("square of the number:", num1**2)
+elif num1%3== 0:
+    print("cube of the number:", num1**3)
+else:
+    print("the number is not divisible by 2 or 3", num1)
+'''
+
+##########################################################
+
+#12). Python program to describe the interview process.
+
+'''
+round1 = "clear1"
+round2 = "clear2"
+round3 = "not_clear3"
+
+if round1 == "clear1":
+    print("Candidate has cleared 1st round")
+    if round2 == "clear2":
+        print("Candidate has cleared 2nd round")
+        if round3 == "clear3":
+            print("Candidate has cleared 3rd round. Congratulations,you are hired.")
+        else:
+            print("Candidate has not cleared 3rd round")
+    else:
+        print("Candidate has not cleared 2nd round")
+else:
+    print("Candidate has not cleared 1st round")
+'''
+
+# 13. Python program to determine whether a given number is available in the list of numbers or not.
+
+'''list1 = [2,4,6,8,10,12,14,16,18,20]
+
+num1= int(input("enter the number::"))
+
+if num1 in list1:
+    print("the number is available in list of numbers:", num1)
+else:
+    print("the number is not available in the list", num1)
+'''
+
+###########################################################
+
+#14). Python program to find the largest number among three numbers.
+
+'''num1 = float(input("enter the num1:"))
+num2 = float(input("enter the num3:"))
+num3 = float(input("enter the num3:"))
+
+if num1>num
+'''
+
+#15: 15). Python program to check any person eligible to vote or not
+#age > 18+ : eligible
+#age < 18: not eligible
+
+'''age1 = float(input("enter the age of the voter::"))
+
+if age1 >=18 and age1<=105:
+    print("the person is eligible to vote with age:", age1)
+elif age1 <18:
+    print("the person is not eligible for voting with age:", age1)
+else:
+    print("Please enter valid age")
+'''
+
+#########################################################################
+
+#18). Python program to check whether a student has passed the exam.
+# If marks are greater than 35 students have passed the exam.
+
+'''
+marks1 = float(input("enter the marks scored:"))
+
+if 35 <= marks1 <= 100:
+    print("Student passed exam with marks:", marks1)
+else:
+    print("Student failed the exam with marks:", marks1)
+'''
+
+################################################################
+
+ #19.Python program to check whether the given number is positive or not.
+#Input = 20
+#Output = True
+'''
+num1 = float(input("enter the number ::"))
+
+if num1>=0:
+    print("the number is positive:",num1)
+else:
+    print("the number is negative:", num1)
+'''
+
+#20). Python program to check whether the given number is negative or not.
+'''
+num1 = float(input("enter the number ::"))
+
+if num1<0:
+    print("the number is negative:",num1)
+else:
+    print("the number is positive:", num1)
+'''
+
+#21). Python program to check whether the given number is positive or negative and even or odd.
+Input = 26
+Output = The given number is positive and even
+
+num1 = float(input("Enter the number:"))
+
+if num1>=0 and num1%2 == 0:
+    print("the number is divisible by2 and even:",num1)
+
+
+
+
 
