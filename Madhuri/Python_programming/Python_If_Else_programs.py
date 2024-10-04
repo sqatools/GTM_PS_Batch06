@@ -95,6 +95,34 @@ a = 60
 b = 70
 a , b = b, a
 
+# write a python program to create a calculator where we have to three inputs from users
+Var1 = 3
+var2 = 3
+var3 = 6
+# operation = + output =12
+var1 = int(input("Enter 1st number:"))
+var2 = int(input("Enter 2nd number:"))
+Var3 = int(input("Enter 3 rd number"))
+operation = input("Enter operation of your choice")
+if operation == '+':
+    print(var1+var2+var3)
+elif operation == '-':
+      print(var1-var2-var3)
+elif operation == '*':
+    print(Var1*var2*var3)
+elif operation == '/':
+     print(var1/var2)
+else:
+    print("Invalid operation")
+
+
+
+
+
+
+
+
+
 
 
 
