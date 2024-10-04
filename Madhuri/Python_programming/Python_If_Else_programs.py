@@ -17,6 +17,7 @@ else:
 """
 
 """
+"""
 #___________________________________________________________________
 # 2   validate user_id in the list of user ids
 id_list = [1,2, 3, 4, 5, 6, 7, 8]
@@ -26,6 +27,7 @@ if user in id_list:
     print("valid ID")
 else:
     print("invalid id")
+"""
 #---------------------------------------------------------------------------
 """
 
@@ -45,6 +47,7 @@ else:
 """
 
 """
+"""
 marks = int(input("Enter Marks:"))
 # assign grades based  on marks
 if marks<40:
@@ -63,6 +66,7 @@ elif marks>90 and marks<=100:
     print("Excellent")
 else:
     print("Invalid marks")
+"""
 """
 
 """
@@ -188,7 +192,7 @@ else:
 """
 num = int(input("Enter a number"))
 if num%2 == 0:
-    print("squre :", num**2)
+    print("square :", num**2)
 elif num%3 == 0:
     print ("cube:", num**3)
 elif num%5 == 0:
