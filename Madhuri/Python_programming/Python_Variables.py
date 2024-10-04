@@ -96,7 +96,7 @@ b = 5
 c = 2
 LHS = (a+b+c)**2
 print("LHS output:", LHS)
-RHS = a**2+b**2+2**2+2((a*b +b*c +c*a))
+RHS = a**2+b**2+2**2+2*((a*b +b*c +c*a))
 print("RHS output:", RHS)
 
 # 4 area od circle
@@ -106,6 +106,14 @@ R = 5
 LHS = PI*R**2
 print("LHS output:", LHS)
 
+# creating variables and assigning value to them
+a = 10
+b = 20
+# performing  operations  and printing out
+print(a+b) # addition
+print (a-b) # subtraction
+print(a*b) # multiplication
+print(a/b )#  division)
 
 
 
