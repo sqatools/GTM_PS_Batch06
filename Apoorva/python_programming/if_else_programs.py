@@ -239,9 +239,12 @@ Output = The given number is positive and even
 
 num1 = float(input("Enter the number:"))
 
-if num1>=0 and num1%2 == 0:
+if num1>=0
     print("the number is divisible by2 and even:",num1)
+    if
 
+
+    else
 
 
 
