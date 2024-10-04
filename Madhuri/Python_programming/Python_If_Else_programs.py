@@ -74,6 +74,7 @@ else:
 """
 
 """
+"""
 # 4 Describe the  interview process
 # use nested - if  else statements
 round1 = input("enter the round1 result:")
@@ -136,7 +137,7 @@ elif operation == '/':
      print(var1/var2)
 else:
     print("Invalid operation")
-""""
+"""
 
 """
 #-----------------------------------------
@@ -147,7 +148,7 @@ if num%3 == 0 and num%5 ==0:
     print("Given number can divide by both 3 and 5")
 else:
     print("Given number can not divide by both 3 and 5")
-""""
+"""
 
 """
 
@@ -197,6 +198,7 @@ elif num%3 == 0:
     print ("cube:", num**3)
 elif num%5 == 0:
     print("addition", num++5)
+"""
 
 
 
