@@ -199,6 +199,50 @@ elif num%3 == 0:
 elif num%5 == 0:
     print("addition", num++5)
 """
+"""
+a = 30
+b = 35
+print(a == b)
+if a == b:
+    print("a and b has equal  values")
+else:
+    print("a and b has  different  values")
+"""
+"""
+# write a python program to check  given is available  in the list
+list1 = [4, 7, 9, 3, 6, 7]
+num1 = 8
+if num1 in the list1:
+    print ("data  is available  in the list")
+else:
+    print("dataa is not available in the list")
+    
+"""
+"""
+# write a python program get even and odd word as per value enter
+# single line if condition
+num2 = 16
+result = "even " if num2%2 == 0  else "odd"
+print(num2 , ":", result)
+"""
+"""
+# is operator
+var_a = none
+if var_a is none:
+    pass
+else:
+    print(var_a*5)
+
+ var_b = none
+if var_b is not None:
+     print(var_b**7)
+else:
+    pass
+"""
+
+
+
+
 
 
 
