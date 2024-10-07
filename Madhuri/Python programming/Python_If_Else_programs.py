@@ -239,6 +239,57 @@ if var_b is not None:
 else:
     pass
 """
+"""
+# Iterate over numbers from1-30
+for num in range(1,31):
+    # check whether number is divisibleby 3
+  if num%3==0:
+    print(num, end=" ")
+
+# iterate over numbers from 2-20
+for i in range(2, 20):
+    if i%2 == 0:
+        print(i, end=" ")
+    """"" \
+"""
+# iterate over numbers from 1-10
+for k in range(1,10):
+    if k%5==0:
+        print(k, end=" - ")
+"""
+"""
+# Check the number divided with 3 and 5
+# take a input through the user
+num1 = int(input("Enter a number"))
+# check for division
+if num1%3==0 and num1 %5==0:
+ print(" Given number can divided by both 3 and 5")
+else:
+    print("give number can not divided by 3 and 5")
+"""
+"""
+# print the square of the number
+# take a number as input through the user
+num2 = int(input("Enter a number:"))
+if num2%11 == 0:
+    print (num2**2)
+else:
+    print("number is not divisible by 11")
+"""
+"""
+# whether the number is a prime number(for loop)
+num4 = int(input("Enter a number:"))
+count = 0
+if i in range(2,num4):
+    if num%i == 0:
+        count += 1
+ # check for prime number
+    if count>0:
+        print("It is not a prime number")
+    else:
+        print("it is a prime number")
+"""
+
 
 
 

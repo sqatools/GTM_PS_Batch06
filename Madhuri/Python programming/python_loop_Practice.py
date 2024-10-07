@@ -33,6 +33,16 @@ for j in range(2,21,2):
      print(j, end=" ")
 """
 # write a python program to find out the given number  is prime or not
+num = 30
+prime = true
+for i in range(2,num):
+    if num%i == 0:
+        prime = false
+    else:
+        pass
+    if prime
+        ()
+
 
 
 
