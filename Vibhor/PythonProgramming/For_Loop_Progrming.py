@@ -27,3 +27,13 @@ if prime:
     print("This is Prime Number:", num)
 else:
     print("This is not Prime Number:", num)
+
+print("*"*50)
+
+print("'Five Table'")
+
+for i in range(1 , 101):
+    if i%5 == 0:
+        print(i)
+        if i%2 ==0:
+            print("It is Even number")
