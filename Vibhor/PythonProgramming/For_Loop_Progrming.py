@@ -37,3 +37,28 @@ for i in range(1 , 101):
         print(i)
         if i%2 ==0:
             print("It is Even number")
+
+print("*"*50)
+
+print("'Print FizzBuzz'")
+
+for i in range(1,15):
+    if i%3 == 0 and i%5 ==0:
+        print("FizzBuzz")
+    elif i%3 == 0:
+        print("Fizz")
+    elif i%5 ==0:
+        print("Buzz")
+    else:
+        print("No Match")
+
+print("*"*50)
+
+print("'Five Table without Even Number'")
+
+for i in range(1 , 101):
+    if i%5 == 0:
+        if i%2 ==0:
+            continue
+        print(i)
+

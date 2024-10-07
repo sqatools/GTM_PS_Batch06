@@ -96,3 +96,54 @@ for i in range(num1, 0, -1):
 
 print("factorials of num :", fact)
 
+print("_"*50)
+##################################################
+# continue and break statement
+# continue : continue statement does not execute the further code if condition is met.
+#            and move the loop to next iteration.
+
+for i in range(1, 11):
+    if i == 6:
+        continue
+    print("value if i :", i)
+
+
+print("_"*50)
+# write a python program to print the number which is divisible by 5 except divisible by 2
+
+for j in range(50):
+    if j%5 == 0:
+        if j%2 == 0 and j%3 == 0:
+            continue
+        print(j)
+
+
+
+print("_"*50)
+############## break statement ############
+# break : break statement stop the execution any loop condition if break condition is met
+
+for i in range(1, 11):
+    if i == 6:
+        break
+    print("value if i :", i)
+
+print("_"*50)
+#####
+# write a python program to find the prime number
+num = 91
+prime = True
+for i in range(2, num//2):
+    print(i)
+    if num%2 == 0:
+        prime = False
+        break
+
+if prime:
+    print("This is prime no :", num)
+else:
+    print("This is not prime no :", num)
+
+
+############################################################
+
