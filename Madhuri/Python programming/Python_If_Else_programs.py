@@ -5,7 +5,7 @@
 #1 Python program to check given number is divided by 3 or not
 # take  a number input through the user
 """
-
+"""
 """
 #__________________________________________
 num = int(input("please enter number:"))
@@ -16,6 +16,7 @@ else:
     print("number is not divisible by 3")
 """
 
+"""
 """
 """
 #___________________________________________________________________
@@ -48,6 +49,8 @@ else:
 
 """
 """
+"""
+"""
 marks = int(input("Enter Marks:"))
 # assign grades based  on marks
 if marks<40:
@@ -75,6 +78,8 @@ else:
 
 """
 """
+"""
+"""
 # 4 Describe the  interview process
 # use nested - if  else statements
 round1 = input("enter the round1 result:")
@@ -87,7 +92,7 @@ if round1 == "passed":
         print("not selected in second round")
 else:
    print("not selected")
-
+"""
 """
 
 """
@@ -96,7 +101,7 @@ else:
 #if divisible by 3 then cube of the value
 #if divisible by 7 then quatra of the value
 """
-
+"""
 """
 num = int(input("enter the number"))
 if num%2 == 0:
@@ -289,6 +294,80 @@ if i in range(2,num4):
     else:
         print("it is a prime number")
 """
+"""
+# Check given number is odd and even(if- else)
+num = int(input("Enter a number:"))
+if num%2 == 0:
+ print("It is an even number")
+else:
+    print("it is an odd number")
+"""
+"""
+# fibonacci series
+fib = [0, 1, 1, 2, 3, 5, 6, 8]
+# take input through the user
+num = int(input("Enter a number:"))
+if num in fib:
+    print("It is a part of the series")
+else:
+    print("It is not part of the series")
+"""
+"""
+#  List of user id
+id_list = [1, 2, 3, 4, 5, 6, 7]
+id_ = int(input("Enter ID number"))
+if id_ in id_list:
+    print("valid id")
+else:
+    print("invalid id")
+    """
+"""
+# a person eligible to vote
+age = int(input("enter the age"))
+if age>18:
+    print("you are eligible")
+else:
+    print("You are not eligible")
+"""
+"""
+# positive number or not
+num = int(input("Enter a number:"))
+if num>0:
+    print("True")
+else:
+    print("false")
+"""
+"""
+# negative number or not
+num = int(input("Enter the number:"))
+if num<0:
+    print("true")
+else:
+    print("false")
+"""
+"""
+# largest number
+num1 = int(input("Enter 1st number:"))
+num2 = int(input("Enter 2nd number:"))
+if num1<num2 ==0:
+    print("First number is greatest:")
+else:
+    print("Second number is greatest:")
+"""
+"""
+# print all numbers from 10-15, expect 13
+for i in range(10, 16):
+    if i!= 13:
+        print(i)
+"""
+
+
+
+
+
+
+
+
 
 
 
