@@ -49,48 +49,53 @@ print("Area of square:", Area)
 
 print("_" *50)
 
-P=1000
+P=10
 R=5
-T=10
+T=15
 SI = P+(P/R)*T
 print("Simple Intrest is:", SI)
 
 print("_" *50)
 
-p=1000
-r=8
+p=10
+r=80
 CI= (p*(1+r/100)**2)
 print("Compound Intrest is:", CI)
 
 print("_" *50)
 
 print("Area")
-num1 = int(input("Please insert Number:"))
-num2 = int(input("Please insert Number:"))
-num3 = int(input("Please insert Number:"))
-Area = num1*num2*num3
-print("Area of rectangle:", Area)
+l= int(input("Enter the Number:"))
+b= int(input("Enter the Number:"))
+h= int(input("Enter the Number:"))
+
+Area=l*b*h
+print("Area of Rectangle:", Area)
 
 print("_" *50)
 
-print("Average")
-num1 = int(input("Please insert Number:"))
-num2 = int(input("Please insert Number:"))
-num3 = int(input("Please insert Number:"))
-Average = (num1+num2+num3)/3
-print("Average of Numbers:", Average)
-
-print("_" *50)
-
-print("Volume of Sphere")
+print("Cylinder Area")
 PI=3.14
-r=int(input("Please insert Radius:"))
-Formula = 4/3*PI*r**2
-print("Volume of sphere:", Formula)
+r= int(input("Enter the Radius:"))
+h= int(input("Enter the Height"))
+Area = 2*PI*r*h + 2*PI*r**2
+print("Area of Cylinder: ", Area)
 
 print("_" *50)
 
-print("Square Root")
-import math
-num1 = int(input("Enter the Number:"))
-print(math.sqrt(num1))
+print("Reverse")
+num= int(input("Enter the Number"))
+reverse =str(num)
+print("Reverse Number is: ", reverse[::-1])
+
+print("_" *50)
+
+print("Calculate days between 2 dates")
+from datetime import date
+date1= date(2024, 9, 27)
+date2= date(2024, 12, 31)
+result= (date2-date1).days
+print("Number od days: ", result, "days")
+
+
+print("******************************** End of the Exercise *****************************")

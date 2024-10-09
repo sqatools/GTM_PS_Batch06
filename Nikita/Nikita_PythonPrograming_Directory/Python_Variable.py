@@ -1,4 +1,6 @@
 #2. (a-b)^2 = a^2 - b^2 - 2ab
+from math import sqrt
+
 a = 100
 b = 50
 LHS = (a - b)**2
@@ -59,6 +61,30 @@ print(sum)
 """10.Python program to get the median of given numbers.
 Note: all the numbers should be arranged in ascending order
 Formula : (n+1)/2"""
+
+list1 = [1, 5, 7, 9, 33, 55, 80]
+list1.sort()
+a = (len(list1))/2
+print("Median: ",list1[int(a)])
+
+#8). Python program to interchange values between variables.
+a = 10
+b = 20
+a,b = b,a
+print(a,b)
+
+#9). Python program to solve this Pythagorous theorem.
+#Theorem : (a2 + b2 = c2)
+a = 40
+b = 40
+
+var1 = sqrt(a**2 + b**2)
+print(var1)
+
+
+
+
+
 
 
 
