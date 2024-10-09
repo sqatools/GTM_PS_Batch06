@@ -74,14 +74,39 @@ for i in range(0,11):
     if i!= 3 or i!= 6:
         print(i, end = " ")
 """
+"""
 # count the number  of even odd number  from series of number
 val = (1,2,3,4,5,6,7,8,9)
-if val%2 == 0:
+if val %2 == 0:
     print ("number of even number:", even)
     even += 1
 else:
     odd += 1
     print("number of odd numbers:",odd)
+"""
+"""
+# all numbers expect certain numbers all the numbers from 1 to 10
+# if the number is not  euqal to 3 or 6 only then print the number
+for i in range (0,11):
+   i!= 3 or i!= 6
+  print(i,end =" - ")
+  """
+"""
+# mulitiples certain numbers
+for i in range( 1,31):
+    if i%3 == 0 and i%5 == 0:
+        print("fizzbuzz:")
+    elif i%3 == 0:
+        print ("fizz")
+    elif i%5 ==0:
+        print("buzz")
+        """
+
+
+
+
+
+
 
 
 
