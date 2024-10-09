@@ -360,13 +360,64 @@ for i in range(10, 16):
     if i!= 13:
         print(i)
 """
-#
+"""
+# write a program to calculate total number of odd  or even
+tup_val =(5, 7,8,9,6, 12, 14)
+odd_count = 0
+even_count = 0
+for val in tup_val:
+    if val%2 == 0:
+        even_count += 1  # or even_count = even_count+1
+    else:
+        odd_count +=1  # or odd_count = odd_count+1
+print("odd count ", odd_count)
+print("even count",even_count)
 
+"""
+"""
 
+List = [2,4,6,8,3,9,11,13]
+odd_count=0
+even_count=0
+for val in List:
+    if val%2 == 0:
+        even_count = even_count+1
+        print("even count:",even_count)
+    else:
+        odd_count = odd_count+1
+        print("odd count:", odd_count)
 
+"""
+"""
+# tuple length of
+tup_length = len(tup_val)
+print("tuple length:", tup_length)
+for i in range (tup_length):
+  print(i,tup_val[i])
+"""
+"""
+"""
+# length of list
+"""
+list_length = len(list_val)
+print("list_length:",list_length)
+for i in range (list_length):
+    print(i, list_val[i])
+    """
+"""
+str1 = "Hello python"
+for char in str1:
+    print(char, end="-")
+    """
+# fibonacci series
+a = 0
+b = 1
+for i in range (20):
+ print(a,end="-")
+ a,b = b,a+b
 
-
-
+""""""
+# while loop
 
 
 
