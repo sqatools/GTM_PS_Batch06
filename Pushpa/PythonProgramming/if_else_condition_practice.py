@@ -260,7 +260,16 @@ else:
     print("This is not a prime number")
 """
 
+#  write a python program to check given is available in the list
+# in operator
+list1 = [8, 6, 7, 3, 4, 2, 1, 3, 0]
+num1 = 7
 
+if num1 in list1:
+    print("num1 is available in the list1")
+
+else:
+    print("Not available")
 
 
 
