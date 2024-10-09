@@ -437,12 +437,12 @@ print("#"*30)
 #r = radius
 #pi = 3
 
-pi=3.14
+"""pi=3.14
 r=5
 n=4/3*pi*r**2
 print("volume of a sphere:",n)
 
-print("#"*50)
+print("#"*50)"""
 
 
 

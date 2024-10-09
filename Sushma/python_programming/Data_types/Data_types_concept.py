@@ -248,7 +248,7 @@ print("dictionary values:",dict_1,type(dict_1))
 #dict_1[[1,2,3]]="python"
 
 #EX:5
-dict_1[4.5]=True
+"""dict_1[4.5]=True
 dict_1[False]=(1,2,3)
 dict_1[5.5]='hello'
-print("print values:",dict_1)
+print("print values:",dict_1)"""
