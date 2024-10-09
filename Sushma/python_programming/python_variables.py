@@ -1,6 +1,6 @@
 #Session:1 23/09/2024
 # VARIABLES
-
+"""
 a=10
 print(a)
 print(id(a)) # memory address
@@ -80,6 +80,7 @@ print('*'*50)
 
 #OPERATORS
 """
+"""
 + --->Addition
 - --->Subtraction
 * --->Multiplication
@@ -88,6 +89,7 @@ print('*'*50)
 % --->Remainder operator 
 ** --->Power operator
 == --->Equal to operator
+"""
 """
 
 #ADDITION OPERATOR
@@ -444,7 +446,7 @@ r=5
 n=4/3*pi*r**2
 print("volume of a sphere:",n)
 
-print("#"*50)
+print("#"*50)"""
 
 #21). Python program to print the current date in the given format
 #Output: 2023 Jan 05
@@ -465,12 +467,17 @@ print("#"*50)
 
 #24). Python program to reverse a given number.
 
-num = int(input("Enter a number: "))
-
+"""num = int(input("Enter a number: "))
 reverse = str(num)
+print("Reverse: ",reverse[::-1])"""
 
-print("Reverse: ",reverse[::-1])
+#25). Python program to get the Fibonacci series between 0 to 50.
 
-
-
-
+num=int(input("enter the num:"))
+i,j=0,1
+for _ in range(num):
+    print(i,end=" ")
+    k= i + j
+    i = j
+    j = k
+print()
