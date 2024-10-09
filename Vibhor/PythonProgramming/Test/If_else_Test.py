@@ -1,4 +1,4 @@
-'''
+
 num = int(input("Enter the number: "))
 if num%2 ==0 :
     print("Square if the Value= ", num**2)
@@ -25,6 +25,5 @@ elif num1 ==4:
     print("Substraction=",num2-num3)
 else:
     print("Invalid Action")
-'''
 
 
