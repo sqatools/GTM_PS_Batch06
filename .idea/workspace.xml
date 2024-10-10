@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -26,6 +27,12 @@
       <change beforePath="$PROJECT_DIR$/SubhashreeRamesh/python data tpe/data type.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubhashreeRamesh/python data tpe/data type.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sushma/python_programming/python_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sushma/python_programming/python_variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vibhor/PythonProgramming/Programe tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vibhor/PythonProgramming/Programe tutorial.py" afterDir="false" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="if programs practice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" afterDir="false" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +47,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+=======
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2mmmMoLwVE35CNBCWUdOItQfwq5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectId" id="2mZYtOKKYwEQnsDf09qvGCbgcKz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,8 +75,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.data type">
     <configuration name="First program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.practice program">
+    <configuration name="Python _ Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +89,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SubhashreeRamesh" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubhashreeRamesh/First program.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Madhuri/Python programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/Python programming/Python _ Variables.py" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +110,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="data type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="practice program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +122,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SubhashreeRamesh/python data tpe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubhashreeRamesh/python data tpe/data type.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sushma/python_programming/if_practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +143,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="python variable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="python_variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +155,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SubhashreeRamesh" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubhashreeRamesh/python variable.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sushma/python_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sushma/python_programming/python_variables.py" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,21 +178,58 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.data type" />
         <item itemvalue="Python.First program" />
         <item itemvalue="Python.python variable" />
+=======
+        <item itemvalue="Python.practice program" />
+        <item itemvalue="Python.python_variables" />
+        <item itemvalue="Python.Python _ Variables" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="1ce07ddb-35ee-4a64-b94c-6fc8e88ff71d" name="Changes" comment="" />
       <created>1727690085678</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727690085678</updated>
     </task>
+=======
+      <changelist id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="" />
+      <created>1727285781591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727285781591</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Python Variables">
+      <created>1727332769966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727332769966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Python variable programs">
+      <created>1727335538203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727335538203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Python variable programs">
+      <created>1727353671012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727353671012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +244,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="python variable" />
     <option name="LAST_COMMIT_MESSAGE" value="python variable" />
+=======
+    <MESSAGE value="Python Variables" />
+    <MESSAGE value="Python variable programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python variable programs" />
+>>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
   </component>
 </project>
