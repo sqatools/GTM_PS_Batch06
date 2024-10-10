@@ -77,3 +77,50 @@ elif marks > 90 and marks <= 100:
     print("Grade 'Excellent'")
 elif marks > 100:
     print("Invalid marks")"""
+
+# 6. If else program to get all the numbers divided by 3 from 1 to 30
+"""for i in range(1, 31):
+    if i%3 == 0:
+        print(i, end=' ')"""
+
+# 7. Python program to check the given number divided by 3 and 5
+"""num = int(input("Enter a number to check it is divided by 3 & 5: "))
+if num % 3 == 0 and num % 5 == 0:
+    print("Given number is divided by both 3 & 5")
+else:
+    print("Given number is not divided by both 3 & 5")"""
+
+# 8. Python program to print the square of the number if it is divided by 11
+"""num1 = int(input("Enter a number to get square: "))
+if num1%11 == 0:
+    print(num1**2)
+else:
+    print("Given number not divisible by 11")"""
+
+# 9. Python program to check given number is a prime number or not
+"""# input from user
+num = int(input("Enter a number to check prime: "))
+# make prime as true initially
+prime = True
+# if number is divisible by any of the numbers starting from 2 to given number, prime become false
+for i in range(2, num):
+    if num%i == 0:
+        prime = False
+if prime:
+    print("Given number is Prime number")
+else:
+    print("Given number is not a Prime number")"""
+
+# 10. Python program to check given number is odd or even
+"""num = int(input("Enter a number to check it is odd or even: "))
+if num%2 == 0:
+    print("Even number")
+else:
+    print("Odd number")"""
+
+for i in range(5):
+    for j in range(2, 20):
+        if j%2 == 0:
+            print(j, end=' ')
+
+    print()
