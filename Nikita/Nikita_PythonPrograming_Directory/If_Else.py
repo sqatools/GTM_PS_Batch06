@@ -50,7 +50,7 @@ else:
 #
 # print(name_1)
 
-name = input("Enter name: ")
+""" name = input("Enter name: ")
 password = input("Enter password: ")
 # Authenticate username and password
 if name == password:
@@ -58,4 +58,63 @@ if name == password:
     print("It is valid")
 else:
 # Print output
-    print("It is not valid")
+    print("It is not valid") """
+
+# write a python program to check given number can divide by 2 and 3 with
+# nested if
+
+"""num_b = 14
+if num_b % 2 == 0:
+    print("The number can divide 2:", num_b)
+    if num_b % 3 == 0:
+        print("The number can divide 3:", num_b)
+    else:
+        print("The number can not divide 3:", num_b)
+else:
+    print("The number can not divide 2:", num_b)"""
+
+# Q1. write a python program to show interview process with nested if condition
+
+#1. write a python program if given number is
+# if divisible by 2 then print square of the number
+# if divisible by 3 then print cube of the number
+# if divisible by 7 then print num**4 of the number
+
+"""num = int(input("Please enter number :"))
+if  num%2==0:
+    print("the number is divisble by 2:", num**2)
+elif num % 3 == 0:
+    print("the number is divisble by 3:", num**3)
+
+elif num%7==0:
+    print("the number is divisble by 7:", num**4)
+
+else:
+    print("Number is not divisble")"""
+#write a python program to create a calculator where we have to three inputs from users
+"""var1 = take value for action
+var2 = take value for operation
+var3 = take value for operation
+
+if var1 ==1 : addition of var2 and var3
+if var1 ==2 : multiplication of var2 and var3
+if var1 ==3 : division of var2 and var3
+if var1 ==4 : subtraction of var2 and var3"""
+
+var1 = int(input("enter the var1 value :"))
+var2 = int(input("enter the var2 value :"))
+var3 = int(input("enter the var3 value :"))
+
+if var1 == 1:
+    print("var2+var3 is:" , var2+var3)
+elif var1 == 2:
+    print("var2*var3 is:", var2*var3)
+elif var1 == 3:
+    print("var2%var3 is:", var2 / var3)
+elif var1 == 4:
+    print("var2-var3 is:", var2 - var3)
+else:
+    print("No operations to be done")
+
+
+

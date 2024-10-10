@@ -80,7 +80,11 @@ print("division output:", var_o//var_l)
 print("squre of 2:", 2**2)
 print("cube of 4:", 4**3)
 print("cube of 5:", 5**3)
+"""
 
+
+
+"""
 
 # (a-b)^ 2 = a^2 + b^2 -2ab
 a = 30
@@ -89,23 +93,41 @@ LHS = (a-b)**2
 print ("LHS output:", LHS)
 RHS = a**2+b**2-2*(a*b)
 print("RHS output:",RHS)
+"""
 
+
+"""
 # (a+b+c)^2 = a^2 + b^2 + c^2 +2(ab + bc +ca)
 a = 10
 b = 5
 c = 2
 LHS = (a+b+c)**2
 print("LHS output:", LHS)
-RHS = a**2+b**2+2**2+2((a*b +b*c +c*a))
+RHS = a**2+b**2+2**2+2*((a*b +b*c +c*a))
 print("RHS output:", RHS)
+"""
 
+
+"""
 # 4 area od circle
 # are = PI*R^2
 PI = 3.13
 R = 5
 LHS = PI*R**2
 print("LHS output:", LHS)
+"""
 
+
+"""
+
+# creating variables and assigning value to them
+a = 10
+b = 20
+# performing  operations  and printing out
+print(a+b)# addition
+print(a-b)# subtraction
+print(a*b)# multiplication
+print(a/b )#  division)
 
 
 

@@ -55,3 +55,14 @@ else:
     if num % 3 == 0:
         print(num,end=' ')"""
 
+#Q)5.Python program to check the given number divided by 3 and 5.
+"""num=int(input("enter the num:"))
+if num % 3 ==0:
+    print("it is divisible by 3")
+else:
+    print("its not divisible by 3")
+if num % 5 == 0:
+    print("it is divisible by 5")
+else:
+    print("its not divisible by 5")"""
+
