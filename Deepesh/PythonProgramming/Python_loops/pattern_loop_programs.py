@@ -101,3 +101,63 @@ for i in range(5): # i = 0, k = 65,| i=1, k=66, | i=2, k=67|
 
     print()
     k = k + 1 # 66, 67
+
+
+print()
+print("_"*50)
+# write a python program to print a O pattern
+
+"""
+  * * *  
+*       *
+*       *
+*       *
+*       *
+*       *
+  * * *  
+"""
+
+# part 1:
+for i in range(1, 6):
+    if i == 1 or i == 5:
+        print("-", end=" ")
+    else:
+        print("*", end=" ")
+
+
+# part2
+print()
+for k in range(5):
+  for i in range(1, 6):
+    if i == 1 or i == 5:
+        print("*", end=" ")
+    else:
+        print("-", end=" ")
+  print()
+
+# part 3:
+for i in range(1, 6):
+    if i == 1 or i == 5:
+        print("-", end=" ")
+    else:
+        print("*", end=" ")
+
+
+print()
+print("_"*50)
+####### solution2 ##########
+print()
+
+
+for i in range(1, 8):
+    for j in range(1, 6):
+        if i == 1 and (j==1 or j == 5):
+            print(" ", end=" ")
+        elif i == 7 and (j==1 or j == 5):
+            print(" ", end=" ")
+        elif (1 < i < 7) and (1 < j < 5):
+            print(" ", end=" ")
+        else:
+            print("*", end=" ")
+    print()
+
