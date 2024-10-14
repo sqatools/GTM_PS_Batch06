@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bbe3ebd-56c4-4525-aa4d-8534efc1a66b" name="Changes" comment="python_loop_Practice">
-      <change afterPath="$PROJECT_DIR$/Madhuri/Python programming/Python_string_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Madhuri/Python programming/String_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Madhuri/Python programming/python_loop_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Madhuri/Python programming/python_loop_Practice.py" afterDir="false" />
-    </list>
+    <list default="true" id="3bbe3ebd-56c4-4525-aa4d-8534efc1a66b" name="Changes" comment="Python_string_practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.String_Practice">
+  <component name="RunManager" selected="Python.Python_string_practice">
     <configuration name="First_python_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.String_Practice" />
         <item itemvalue="Python.Python_string_practice" />
+        <item itemvalue="Python.String_Practice" />
         <item itemvalue="Python.python_loop_Practice" />
         <item itemvalue="Python.First_python_program" />
         <item itemvalue="Python.practice program" />
@@ -211,6 +206,7 @@
     <MESSAGE value="Python Variables" />
     <MESSAGE value="Python variable programs" />
     <MESSAGE value="python_loop_Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="python_loop_Practice" />
+    <MESSAGE value="Python_string_practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python_string_practice" />
   </component>
 </project>
