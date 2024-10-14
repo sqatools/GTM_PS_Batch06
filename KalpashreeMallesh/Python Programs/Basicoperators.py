@@ -146,7 +146,7 @@ first = str3[-10:-5:1]
 print("first:", first)
 second = str3[7:9]
 print("second:", second)
-third = str3[-1:-4:1]
+third = str3[-1:-5]
 print("third:", third)
 fourth = str3[0:6:1]
 print("fourth:", fourth)
