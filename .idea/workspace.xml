@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="if programs practice">
+    <list default="true" id="3bbe3ebd-56c4-4525-aa4d-8534efc1a66b" name="Changes" comment="python_loop_Practice">
+      <change afterPath="$PROJECT_DIR$/Madhuri/Python programming/Python_string_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Madhuri/Python programming/String_Practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Madhuri/Python programming/python_loop_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Madhuri/Python programming/python_loop_Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +40,29 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.practice program">
-    <configuration name="Python _ Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.String_Practice">
+    <configuration name="First_python_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch06" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Madhuri" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/First_python_program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python_string_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,10 +71,31 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Madhuri/Python programming" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/Python programming/Python _ Variables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/Python programming/Python_string_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="String_Practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch06" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Madhuri/Python programming" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/Python programming/String_Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_loop_Practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sushma/python_programming" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Madhuri/Python programming" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sushma/python_programming/python_variables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/Python programming/python_loop_Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,16 +148,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.String_Practice" />
+        <item itemvalue="Python.Python_string_practice" />
+        <item itemvalue="Python.python_loop_Practice" />
+        <item itemvalue="Python.First_python_program" />
         <item itemvalue="Python.practice program" />
-        <item itemvalue="Python.python_variables" />
-        <item itemvalue="Python.Python _ Variables" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="" />
+      <changelist id="3bbe3ebd-56c4-4525-aa4d-8534efc1a66b" name="Changes" comment="python_loop_Practice" />
       <created>1727285781591</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -140,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727353671012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="python_loop_Practice">
+      <created>1728562721390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728562721390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python Variables" />
     <MESSAGE value="Python variable programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python variable programs" />
+    <MESSAGE value="python_loop_Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="python_loop_Practice" />
   </component>
 </project>
