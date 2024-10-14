@@ -1,7 +1,7 @@
 """
 Str1 = "Hello good morning"
 print(str1,type(str1))
-# get the value from string using index position
+# get the value from string using index positiogitn
 print(str1[4]) # 0
 print(string[-7]) #m
 """
@@ -58,4 +58,19 @@ print (f"mulitiplication of number:{num1*num2}")
 # \n : line break
 # \t : tab space
 print (r"hello good morning \n\n hope you are doing\t\t\t good" )
+
+# output = "Virat is best Indian batsman"
+str3 = "Indian is batsman Virat best"
+first= str3[-11:-5:1]
+print("first:",first)
+second = str3[7:9]
+print("second:", second)
+third = str3[24: 29: ]
+print("third:", third)
+fourth = str3[0:6:]
+print ("fourth:",fourth)
+five = str3[9:17]
+print("five:",five)
+result = f"{first} {second} {third} {fourth} {five}"
+print("result :", result)
 
