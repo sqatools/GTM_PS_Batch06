@@ -1,7 +1,7 @@
 # 1. Python program to check whether the input number is a square of 6 or not.
 # Input= 37
 
-input_a = 36
+input_a = 37
 if input_a == 6**2:
     print("This value is square of 6:",input_a)
 else:
@@ -74,10 +74,9 @@ print("#"*50)
 # 8). Write a python program  to print below pattern of numbers
 
 num =0
-for i in range(1,6):
+for i in range(1,5):
      for j in range(i):
          num +=2
-         print(j, end=" ")
 
      print()
 

@@ -56,3 +56,11 @@ def print_pattern(rows):
             num += 2  # Increment by 2 to get the next even number
         print()
 print_pattern(4)
+
+print()
+temp =2
+for i in range(1, 5): # i = 0
+    for j in range(i): # j = 1
+        print(temp, end=" ")
+        temp += 2
+    print()
