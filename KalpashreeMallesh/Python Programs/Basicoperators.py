@@ -139,4 +139,8 @@ print("LHS output",LHS)
 RHS = a**2+b**2+c**2+2*(a*b+b*c+c*a)
 print("RHS output",RHS)
 
-#4.
+
+
+
+
+
