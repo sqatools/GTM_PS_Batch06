@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="slicing progarms practice" />
+    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="slicing progarms practice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727353671012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="slicing progarms practice">
+      <created>1729007876437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729007876437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python Variables" />
     <MESSAGE value="Python variable programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python variable programs" />
+    <MESSAGE value="slicing progarms practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="slicing progarms practice" />
   </component>
 </project>
