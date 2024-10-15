@@ -118,9 +118,81 @@ if num%2 == 0:
 else:
     print("Odd number")"""
 
-for i in range(5):
-    for j in range(2, 20):
-        if j%2 == 0:
-            print(j, end=' ')
+# 11. Python program to check a given number is part of the Fibonacci series from 1 to 10
+"""a = 0
+b = 1
+for _ in range(10):
+    print(a, end=' ')
+    a, b = b, a+b
+print()"""
+"""fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+num = int(input("Enter number to check in fibonacci series: "))
+if num in fib:
+    print("Number is a part of series")
+else:
+    print("Number is not a part of series")"""
 
-    print()
+# 12. Python program to check authentication with the given username and password
+"""org_username = "Pratyusha"
+org_password = "python@123"
+username = input("Enter username: ")
+password = input("Enter password: ")
+if org_username == username and org_password == password:
+    print("Successfully logged in")
+else:
+    print("Incorrect username or password")"""
+
+# 13. Python program to validate user_id in the list of user_ids
+"""user_ids = ['Rahul', 'Pratyusha', 'Kevin', 'Bob']
+user_id = input("Enter user id to validate: ")
+if user_id in user_ids:
+    print("Valid user id")
+else:
+    print("Invalid user id")"""
+
+# 14. Python program to print a square or cube if the given number is divided by 2 or 3 respectively
+"""num = int(input("Enter a number: "))
+if num%2 == 0:
+    print("Square: ", num**2)
+elif num%3 == 0:
+    print("Cube: ", num**3)
+else:
+    print("Number is neither divisible by 2 nor divisible by 3")"""
+
+# 15. Python program to determine whether a given number is available in the list of numbers or not
+"""list1 = [2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 0]
+num = int(input("Enter a number to verify it in list: "))
+if num in list1:
+    print("Available")
+else:
+    print("Not available")"""
+
+# 16. Python program to find the largest number among three numbers
+"""n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+n3 = int(input("Enter third number: "))
+if n1 > n2:
+    if n1 > n3:
+        print(str(n1) + " " + "is the greatest number")
+    else:
+        print(str(n3) + " " + "is the greatest number")
+else:
+    if n2 > n3:
+        print(str(n2) + " " + "is the greatest number")
+    else:
+        print(str(n3) + " " + "is the greatest number")"""
+
+# 17. Python program to check any person eligible to vote or not
+# age > 18+ : eligible
+# age < 18: not eligible
+
+"""str3 = "Indian is Batsman Virat best"
+first = str3[-10:-5:1]
+second = str3[7:9]
+third = str3[0:6]
+fourth = str3[-4:]
+fifth = str3[10:17]
+print("{} {} {} {} {}".format(first, second, third, fourth, fifth))"""
+
+#q1. str_a = "My name is John" -> "ny name is JohM"
+#q2. str_b = "India is best country" -> "IIndia iis bbest ccountry"
