@@ -58,7 +58,7 @@ print (f"mulitiplication of number:{num1*num2}")
 # \n : line break
 # \t : tab space
 print (r"hello good morning \n\n hope you are doing\t\t\t good" )
-
+"""
 # output = "Virat is best Indian batsman"
 str3 = "Indian is batsman Virat best"
 first= str3[-11:-5:1]
@@ -74,3 +74,41 @@ print("five:",five)
 result = f"{first} {second} {third} {fourth} {five}"
 print("result :", result)
 
+"""
+"""
+# Write  a python slicing to get below output
+# Out put = " ny Name is JohM "
+Str_a = "My Name is John"
+first = Str_a [-1:]
+print("first:", first)
+second = Str_a[1:-1]
+print("second:", second)
+third = Str_a[0:-14:1]
+print("third:", third)
+output = f"{first}{second}{third} "
+print ("output:", output)
+
+
+
+# Write a python slicing get below output
+# out put = "IIndia iis bbest ccountry"
+Str_b = "India is best country"
+first = Str_b [0:5]
+print("first:", first)
+R1 = Str_b[0]
+print("R1:",R1)
+Second = Str_b[6:9]
+print("second:", Second)
+R2 = Str_b[6]
+print("R2:",R2)
+Third = Str_b[9:13]
+print("Third:",Third)
+R3 = Str_b[9]
+print("R3:",R3)
+Fourth = Str_b[14:22]
+print("Fourth:",Fourth)
+R4 = Str_b[14]
+print("R4:",R4)
+Result = f"{R1}{first} {R2}{Second} {R3}{Third} {R4}{Fourth}"
+print("Result:", Result)
+"""
