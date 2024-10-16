@@ -53,15 +53,76 @@ print(str_a[-1:-10:-1])  # t country
 print(str_a[-1:-5:1])  # blank output
 print(str_a[10:-20:-1]) #  a si a
 
+print("_"*50)
 # question:
 # write a python program to arrange the sentence correctly
 # output : Virat is best Indian Batsman
 str3 = "Indian is Batsman Virat best"
 first = str3[-10:-5:1]
 print("first :", first)
-second = str3[7:9]
+
+second = str3[7:9:1]
 print("second :", second)
-third = str3[-4:28]
+third = str3[-4:]
 print("third :", third)
+fourth = str3[:6]
+print("fourth :", fourth)
+fifth = str3[10:17]
+print("fifth :", fifth)
+
+result = f"{first} {second} {third} {fourth} {fifth}"
+print("Result :", result)
+# Virat is best Indian Batsman
 
 
+print("_"*50)
+###################################################
+# Rule5 : str[ : last index : different of index]
+# -> if difference value is positive then default initial index will zero
+# -> if difference value is negative then default initial index will -1
+
+str4 = "Good Evening"
+print(str4[:7:1])  # Good Ev # default initial index zero
+# print(str4[0:7:1])
+
+# In this example, it will print value from -1 to 7 in reverse order
+print(str4[:7:-1]) # gnin  # deafult initial index will be -1
+# print(str4[-1:7:-1])
+
+# In this example, it will print value from -1 to 2 in reverse order
+print(str4[:2:-1])  # gninevE d
+
+#############################################
+# Rule6 : str[:: different of index]
+# -> If difference is positive then default initial will be zero and last index
+#     will be the end of the string
+
+
+# -> If difference is negative then default initial will be -1 and last index
+#     will be the start of the string
+
+str5 = "Learning Python"
+# in this example initial index will 0 and read entire in positive order
+print(str5[::1]) #  "Learning Python"
+
+# in this example initial index will be -1 and read entire string in reverse order
+print(str5[::-1]) # nohtyP gninraeL
+
+print(str5[2:-2:-2]) # Blank
+print(str5[2:-2:1])  # arning Pyth
+
+print(str5[-2: 2:-2]) # otPgir
+
+# Slicing Home Work
+#Q1. Write a python slicing get below output
+str_a = "My Name is John"
+output = "ny Name is JohM"
+
+#Q2. Write a python slicing get below output
+str_b = "India is best country"
+output2 = "IIndia iis bbest ccountry"
+
+
+#Q3. Write a python slicing get below output
+str_c = "Sachin is god of cricket"
+output3 = "nachiS si dog fo trickec"
