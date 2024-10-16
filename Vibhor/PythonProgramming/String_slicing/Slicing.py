@@ -59,3 +59,14 @@ fifth=str_c[-1]+str_c[-6:-1]+str_c[-7]
 print(fifth)
 Result=f"{first} {second} {third} {fourth} {fifth}"
 print("Result= ", Result)
+
+print("*"*50)
+
+str_1= "My Name Is Vibhor"
+print(str_1.upper())
+print(str_1.lower())
+print(str_1.title())
+print(str_1.islower())
+print(str_1.isupper())
+print(str_1.istitle())
+print(str_1.swapcase())
