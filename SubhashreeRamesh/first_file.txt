@@ -1,0 +1,8 @@
+str3=“Indian is Batsman Virat best”
+First=str3[-10:-5:1]
+second=str3[7:9]
+third=str3[-4:-1]
+fourth=str3[0:6]
+fifth=str3[10: -11]
+#} {[]
+print(f{} is {} {}{}).format (virat,indian,best,batsman)

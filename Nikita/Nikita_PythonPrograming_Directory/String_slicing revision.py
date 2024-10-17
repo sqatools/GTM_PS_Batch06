@@ -162,5 +162,35 @@ print(f'{str_3}{str_2}{str_1} {str_5}{str_4}')"""
 
 
 
+##q1 : Write a program to replace any specific word without using replace method.
+#q2 : Write a program to get count any specific word/substring without using count method.
+"""
+#q1 : Write a program to replace any specific word without using replace method.
+str_y = "Javascript is Best Programming Language Javascript"
+#replace javascript with python
+str_y_list = str_y.split()
+output = ''
+for item in str_y_list:
+    if item == 'Javascript':
+        output = output + 'Python' + " "
+    else:
+        output = output + item + " "
 
-# output3 = "nachiS si dog fo trickec"
+print(output)
+"""
+#q2 : Write a program to get count any specific word/substring without using count method.
+str_q = "Javascript is Best Programming Language Javascript is"
+str_q_list = str_q.split()
+wordcount = 0
+for item in str_q_list:
+    if item == 'is':
+        wordcount = wordcount +1
+print(wordcount)
+
+charcount = 0
+for item in str_q:
+    if item == "a":
+        charcount = charcount +1
+print(charcount)
+
+

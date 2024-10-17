@@ -23,6 +23,7 @@ print("value of p :", p, id(p))
 print("value of q :", q, id(q))
 print("value of r :", r, id(r))
 
+
 # assign three different variables three different values
 x, y, z = 30, 40, 50
 
