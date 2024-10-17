@@ -1,0 +1,19 @@
+Index: Madhuri/Python programming/Python_string_practice.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nStr1 = \"Hello good morning\"\r\nprint(str1,type(str1))\r\n# get the value from string using index positiogitn\r\nprint(str1[4]) # 0\r\nprint(string[-7]) #m\r\n\"\"\"\r\n\r\nprint(\"-\"*50)\r\n\"\"\"\r\n# Apply loop on staging(without indexing)\r\nstr2 = \"programming\"\r\nfor ch in str2:\r\n    print(ch,end=\"-\")\r\n\"\"\"\r\n\"\"\"\r\n# apply loop on staging (with indexing)\r\nstr3 = \"python\"\r\nstr_len = len(str3)\r\nfor i in range(str_len):\r\n    print(i, str3[i])\r\n    \"\"\"\r\n\"\"\"\r\n# string formatting\r\n# print(\" \"* 50)\r\n# hello my name is  Rahul and age 25, ilive in pune\r\nname = \"Akki\"\r\nage = 20\r\ncity = \"Mumbai\"\r\n# 1 string concatenation\r\nresult = \"Hello My name is \"+name+\" and age is \"+str(age)+\" and i live in \"+city+\"\"\r\nprint (result)\r\n\r\nvar = \"hello \"+ \"Good morning\"\r\n#print(var) 0r\r\nvar1 = \"hello\"\r\nvar2 = \"good morning\"\r\nvar3 = (var1+ \"-\"+var2) # if you need space between you can give \" \"\r\nprint(var3)\r\n\r\n# 2) format method\r\nresult2 = \"Hello  my name is {} and age is {}, i live in{}\".format(name, age, city)\r\nprint(result2)\r\n\r\n# 3) f string formating\r\nresult3 = f\"hello my name is {name} and age is {age},and i live in {Mumbai}\"\r\nprint (result3)\r\n\"\"\"\r\nnum1 = 3\r\nnum2 = 6\r\nnum3 = num1+num2\r\nprint(f\"addition of number:{num3}\")\r\nprint (f\"mulitiplication of number:{num1*num2}\")\r\n\r\n### Raw String ###\r\n# if we will add r  before qutote  then entire string will convert into raw string\r\n# There will be no effect of \\n\\t or any other symbols\r\n# \\n : line break\r\n# \\t : tab space\r\nprint (r\"hello good morning \\n\\n hope you are doing\\t\\t\\t good\" )\r\n\r\n# output = \"Virat is best Indian batsman\"\r\nstr3 = \"Indian is batsman Virat best\"\r\nfirst= str3[-11:-5:1]\r\nprint(\"first:\",first)\r\nsecond = str3[7:9]\r\nprint(\"second:\", second)\r\nthird = str3[24: 29: ]\r\nprint(\"third:\", third)\r\nfourth = str3[0:6:]\r\nprint (\"fourth:\",fourth)\r\nfive = str3[9:17]\r\nprint(\"five:\",five)\r\nresult = f\"{first} {second} {third} {fourth} {five}\"\r\nprint(\"result :\", result)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Madhuri/Python programming/Python_string_practice.py b/Madhuri/Python programming/Python_string_practice.py
+--- a/Madhuri/Python programming/Python_string_practice.py	(revision f354fabcffeaa062ad6be0032bacbc55d5b87015)
++++ b/Madhuri/Python programming/Python_string_practice.py	(date 1728933815992)
+@@ -65,7 +65,7 @@
+ print("first:",first)
+ second = str3[7:9]
+ print("second:", second)
+-third = str3[24: 29: ]
++third = str3[-1: -5: 1]
+ print("third:", third)
+ fourth = str3[0:6:]
+ print ("fourth:",fourth)
