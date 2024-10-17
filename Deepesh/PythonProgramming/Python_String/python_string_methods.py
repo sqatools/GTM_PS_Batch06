@@ -118,10 +118,11 @@ print("str_s list of words :", str_s_list)
 
 str_s_list2 = str_s.split("a")
 print("word list3 :", str_s_list2)
+#['J', 'v', ',is,Best,Progr', 'mming,L', 'ngu', 'ge,J', 'v', '']
 
 url = "https://www.google.co.in"
 split_url = url.split(".")
-print(split_url)
+print(split_url)#['https://www', 'google', 'co', 'in']
 print("www output :", split_url[0].split("//")[1]) # www
 print("https output :", split_url[0].split("//")[0]) # https:
 
@@ -170,3 +171,4 @@ print("Result :", result)
 
 #q1 : Write a program to replace any specific word without using replace method.
 #q2 : Write a program to get count any specific word/substring without using count method.
+
