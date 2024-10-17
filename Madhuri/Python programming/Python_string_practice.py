@@ -46,6 +46,7 @@ print(result2)
 result3 = f"hello my name is {name} and age is {age},and i live in {Mumbai}"
 print (result3)
 """
+""""
 num1 = 3
 num2 = 6
 num3 = num1+num2
@@ -58,6 +59,7 @@ print (f"mulitiplication of number:{num1*num2}")
 # \n : line break
 # \t : tab space
 print (r"hello good morning \n\n hope you are doing\t\t\t good" )
+"""
 """
 # output = "Virat is best Indian batsman"
 str3 = "Indian is batsman Virat best"
@@ -73,10 +75,11 @@ five = str3[9:17]
 print("five:",five)
 result = f"{first} {second} {third} {fourth} {five}"
 print("result :", result)
-
 """
 """
-# Write  a python slicing to get below output
+"""
+"""
+# 1) Write  a python slicing to get below output
 # Out put = " ny Name is JohM "
 Str_a = "My Name is John"
 first = Str_a [-1:]
@@ -87,10 +90,9 @@ third = Str_a[0:-14:1]
 print("third:", third)
 output = f"{first}{second}{third} "
 print ("output:", output)
-
-
-
-# Write a python slicing get below output
+"""
+"""
+#  2) Write a python slicing get below output
 # out put = "IIndia iis bbest ccountry"
 Str_b = "India is best country"
 first = Str_b [0:5]
@@ -112,3 +114,70 @@ print("R4:",R4)
 Result = f"{R1}{first} {R2}{Second} {R3}{Third} {R4}{Fourth}"
 print("Result:", Result)
 """
+"""
+# 3 Write  python slicing get below output
+# Out put = "nachis si dog fo trickec
+Str_c = "Sachin is god of cricket"
+First = Str_c[0:6]
+print("first:",First)
+R1 = First[:: -1]
+# print("R1:", R1)
+Second = Str_c[7:9]
+print("Second:",Second)
+R2 = Second[:: -1]
+print("R2:",R2)
+Third = Str_c[10:14]
+print("Third:",Third)
+R3 = Third[::-1]
+fourth = Str_c[14:17]
+print("fourth:",fourth)
+R4 = fourth[::-1]
+Fifth = Str_c[17:25]
+print("Fifth:",Fifth)
+R5 = Fifth[::-1]
+result = f" {R1} {R2} {R3} {R4} {R5}"
+print("result:", result)
+"""
+"""
+# 4) Write program to replace any specific word without using replace method
+Str_P = "Code is best Code"
+world_list = Str_P.split("")
+print(word_list)
+result = ''
+count = 0
+for word in word_list:
+    #print(word)
+    if word == 'Code':
+        count = count+1
+        if count == 1:
+            result = result + 'cold'+ ' '
+        elif count == 2:
+            result = result + 'sold'+ ''
+    else:
+        result = result+ word
+print("result:",result)
+
+"""
+
+# 5) Write a program to get any specific word/substring without using count method
+Str_q = "This is code is best code"
+world_list = Str_q.split("")
+print(word_list)
+result = ''
+count = 0
+for word in word_list:
+    #print(word)
+    if word == 'Code':
+        count = count+1
+    else:
+        continue
+print("Code count:",count)
+
+
+
+
+
+
+
+
+
