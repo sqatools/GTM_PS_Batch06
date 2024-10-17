@@ -1,4 +1,4 @@
-# write a python program to check given is available in the list
+    # write a python program to check given is available in the list
 list1 = [4, 6, 8, 1, 5, 18]
 num1 = 9
 

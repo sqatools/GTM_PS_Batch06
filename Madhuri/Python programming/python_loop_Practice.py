@@ -101,6 +101,18 @@ for i in range( 1,31):
     elif i%5 ==0:
         print("buzz")
         """
+"""
+#Apply  loop on string (without indexing)
+str2 = "programming"
+for ch in str2:
+    print(ch, end= "-")
+    """
+"""
+str3 ="python" # with indexing
+str_len = len(str3)
+for i in range (str_lengt):
+   print(i,str3[i])
+"""
 
 
 
