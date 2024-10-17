@@ -29,10 +29,14 @@
       <change beforePath="$PROJECT_DIR$/Vibhor/PythonProgramming/Programe tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vibhor/PythonProgramming/Programe tutorial.py" afterDir="false" />
 =======
   <component name="ChangeListManager">
-    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="if programs practice">
+    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="slicing progarms practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" afterDir="false" />
 >>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
+=======
+      <change beforePath="$PROJECT_DIR$/Apoorva/python_programming/Slicing_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apoorva/python_programming/Slicing_practice.py" afterDir="false" />
+>>>>>>> 0a31bc97ace12583adc2004501917aab2733e6a1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +80,14 @@
   }
 }</component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.data type">
     <configuration name="First program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
 =======
   <component name="RunManager" selected="Python.practice program">
+=======
+  <component name="RunManager" selected="Python.Slicing_practice">
+>>>>>>> 0a31bc97ace12583adc2004501917aab2733e6a1
     <configuration name="Python _ Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
 >>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <module name="GTM_PS_Batch06" />
@@ -111,8 +119,53 @@
       <method v="2" />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="data type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
 =======
+=======
+    <configuration name="Slicing_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch06" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Apoorva/python_programming" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Apoorva/python_programming/Slicing_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+>>>>>>> 0a31bc97ace12583adc2004501917aab2733e6a1
     <configuration name="practice program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
 >>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
       <module name="GTM_PS_Batch06" />
@@ -176,13 +229,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <item itemvalue="Python.data type" />
         <item itemvalue="Python.First program" />
         <item itemvalue="Python.python variable" />
 =======
+=======
+        <item itemvalue="Python.Slicing_practice" />
+>>>>>>> 0a31bc97ace12583adc2004501917aab2733e6a1
         <item itemvalue="Python.practice program" />
         <item itemvalue="Python.python_variables" />
         <item itemvalue="Python.Python _ Variables" />
@@ -228,8 +345,26 @@
       <option name="project" value="LOCAL" />
       <updated>1727353671012</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="4" />
 >>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
+=======
+    <task id="LOCAL-00004" summary="slicing progarms practice">
+      <created>1729007876437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729007876437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="slicing progarms practice">
+      <created>1729011528708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729011528708</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+>>>>>>> 0a31bc97ace12583adc2004501917aab2733e6a1
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +385,12 @@
 =======
     <MESSAGE value="Python Variables" />
     <MESSAGE value="Python variable programs" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="Python variable programs" />
 >>>>>>> 63140844b6da62089b9dd2dee125191df69d55b0
+=======
+    <MESSAGE value="slicing progarms practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="slicing progarms practice" />
+>>>>>>> 0a31bc97ace12583adc2004501917aab2733e6a1
   </component>
 </project>
