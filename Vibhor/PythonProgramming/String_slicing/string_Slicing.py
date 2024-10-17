@@ -70,3 +70,39 @@ print(str_1.islower())
 print(str_1.isupper())
 print(str_1.istitle())
 print(str_1.swapcase())
+print(str_1.index("I"))
+print(str_1.count("i"))
+print(str_1.find("Is"))
+print(str_1.replace("My","Myself"))
+result = str_1.replace("My", "Myself").replace("Vibhor","khare").lower()
+print("Result :",result)
+print(str_1.split(" "))
+
+print("*"*50)
+url = "https://www.google.co.in"
+split_url = url.split(".")
+print(split_url)
+print("www output :", split_url[0].split("//")[1])
+
+print("*"*50)
+# write a python program to remove all the vowels
+str2 = "Hello Good Morning, Hope You are Doing Good"
+vowels = "aeiou"
+result = ''
+
+for char in str2:
+    if char in vowels:
+        continue
+    else:
+        result = result + char
+
+print("Result :", result)
+
+#q1 : Write a program to replace any specific word without using replace method.
+#q2 : Write a program to get count any specific word/substring without using count method.
+
+# 1
+text = "Hello Good Morning"
+new_text = text[:2] + "x" + "Z" + text[3:12] +"O"+text[13:]
+print(new_text)
+
