@@ -113,16 +113,48 @@ print(str5[2:-2:1])  # arning Pyth
 
 print(str5[-2: 2:-2]) # otPgir
 
+print("_"*40)
 # Slicing Home Work
 #Q1. Write a python slicing get below output
 str_a = "My Name is John"
 output = "ny Name is JohM"
 
+first_char = str_a[0]
+last_char = str_a[-1]
+remain_char = str_a[1:-1]
+print(f"{last_char}{remain_char}{first_char}")
+# ny Name is JohM
+
+
+
 #Q2. Write a python slicing get below output
 str_b = "India is best country"
 output2 = "IIndia iis bbest ccountry"
+w1 = str_b[:5]
+w2 = str_b[6:8]
+w3 = str_b[9:13]
+w4 = str_b[14:]
+print(f"{w1[0]}{w1} {w2[0]}{w2} {w3[0]}{w3} {w4[0]}{w4}")
+# IIndia iis bbest ccountry
 
 
 #Q3. Write a python slicing get below output
 str_c = "Sachin is god of cricket"
 output3 = "nachiS si dog fo trickec"
+w1 = str_c[:6]
+w11 = f"{w1[-1]}{w1[1:-1]}{w1[0]}"
+
+w2 = str_c[7:9]
+w22 = f"{w2[-1]}{w2[1:-1]}{w2[0]}"
+
+w3 = str_c[10:13]
+w33 = f"{w3[-1]}{w3[1:-1]}{w3[0]}"
+
+w4 = str_c[14:16]
+w44 = f"{w4[-1]}{w4[1:-1]}{w4[0]}"
+
+w5 = str_c[17:]
+w55 = f"{w5[-1]}{w5[1:-1]}{w5[0]}"
+
+print(f"{w11}  {w22} {w33} {w44} {w55}")
+# nachiS  si dog fo trickec
