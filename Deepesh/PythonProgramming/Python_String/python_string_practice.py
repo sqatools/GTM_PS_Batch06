@@ -76,3 +76,10 @@ print("_"*50)
 # \n : line break
 # \t : tab space
 print(r"Hello Good Morning \n\n Hope you are doing \t\t\t good")
+
+print("_"*50)
+a = "Hello"
+b = "Python"
+a, b = b, a
+print("value of a :", a)
+print("value of b :", b)
