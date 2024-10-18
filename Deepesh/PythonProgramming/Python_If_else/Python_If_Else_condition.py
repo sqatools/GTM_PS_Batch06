@@ -1,4 +1,4 @@
-"""
+git pull"""
 if condition:
    code
 else:
@@ -25,7 +25,7 @@ var1 = input("Please enter your value :")
 print(var1, type(var1))
 """
 
-"""
+
 print("_"*50)
 # write a python to check given number is odd or even
 num1 = int(input("Enter value to check odd or even :"))
@@ -34,7 +34,7 @@ if num1%2 == 0:
     print("This is even number :", num1)
 else:
     print("This is odd number :", num1)
-"""
+
 
 """
 and condition
