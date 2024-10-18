@@ -158,7 +158,7 @@ for word in word_list:
 print("result:",result)
 
 """
-
+"""
 # 5) Write a program to get any specific word/substring without using count method
 Str_q = "This is code is best code"
 world_list = Str_q.split("")
@@ -172,8 +172,40 @@ for word in word_list:
     else:
         continue
 print("Code count:",count)
+"""
+"""
+# Sub string
+string = "python"
+sub = "py"
+result = string.count("py")
+print"(result:",result)
+"""
+""""
+# 1) Get a string made of first and last 2 chars
+string = "Sqatools"
+if len(string)<2:
+    print(ture)
+else:
+    print(string[:2]+string[-2:])
+    """
+"""
 
-
+# 2 from list of strings,length of longest string
+string = ["I", "am", "learning", "Java"]
+count = 0
+for word in string:
+    a = len(word)
+    if a>count:
+        count = a
+        print (count)
+"""
+String = ["i", "am", "going"]
+tem = 0
+for word in String:
+    a = len(word)
+    if a > tem:
+        tem = a
+        print(tem)
 
 
 
