@@ -329,7 +329,7 @@ print(dir(tuple))
 -> key is wriiten in [] big brakets
 """
 
-"""
+
 dict1 = {'name': 'Rahul', 'name' : 'Mohit'}
 dict1[234] = [4, 7, 8]
 dict1['Python'] = 'Good Morning'
@@ -341,7 +341,7 @@ dict1[4.5] = True
 dict1[False] = (4, 7, 1, 8)
 dict1[4.5] = 'Hello'
 print(dict1)
-"""
+
 """
 #################Set###############
 # properties:
