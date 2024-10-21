@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="if programs practice">
+    <list default="true" id="0261d73a-09ad-4f1f-aa6e-22bdea0f6b68" name="Changes" comment="Test practice">
+      <change afterPath="$PROJECT_DIR$/Pushpa/PythonProgramming/python_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GTM_PS_Batch06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_14_2024_9_13_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_14_2024_9_13_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_14_2024_9_24_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_14_2024_9_24_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +31,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2mZYtOKKYwEQnsDf09qvGCbgcKz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2nBC9ATqp6ubyYUilEqhGPtlm7M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,8 +48,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.practice program">
-    <configuration name="Python _ Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.python_string">
+    <configuration name="Test_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,11 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Madhuri/Python programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pushpa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madhuri/Python programming/Python _ Variables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pushpa/Test_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="if_else_condition_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sushma/python_programming/if_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pushpa/PythonProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sushma/python_programming/if_practice/practice program.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pushpa/PythonProgramming/if_else_condition_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_loop_nested_while" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch06" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +99,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sushma/python_programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pushpa/PythonProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sushma/python_programming/python_variables.py" />
+      <option name="SCRIPT_NAME" value="C:\Pushpa\PythonTraining\AutomationRepo\GTM_PS_Batch06\Pushpa\PythonProgramming\python_loop_nested_while.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch06" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pushpa/PythonProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pushpa/PythonProgramming/python_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,43 +135,51 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practice program" />
-        <item itemvalue="Python.python_variables" />
-        <item itemvalue="Python.Python _ Variables" />
+        <item itemvalue="Python.python_string" />
+        <item itemvalue="Python.Test_practice" />
+        <item itemvalue="Python.python_loop_nested_while" />
+        <item itemvalue="Python.if_else_condition_practice" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="8901511b-94be-44d9-9ae7-f2dfcd1e84b9" name="Changes" comment="" />
-      <created>1727285781591</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1727285781591</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Python Variables">
-      <created>1727332769966</created>
+    <task id="LOCAL-00001" summary="Added list, tuple &amp; dict practice">
+      <created>1728061629977</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1727332769966</updated>
+      <updated>1728061629977</updated>
     </task>
-    <task id="LOCAL-00002" summary="Python variable programs">
-      <created>1727335538203</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0261d73a-09ad-4f1f-aa6e-22bdea0f6b68" name="Changes" comment="Added list, tuple &amp; dict practice" />
+      <created>1728436930472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728436930472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added list, tuple &amp; dict practice">
+      <created>1728486540782</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1727335538203</updated>
+      <updated>1728486540782</updated>
     </task>
-    <task id="LOCAL-00003" summary="Python variable programs">
-      <created>1727353671012</created>
+    <task id="LOCAL-00003" summary="Test practice">
+      <created>1728525784155</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1727353671012</updated>
+      <updated>1728525784155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test practice">
+      <created>1729260188285</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729260188285</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,8 +194,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Python Variables" />
-    <MESSAGE value="Python variable programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python variable programs" />
+    <MESSAGE value="Added list, tuple &amp; dict practice" />
+    <MESSAGE value="Test practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Deepesh/PythonProgramming/Python_loops/Python_while_loop.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
