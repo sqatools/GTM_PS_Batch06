@@ -100,9 +100,3 @@ print("Result :", result)
 
 #q1 : Write a program to replace any specific word without using replace method.
 #q2 : Write a program to get count any specific word/substring without using count method.
-
-a= "My name is Vibhor"
-b= "My wife name is Gunjan"
-a,b=b,a
-print("Value of a= ", a)
-print("Value of b= ", b)
