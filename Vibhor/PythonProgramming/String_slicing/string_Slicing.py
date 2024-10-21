@@ -101,8 +101,8 @@ print("Result :", result)
 #q1 : Write a program to replace any specific word without using replace method.
 #q2 : Write a program to get count any specific word/substring without using count method.
 
-# 1
-text = "Hello Good Morning"
-new_text = text[:2] + "x" + "Z" + text[3:12] +"O"+text[13:]
-print(new_text)
-
+a= "My name is Vibhor"
+b= "My wife name is Gunjan"
+a,b=b,a
+print("Value of a= ", a)
+print("Value of b= ", b)
