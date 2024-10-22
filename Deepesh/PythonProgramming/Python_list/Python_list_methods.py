@@ -137,6 +137,7 @@ print("lisr_s :", list_s) # [32, 15, 11, 8, 7, 4]
 
 
 print("_"*50)
+# ##################
 # sorted() function : This function does not modify the original, it takes input and return a sorted list as
 #                      output.
 
@@ -146,3 +147,115 @@ print("ascending order :", result1) # [5, 7, 11, 22, 34, 55]
 
 result2 = sorted(list_t, reverse=True)
 print("descending order :", result2) # [55, 34, 22, 11, 7, 5]
+
+
+print("_"*50)
+########### Reverse the list data ########
+list_z =[6, 8, 2, 9, 12, 56]
+
+# i).  reverse() method : This method reverse the values of the list and modify the origina'
+#                    list
+list_z.reverse()
+print("list_z :", list_z) # [56, 12, 9, 2, 8, 6]
+
+
+print("_"*50)
+######
+# ii). reversed() function : This function take list as input and return the reverse values of
+#                        given list
+
+list_j = [5, 8, 11, 55, 11, 22, 33]
+result = list(reversed(list_j))
+print("result :", result) # [33, 22, 11, 55, 11, 8, 5]
+print("list_j :", list_j) # [5, 8, 11, 55, 11, 22, 33]
+
+# iii). list slicing:
+print("list slicing :", list_j[::-1]) # [33, 22, 11, 55, 11, 8, 5]
+print(list_j[-1:-len(list_j)-1:-1]) # [33, 22, 11, 55, 11, 8, 5]
+
+print("_"*50)
+##############
+# count method() : This method count of number of occurrences of given value in list
+list_k = [5, 8, 1, 5, 7, 1, 7, 8, 3, 7]
+print("count of 7 :", list_k.count(7)) # 3
+print("count of 8 :", list_k.count(8)) # 2
+
+
+print("_"*50)
+##############
+# index method() : This method return the index position of any value in given list
+list_A = [4, 7, 2, 8, 12]
+print("Index of 8 :", list_A.index(8))
+# Index of 8 : 3
+
+
+#################### Copy concept in the list ###############
+# shallow copy : In shallow copy concept we generally assign value from one list to another
+#   and pass the reference of data, and if we do modification in one list that will relect
+#   in another list as well.
+
+list_a = [4, 8, 12, 78]
+list_b = list_a
+list_b.append(100)
+
+print("list_a :", list_a)
+print("list_b :", list_b)
+list_c = list_b
+list_a.append(50)
+list_c.append(300)
+
+print("list_a :", list_a, id(list_a)) # [4, 8, 12, 78, 100, 50, 300]
+print("list_b :", list_b, id(list_b)) # [4, 8, 12, 78, 100, 50, 300]
+print("list_c :", list_c, id(list_c)) # # [4, 8, 12, 78, 100, 50, 300]
+
+print("_"*50)
+####################Deep Copy ############
+# deep copy : In deep copy concept we actually copy the content from one list to another
+#             and if we do modification in one list, it does not affect list
+
+list_p = [4, 7, 2, 8, 12]
+list_q = list_p.copy()
+list_q.append(100)
+list_p.append(500)
+
+print("list P:", list_p, id(list_p)) # [4, 7, 2, 8, 12, 500] # 2125581067136
+print("list Q:", list_q, id(list_q)) # [4, 7, 2, 8, 12, 100] # 2125581215936
+
+
+############################
+print("_"*50)
+############## List Comprehension ####################
+list_r = [2, 5, 6, 1, 7]
+
+# get square all the values
+result = [x**2 for x in list_r]
+print("result :", result)  # [4, 25, 36, 1, 49]
+
+
+# get all the even value from list
+list_s = [3, 7, 1, 2, 13, 14, 15]
+result2 = [val for val in list_s if val%2 == 0]
+print("list_s even :", result2) # [2, 14]
+
+
+list_s = [3, 7, 1, 12, 13, 14]
+# [(3, 'odd'), (7, 'odd'), (1, 'odd'), (12, 'even') , (13, 'odd'), (14, 'even')]
+result3 = [(val, 'even') if val%2 == 0 else (val, 'odd') for val in list_s]
+print("result3 :", result3)
+# [(3, 'odd'), (7, 'odd'), (1, 'odd'), (12, 'even'), (13, 'odd'), (14, 'even')]
+
+
+# nested loop in the list
+result4 = [(x, y) for x in [1, 2, 3] for y in ['a', 'b']]
+print("result 4:", result4)
+# [(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b'), (3, 'a'), (3, 'b')]
+
+
+print("_"*50)
+####################################################
+list_y = [44, 66, 88, 23, 56, 78]
+# get max values from list
+print("max value :", max(list_y)) # max value : 88
+print("min value :", min(list_y)) # min value : 23
+print("sum of values :", sum(list_y)) # sum of values : 355
+print("average of values :", sum(list_y)//len(list_y)) # sum of values : 355
