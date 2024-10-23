@@ -11,3 +11,21 @@
 # sort method sort the list data in assending and decending order an modify the original list. bydefault accendng
 # or (reverse=True) in sort method.
 # sorted function does not modify the original list, it can sorted list
+# reverse method is reverse the value of list and modify the original value
+# reversed function is reverse the value of list but it didnot modify original value.
+# count method is count the number of occurences of the gven value in the list
+# index method is return the index position of any value in the given list
+# shallow copy method we generally assign value from list 1 to another and pass the reference
+# of data, if we modify any list that will reflect in other list
+# deep copy method we actually copy the content from list 1 to another and if we fo modification
+# in list 1 it does not effect another list
+
+# List comprehensing
+list_a= [3, 4, 5, 6]
+#square of the list
+result=[x**2 for x in list_a]
+print("Square= :", result)
+result2=[val for val in list_a if val%2==0]
+print("Even Value :", result2)
+result3=[(val,'even') if val%2==0 else (val, 'odd') for val in list_a]
+print("result3 :", result3)
