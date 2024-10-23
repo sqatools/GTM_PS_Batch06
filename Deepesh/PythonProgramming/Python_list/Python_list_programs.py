@@ -1,3 +1,4 @@
+# https://sqatools.in/python-list-programs/
 # write a python program to remove all duplicate values from list
 list1 = [3, 6, 3, 8, 2, 3, 8, 7, 8, 10, 7]
 # output = [3, 6, 8, 2, 10, 7]
@@ -80,7 +81,7 @@ for val in list3:
 
 print("max value :", max_val)
 print("min value :", min_val)
-
+# https://sqatools.in/python-list-programs/
 
 
 
