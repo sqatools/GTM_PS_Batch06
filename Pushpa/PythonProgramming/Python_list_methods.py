@@ -84,9 +84,50 @@ list_f = [2, 4, 6, 8, 10]
 # print(list_f)
 
 
+list2 = [4, 7, 9, 12, 5, 2, 10,3,6]
+result = [x**2 for x in list2 if x**2 > 25]
+print("Squares greater than 25:", result)
 
 
+# get square of all values which are divisible by 3 or 4 and cube of value which is divisible by 5
+list2 = [4, 7, 9, 12, 5]
+"""
+result = [
+    x**2 if (x % 3 == 0 or x % 4 == 0) else x**3
+    for x in list2
+    if (x % 3 == 0 or x % 4 == 0) or (x % 5 == 0)]
 
+print("Results:", result)
+
+"""
+"""
+result1 = []
+for x in list2:
+    if x % 3 == 0 or x % 4 == 0:
+        result1.append(x**2)
+    elif x % 5 == 0:
+        result1.append(x**3)
+
+print("Results:", result1)
+
+for x in list2:
+    if x % 3 == 0 or x % 4 == 0:
+        result1 += [x**2]  
+    elif x % 5 == 0:
+        result1 += [x**3] 
+
+print("Results:", result1)
+"""
+
+
+result1 = []
+for x in list2:
+    if x % 3 == 0 or x % 4 == 0:
+        print(x**2)
+    elif x % 5 == 0:
+        print(x**3)
+
+print("Results:", result1)
 
 
 
