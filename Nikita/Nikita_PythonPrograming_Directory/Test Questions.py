@@ -39,3 +39,24 @@ input_str = take input from user.
 
 n1 : 121 , palindrome : True
 n1 : 123 , palindrome : False"""
+
+# Q1.  write a python program to combine a list of data with their index and create new list
+# l1 = (5, 7, 9, 12)
+# l2 = (10, 40, 50, 600)
+# l3 = [15, 47, 59, 72]
+# combineresult = []
+# for i in range(len(l1)):
+#     combineresult.append((l1[i])+(l2[i])+ (l3[i]))
+#     print(combineresult)#this is wrong code
+
+list1 = [3, 6, 8, 9, 1, 4, 7, 2]
+result = []
+
+for num in list1:
+    if num % 2 == 0:
+        result.append(num ** 2)
+    else:
+        result.append('odd')
+print(result)
+
+
