@@ -25,7 +25,7 @@ for val in list2:
         continue
 
 
-print("result :",result)
+print("result :", result)
 
 # solution with list comprehension
 result2 = []
@@ -82,11 +82,31 @@ for val in list3:
 print("max value :", max_val)
 print("min value :", min_val)
 # https://sqatools.in/python-list-programs/
+##########################################
+print("_"*50)
+# shallow copy
+list1 = [6, 7, 8, [1, 3, 5], [2, 5, 7]]
+list2 = list1
+list2.append(20)
+list2[3].append(30)
 
+print("list1 :", list1)
+print("list2 :", list2)
 
+print("_"*50)
+# Deep copy
+list_a = [3, 6, 7, [2, 5, 1], [3, 7, 1]]
+list_b = list_a.copy()
+list_b.append(100)
+list_b[-2].append(20)
+list_b[3].append(400)
+list_b.append(500)
+list_a.append(50)
 
+print("list_a :", list_a)
+print("list_b :", list_b)
 
-
+#from copy import copy, deepcopy
 
 
 
