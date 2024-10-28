@@ -1,3 +1,5 @@
+
+"""
 list_A = [4, 7, 2, 8, 12]
 print("Index of 8 :", list_A.index(8))
 
@@ -49,9 +51,9 @@ list_b = [3,4]
 
 # concatenation
 """
-list_a + list_b
-list_c = list_a + list_b
-print(list_c) # [5, 7, 8, 12, 6, 3, 4]
+# list_a + list_b
+# list_c = list_a + list_b
+# print(list_c) # [5, 7, 8, 12, 6, 3, 4]
 
 """
 # multiply
@@ -59,10 +61,10 @@ list_d = list_a * 5
 print(list_d) # [5, 7, 8, 12, 6, 5, 7, 8, 12, 6, 5, 7, 8, 12, 6, 5, 7, 8, 12, 6, 5, 7, 8, 12, 6]
 
 """
-list_o = [4, 7, 9, 22, 5, 7]
+# list_o = [4, 7, 9, 22, 5, 7]
 # list_o.remove(7)
-output = list_o.remove(22)
-print("list_o :", output)
+# output = list_o.remove(22)
+# print("list_o :", output)
 
 """
 list_e = [8, 5, 4, 6, 2]
@@ -87,6 +89,18 @@ list_f = [2, 4, 6, 8, 10]
 list2 = [4, 7, 9, 12, 5, 2, 10,3,6]
 result = [x**2 for x in list2 if x**2 > 25]
 print("Squares greater than 25:", result)
+
+
+
+"""
+
+# write a python program to remove all duplicate values from list
+
+list1 = [3, 6, 3, 8, 2, 3, 8, 7, 8, 10, 7]
+rem_dup = []
+[rem_dup.append(x) for x in list1 if x not in rem_dup]
+
+print("Without duplicates in list1 :", rem_dup)
 
 
 # get square of all values which are divisible by 3 or 4 and cube of value which is divisible by 5
