@@ -87,6 +87,7 @@ sixth = str3[25:]        # "Batsman"
 
 sentence = first + " " + second + " " + third + " " + fourth + " " + fifth + " " + sixth
 print("sentence :", sentence)
+print("sentence :", f"{first} {second} {third} {fourth} {fifth} {sixth}")
 
 
 
