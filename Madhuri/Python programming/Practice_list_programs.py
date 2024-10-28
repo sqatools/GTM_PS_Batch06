@@ -269,6 +269,7 @@ for val in list3:
     if val%3 == 0:
         print(val,":",val**2)
         """
+"""
 # 10)Problem to spilt the list into two-part
 list1 = [5,7,2,8,11,12,17,19,22]
 # creating empty list
@@ -291,6 +292,56 @@ for val in list1:
     if val in list2:
         common_list3.append(val)
 print(common_list3)
+"""
+"""
+# 12)problem to print the list in reverse order using for loop
+list1 = [1,2,3,4,55]
+# using for loop
+#for i in range((list1)-1,-1,-1):
+# print(list1[i],end =" ")
+print(list1[::-1])
+print("using reverse method:",list(reversed(list1)))
+list1.reverse()
+print("using revrese:",list1)
+# 16 problem to copy the list to another list
+list7 = [ 1,2,3,0,7,9]
+list4 =[]
+for val in list7:
+    list4.append(val)
+print(list4)
+"""
+"""
+# Common elements between lists
+list1 = [ 2,4,7,8,3]
+list2 = [3,5,0]
+for val in list1:
+    if val in list2:
+        print(True)
+else:
+    print(False)
+    """
+"""
+# 19)Remove all the negative values
+list1 = [3,5,-8,0,-20,-55]
+# checking only positive values
+for value in list1:
+      if value >= 0:
+        print (value,end=" :")
+    """
+# 20 problem get a list of elements divided by a number
+list1 = [3,7,0,2,6,14,88,21]
+# creating empty list
+list2 =[]
+for val in list1:
+    if val%3 ==0 or val%7 == 0:
+        list2.append(val)
+print(val)
+
+
+
+
+
+
 
 
 
