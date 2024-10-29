@@ -71,9 +71,9 @@ school2 ={
 from pprint import pprint
 print("-"* 50)
 pprint(school2['students']['11th']['A'][0]['Name'])
-pprint(school2['teachers']['Chemistry'][2]['mobile'])
-pprint(school2['teachers']['maths'][1]['email'])
-pprint(school2['students']['12th']['B'][1]['surname'])
+pprint(school2['teachers']['Chemistry'][0]['mobile'])
+pprint(school2['teachers']['maths'][0]['email'])
+pprint(school2['students']['12th']['B'][-1]['surname'])
 pprint(school2['students']['12th']['A'][1]['surname'])
 
 
