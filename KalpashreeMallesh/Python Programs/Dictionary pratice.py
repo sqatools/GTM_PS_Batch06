@@ -90,8 +90,7 @@ Company = {
                           {'Name': 'lee', 'email': 'lee.san@gmail.com', 'mobile' : 2345678},
                           {'Name': 'emily', 'email': 'emily.brown@gmail.com', 'mobile' : 6789012}
             ],
-
-       },
+    },
     'Administration' : {
         'Payroll admin':[
                           {'Name': 'janelle', 'email': 'lee.monami@gmail.com', 'mobile' : 27234567},
