@@ -1,108 +1,116 @@
-
 it_company = {
-    "HR": {
-        "Recruiter HR": [
-            {"name": "Arun Kumar", "email": "Arun.Kumar@itcompany.com", "phone": "201-456-7890"},
-            {"name": "Bob Smith", "email": "bob.smith@itcompany.com", "phone": "201-456-7891"}
+    'HR': {
+        'Recruiter HR': [
+            {'name': 'Aarav Sharma', 'email': 'aarav.sharma@itcompany.com', 'phone': '987-654-3210'},
+            {'name': 'Ishita Verma', 'email': 'ishita.verma@itcompany.com', 'phone': '987-654-3211'}
         ],
-        "Activity HR": [
-            {"name": "Cath Brown", "email": "cath.brown@itcompany.com", "phone": "201-456-7892"},
-            {"name": "David Wilson", "email": "david.wilson@itcompany.com", "phone": "201-456-7893"}
+        'Activity HR': [
+            {'name': 'Ananya Reddy', 'email': 'ananya.reddy@itcompany.com', 'phone': '987-654-3212'},
+            {'name': 'Karan Singh', 'email': 'karan.singh@itcompany.com', 'phone': '987-654-3213'}
         ],
-        "Payroll HR": [
-            {"name": "Evie Raj", "email": "evie.raj@itcompany.com", "phone": "201-456-7894"},
-            {"name": "Frank Harris", "email": "frank.harris@itcompany.com", "phone": "201-456-7895"}
+        'Payroll HR': [
+            {'name': 'Priya Patel', 'email': 'priya.patel@itcompany.com', 'phone': '987-654-3214'},
+            {'name': 'Vikram Joshi', 'email': 'vikram.joshi@itcompany.com', 'phone': '987-654-3215'}
         ]
     },
-    "Management": {
-        "Managers": [
-            {"name": "Grace Lee", "email": "grace.lee@itcompany.com", "phone": "201-456-7896"},
-            {"name": "Henry Martin", "email": "henry.martin@itcompany.com", "phone": "201-456-7897"},
-            {"name": "Ivy Thompson", "email": "ivy.thompson@itcompany.com", "phone": "201-456-7898"}
+    'Management': {
+        'Managers': [
+            {'name': 'Sanya Gupta', 'email': 'sanya.gupta@itcompany.com', 'phone': '987-654-3216'},
+            {'name': 'Rohit Mehta', 'email': 'rohit.mehta@itcompany.com', 'phone': '987-654-3217'},
+            {'name': 'Meera Chawla', 'email': 'meera.chawla@itcompany.com', 'phone': '987-654-3218'}
         ],
-        "Teamlead": [
-            {"name": "Jacky White", "email": "jacky.white@itcompany.com", "phone": "201-456-7899"},
-            {"name": "Karen Moore", "email": "karen.moore@itcompany.com", "phone": "201-456-7900"},
-            {"name": "Leo Taylor", "email": "leo.taylor@itcompany.com", "phone": "201-456-7901"}
+        'Teamlead': [
+            {'name': 'Kabir Kapoor', 'email': 'kabir.kapoor@itcompany.com', 'phone': '987-654-3219'},
+            {'name': 'Simran Bhatia', 'email': 'simran.bhatia@itcompany.com', 'phone': '987-654-3220'},
+            {'name': 'Aditya Sethi', 'email': 'aditya.sethi@itcompany.com', 'phone': '987-654-3221'}
         ],
-        "Module Lead": [
-            {"name": "Mia Anderson", "email": "mia.anderson@itcompany.com", "phone": "201-456-7902"},
-            {"name": "Nathan Scott", "email": "nathan.scott@itcompany.com", "phone": "201-456-7903"},
-            {"name": "Olivia Martinez", "email": "olivia.martinez@itcompany.com", "phone": "201-456-7904"}
+        'Module Lead': [
+            {'name': 'Riya Nair', 'email': 'riya.nair@itcompany.com', 'phone': '987-654-3222'},
+            {'name': 'Neeraj Malhotra', 'email': 'neeraj.malhotra@itcompany.com', 'phone': '987-654-3223'},
+            {'name': 'Divya Yadav', 'email': 'divya.yadav@itcompany.com', 'phone': '987-654-3224'}
         ]
     },
-    "Development": {
-        "UI Dev": {
-            "Sr Dev": [
-                {"name": "Paul Raj", "email": "paul.raj@itcompany.com", "phone": "201-456-7905"},
-                {"name": "Quinn Robinson", "email": "quinn.robinson@itcompany.com", "phone": "201-456-7906"}
+    'Development': {
+        'UI Dev': {
+            'Sr Dev': [
+                {'name': 'Rahul Rao', 'email': 'rahul.rao@itcompany.com', 'phone': '987-654-3225'},
+                {'name': 'Neha Mishra', 'email': 'neha.mishra@itcompany.com', 'phone': '987-654-3226'}
             ],
-            "Jr Dev": [
-                {"name": "Raj Louis", "email": "raj.louis@itcompany.com", "phone": "201-456-7907"},
-                {"name": "Steve Hall", "email": "steve.hall@itcompany.com", "phone": "201-456-7908"}
+            'Jr Dev': [
+                {'name': 'Tara Kulkarni', 'email': 'tara.kulkarni@itcompany.com', 'phone': '987-654-3227'},
+                {'name': 'Amit Deshmukh', 'email': 'amit.deshmukh@itcompany.com', 'phone': '987-654-3228'}
             ]
         },
-        "API Dev": {
-            "Sr Dev": [
-                {"name": "Tom King", "email": "tom.king@itcompany.com", "phone": "201-456-7909"},
-                {"name": "Uma Wright", "email": "uma.wright@itcompany.com", "phone": "201-456-7910"}
+        'API Dev': {
+            'Sr Dev': [
+                {'name': 'Rajesh Menon', 'email': 'rajesh.menon@itcompany.com', 'phone': '987-654-3229'},
+                {'name': 'Pooja Ghosh', 'email': 'pooja.ghosh@itcompany.com', 'phone': '987-654-3230'}
             ],
-            "Jr Dev": [
-                {"name": "Vera Lopez", "email": "vera.lopez@itcompany.com", "phone": "201-456-7911"},
-                {"name": "Will Perez", "email": "will.perez@itcompany.com", "phone": "201-456-7912"}
+            'Jr Dev': [
+                {'name': 'Manoj Choudhury', 'email': 'manoj.choudhury@itcompany.com', 'phone': '987-654-3231'},
+                {'name': 'Lavanya Shetty', 'email': 'lavanya.shetty@itcompany.com', 'phone': '987-654-3232'}
             ]
         },
-        "Database Dev": {
-            "Sr Dev": [
-                {"name": "Xena Sanchez", "email": "xena.sanchez@itcompany.com", "phone": "201-456-7913"},
-                {"name": "Yuri Carter", "email": "yuri.carter@itcompany.com", "phone": "201-456-7914"}
+        'Database Dev': {
+            'Sr Dev': [
+                {'name': 'Anil Gupta', 'email': 'anil.gupta@itcompany.com', 'phone': '987-654-3233'},
+                {'name': 'Shalini Iyer', 'email': 'shalini.iyer@itcompany.com', 'phone': '987-654-3234'}
             ],
-            "Jr Dev": [
-                {"name": "Zara Murphy", "email": "zara.murphy@itcompany.com", "phone": "201-456-7915"},
-                {"name": "Aaron Turner", "email": "aaron.turner@itcompany.com", "phone": "201-456-7916"}
+            'Jr Dev': [
+                {'name': 'Gautam Kulkarni', 'email': 'gautam.kulkarni@itcompany.com', 'phone': '987-654-3235'},
+                {'name': 'Sanya Bajaj', 'email': 'sanya.bajaj@itcompany.com', 'phone': '987-654-3236'}
             ]
         }
     },
-    "Support": {
-        "Internal Support": [
-            {"name": "Bella Martinez", "email": "bella.martinez@itcompany.com", "phone": "201-456-7917"},
-            {"name": "Chris Lee", "email": "chris.lee@itcompany.com", "phone": "201-456-7918"}
+    'Support': {
+        'Internal Support': [
+            {'name': 'Devika Singh', 'email': 'devika.singh@itcompany.com', 'phone': '987-654-3237'},
+            {'name': 'Ajay Pawar', 'email': 'ajay.pawar@itcompany.com', 'phone': '987-654-3238'}
         ],
-        "Customer Support": [
-            {"name": "Diana Clark", "email": "diana.clark@itcompany.com", "phone": "201-456-7919"},
-            {"name": "Eric Wright", "email": "eric.wright@itcompany.com", "phone": "201-456-7920"}
+        'Customer Support': [
+            {'name': 'Ritu Jain', 'email': 'ritu.jain@itcompany.com', 'phone': '987-654-3239'},
+            {'name': 'Naveen Khan', 'email': 'naveen.khan@itcompany.com', 'phone': '987-654-3240'}
         ]
     },
-    "Testing": {
-        "Manual Tester": [
-            {"name": "Fiona Walker", "email": "fiona.walker@itcompany.com", "phone": "201-456-7921"},
-            {"name": "George Hall", "email": "george.hall@itcompany.com", "phone": "201-456-7922"}
+    'Testing': {
+        'Manual Tester': [
+            {'name': 'Radhika Basu', 'email': 'radhika.basu@itcompany.com', 'phone': '987-654-3241'},
+            {'name': 'Suresh Patil', 'email': 'suresh.patil@itcompany.com', 'phone': '987-654-3242'}
         ],
-        "Automation Tester": [
-            {"name": "Hannah Allen", "email": "hannah.allen@itcompany.com", "phone": "201-456-7923"},
-            {"name": "Ian Harris", "email": "ian.harris@itcompany.com", "phone": "201-456-7924"}
+        'Automation Tester': [
+            {'name': 'Mitali Joshi', 'email': 'mitali.joshi@itcompany.com', 'phone': '987-654-3243'},
+            {'name': 'Vishal Prasad', 'email': 'vishal.prasad@itcompany.com', 'phone': '987-654-3244'}
         ],
-        "Performance Tester": [
-            {"name": "Julia Nelson", "email": "julia.nelson@itcompany.com", "phone": "201-456-7925"},
-            {"name": "Kevin Wright", "email": "kevin.wright@itcompany.com", "phone": "201-456-7926"}
+        'Performance Tester': [
+            {'name': 'Shruti Kulkarni', 'email': 'shruti.kulkarni@itcompany.com', 'phone': '987-654-3245'},
+            {'name': 'Akash Desai', 'email': 'akash.desai@itcompany.com', 'phone': '987-654-3246'}
         ],
-        "Security Tester": [
-            {"name": "Liam Young", "email": "liam.young@itcompany.com", "phone": "201-456-7927"},
-            {"name": "Maya Cooper", "email": "maya.cooper@itcompany.com", "phone": "201-456-7928"}
+        'Security Tester': [
+            {'name': 'Tanvi Kapoor', 'email': 'tanvi.kapoor@itcompany.com', 'phone': '987-654-3247'},
+            {'name': 'Rakesh Rao', 'email': 'rakesh.rao@itcompany.com', 'phone': '987-654-3248'}
         ]
     },
-    "Administration": {
-        "Payroll admin": [
-            {"name": "Nina Reed", "email": "nina.reed@itcompany.com", "phone": "201-456-7929"},
-            {"name": "Oscar Price", "email": "oscar.price@itcompany.com", "phone": "201-456-7930"}
+    'Administration': {
+        'Payroll admin': [
+            {'name': 'Parul Nair', 'email': 'parul.nair@itcompany.com', 'phone': '987-654-3249'},
+            {'name': 'Sameer Ahuja', 'email': 'sameer.ahuja@itcompany.com', 'phone': '987-654-3250'}
         ],
-        "Employee admin": [
-            {"name": "Paula Long", "email": "paula.long@itcompany.com", "phone": "201-456-7931"},
-            {"name": "Quincy Hughes", "email": "quincy.hughes@itcompany.com", "phone": "201-456-7932"}
+        'Employee admin': [
+            {'name': 'Sneha Reddy', 'email': 'sneha.reddy@itcompany.com', 'phone': '987-654-3251'},
+            {'name': 'Ravi Sharma', 'email': 'ravi.sharma@itcompany.com', 'phone': '987-654-3252'}
         ],
-        "Facility admin": [
-            {"name": "Rachel King", "email": "rachel.king@itcompany.com", "phone": "201-456-7933"},
-            {"name": "Sammy Scott", "email": "sammy.scott@itcompany.com", "phone": "201-456-7934"}
+        'Facility admin': [
+            {'name': 'Meghna Dixit', 'email': 'meghna.dixit@itcompany.com', 'phone': '987-654-3253'},
+            {'name': 'Vijay Goel', 'email': 'vijay.goel@itcompany.com', 'phone': '987-654-3254'}
         ]
     }
 }
+
+
+from pprint import pprint
+print("_"*50)
+pprint(it_company)
+
+
+print("Email:", it_company['Development']['API Dev']['Sr Dev'][0]['email'])
+print("Phone:", it_company['Development']['API Dev']['Sr Dev'][0]['phone'])
