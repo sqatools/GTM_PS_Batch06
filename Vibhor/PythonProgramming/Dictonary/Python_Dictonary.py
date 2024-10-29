@@ -16,10 +16,10 @@ school2 = {
         },
     },
     'teachers': {
-        'maths': [{'Name': 'MohanSir', 'email': 'mohansir@gmail.com', 'mobile' : 56789845},
-                  {'Name': 'RathoreSir', 'email': 'rathoresir@gmail.com', 'mobile' : 56464364}],
-        'chemistry': [{'Name': 'KTMam', 'email': 'ktmam@gmail.com', 'mobile' : 876867876},
-                  {'Name': 'ruchiMam', 'email': 'rauchimam@gmail.com', 'mobile' : 346535464}]
+        'maths': [{'Name': 'MohanSir', 'email': 'mohansir@gmail.com', 'mobile' : '56789845'},
+                  {'Name': 'RathoreSir', 'email': 'rathoresir@gmail.com', 'mobile' : '56464364'}],
+        'chemistry': [{'Name': 'KTMam', 'email': 'ktmam@gmail.com', 'mobile' : '876867876'},
+                  {'Name': 'ruchiMam', 'email': 'rauchimam@gmail.com', 'mobile' : '346535464'}]
     }
 }
 
