@@ -82,7 +82,8 @@ print("#" * 50)
 
 var_p = 50
 var_q = 3
-print("multiplication :", var_p * var_q)
+print("multiplic"
+      "ation :", var_p * var_q)
 
 multiply = var_p * var_q
 print("multiplication value :", multiply)
