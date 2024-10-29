@@ -83,14 +83,15 @@ school2 = {
         'maths': [{'Name': 'MohanSir', 'email': 'mohansir@gmail.com', 'mobile' : 56789845},
                   {'Name': 'RathoreSir', 'email': 'rathoresir@gmail.com', 'mobile' : 56464364}],
         'chemistry': [{'Name': 'KTMam', 'email': 'ktmam@gmail.com', 'mobile' : 876867876},
-                  {'Name': 'ruchiMam', 'email': 'rauchimam@gmail.com', 'mobile' : 346535464}]
+                   {'Name': 'ruchiMam', 'email': 'rauchimam@gmail.com', 'mobile' : 346535464}]
     }
 }
 
 from pprint import pprint
 print("_"*50)
-pprint(school2['students']['11th']['A'][0]['Name']) # Rahul
-#1. get mobile number of KT mam
+pprint(school2)
+#pprint(school2['students']['11th']['A'][0]['Name']) # Rahul
+#1. get mobile numb er of KT mam
 #2 get email address of mohansir
 #3. get surname of jayesh
 #4. get surname of tappu
