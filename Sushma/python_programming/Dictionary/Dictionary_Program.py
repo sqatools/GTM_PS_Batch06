@@ -178,7 +178,7 @@ IT_company={
 #print(IT_company['Management']['Managers'])
 #print(IT_company['Management']['Module Lead'])
 #print(IT_company['Development']['UI Dev']['Sr Dev'])
-#print(IT_company['Development']['UI Dev']['jr Dev'])
+print(IT_company['Development']['UI Dev']['jr Dev'])
 
-from pprint import pprint
-pprint(IT_company)
+#from pprint import pprint
+#pprint(IT_company)
