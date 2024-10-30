@@ -107,10 +107,27 @@ it_company = {
 }
 
 
-from pprint import pprint
-print("_"*50)
-pprint(it_company)
+# from pprint import pprint
+# print("_"*50)
+# pprint(it_company)
 
 
-print("Email:", it_company['Development']['API Dev']['Sr Dev'][0]['email'])
-print("Phone:", it_company['Development']['API Dev']['Sr Dev'][0]['phone'])
+# print("Email:", it_company['Development']['API Dev']['Sr Dev'][0]['email'])
+
+# print(it_company.items())
+
+"""
+for department in it_company:
+    print("Department:", department)
+
+    dept_info = it_company[department]
+    for sub_department in dept_info:
+        print("  Sub-Department:", sub_department)
+"""
+
+for department, dept_info in it_company.items():
+    print(department, "::", dept_info)
+
+    # Iterate through each sub-department within the department
+    for sub_department, emp_list in dept_info.items():
+        print("  Sub-Department:", sub_department)
