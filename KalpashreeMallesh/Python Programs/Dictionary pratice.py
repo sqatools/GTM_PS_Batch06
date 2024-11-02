@@ -1,5 +1,4 @@
 Company = {
-'Employee': {
     'HR': {
             'Recruiter HR':[
                           {'Name': 'Aice', 'email': 'alice.johnson@gmail.com', 'mobile' : 1234567},
@@ -91,7 +90,7 @@ Company = {
                           {'Name': 'emily', 'email': 'emily.brown@gmail.com', 'mobile' : 6789012}
             ],
     },
-    'Administration' : {
+        'Administration': {
         'Payroll admin':[
                           {'Name': 'janelle', 'email': 'lee.monami@gmail.com', 'mobile' : 27234567},
                           {'Name': 'alex', 'email': 'alex.lee@gmail.com', 'mobile' : 478990123}
@@ -105,9 +104,23 @@ Company = {
                           {'Name': 'birch', 'email': 'birch.lee@gmail.com', 'mobile' : 378901293}
             ]
        }
-    }
 }
 from pprint import pprint
 print("_"*50)
-#pprint(Company)
-pprint(Company['Employee'])
+pprint(Company)
+#pprint(Company['Employee'])
+
+#------------------------------------------------------------------------------
+#print("_"*50)
+for p, q in Company.items():
+    #print(p, ":", q)
+    for p1, q1 in q.items():
+       #print(p1,":",q1)
+       if isinstance(q1, list):
+           for value in q1:
+            print(value)
+       elif isinstance(q1, dict):
+           for p2, q2 in q1.items():
+               #print(p2, ":", q2)
+               for value in q2:
+                   print(value)

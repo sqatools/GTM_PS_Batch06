@@ -236,6 +236,9 @@ it_company = {
     }
 }
 print("_"*40)
+from pprint import pprint
+print("_"*50)
+pprint(it_company)
 
 
 ########################
