@@ -236,6 +236,9 @@ it_company = {
     }
 }
 print("_"*40)
+from pprint import pprint
+print("_"*50)
+pprint(it_company)
 
 
 ########################
@@ -344,7 +347,6 @@ st_name = 'Pooja'
 class_name = "12th"
 section = 'B'
 
-for k, v in school4.items():
     if k == 'students':
         #print(k, "::", v)
         for k1, v1, in v.items():
@@ -353,6 +355,7 @@ for k, v in school4.items():
                 for k2, v2 in v1.items():
                     if k2 == section:
                         #print(k2, "::", v2)
+for k, v in school4.items():
                         for val in v2:
                             if val['Name'] == st_name:
                                 print(val)
