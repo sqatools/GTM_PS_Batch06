@@ -18,7 +18,7 @@ fruit_list = [['Apple', 50, 100], ['Mango', 40, 200], ['Banana', 3, 300]]
  -> Calculate total bill
 
  -> update the fruit list as per purchase
- ruit_list = [['Apple', 50, 90], ['Mango', 40, 195], ['Banana', 3, 280]]
+ fruit_list = [['Apple', 50, 90], ['Mango', 40, 195], ['Banana', 3, 280]]
 
 
 3). Solve at least 20 programs of list of programs.

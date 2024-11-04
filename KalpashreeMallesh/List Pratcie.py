@@ -12,3 +12,5 @@ var = 0
 for val in list2:
     var += val
 print(var)
+
+#
