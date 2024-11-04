@@ -156,3 +156,56 @@ while count<len(list1):
     print(list1[count],":",list1[count]**2)
     count+=1
 """
+"""
+# T patten
+#This for loop section will print 2 horizontal lines.
+for i in range(3):
+    for j in range(9):
+      print("*",end=" ")
+    print()
+# this for loopsection will print vertical line of t pattern
+for i in range(5):
+    for j in range(9):
+        if j>2 and j<6:
+            print("*",end=" ")
+        else :
+            print(" ",end=" ")
+    print()
+"""
+"""
+# I pattern
+for row in range(7):
+    for col in range (5):
+        if (row in{0,6}):
+                print('*',end= ' ')
+        elif (row in{1,2,3,4,5}) and (col == 2):
+            print('*',end=' ')
+        else:
+            print('',end= '')
+        print()
+"""
+"""
+# o pattern
+for i in range(0,7):
+  for j in range(0,7):
+      if (i ==0 or i==6)and (1< j <5):
+          print("*",end=" ")
+      elif (0<i<=5) and (j==1 or j==5):
+          print("*",end="   ")
+      else:
+          print("",end="  ")
+
+  print()
+"""
+# l pattern
+for i in range(7):
+    for j in range (5):
+        if j==0 or (i==6 and j>0):
+         print("*",end=" ")
+        else:
+          print("*",end=" ")
+    print()
+
+
+
+
