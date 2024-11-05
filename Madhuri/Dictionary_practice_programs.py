@@ -153,10 +153,87 @@ IT_Company = {
    }
    }
 
-
-
-
-
+#  practice
+# 1)python program to add elements to the dictionary
+dictionary={}
+dictionary["Name"]="ketan"
+dictionary["Age"]="21"
+print(dictionary)
+#2 print the squre of allvalues in a dictionary
+dictionary ={'a':5,'b':3,'c':6,'d':8}
+for val in dictionary:
+    print(val,":",dictionary[val]**2)
+#3 MOVE ITEMS FROM one dictionary to another dictionary
+D1= {'name':'john','city':'london','country':'uk'}
+D2 ={}
+for val in D1:
+    D2[val]=D1[val]
+print(D2)
+#4 program to contcatenate two dictionaries
+dict1 ={'Name':'Harry','Rollno':345,'Address':'jorden'}
+dict2 = {'Age':25,'salary':'$25k'}
+dict1.update(dict2)
+print(dict1)
+#5 program to get a list of odd and even keys from the dictionary
+dict1 ={1:25,5:'abc',8:'pqr',21:'XYZ',12:'def',2:'utv'}
+list1= [[val,dict1[val]]for val in dict1 if val%2==0]
+list2 = [[val,dict1[val]]for val in dict1 if val%2!=0]
+print("Even key = ",list1)
+print("odd key=",list2)
+#6 python program to create a dictionrary from two lists
+list1 = ['a,','b','c','d','e']
+list2 = [12,23,24,25,15,16]
+dict1={}
+for a,b in zip(list1,list2):
+    dict1[a] = b
+    print(dict1)
+#7 store squres of even and cubes of add numbers in a dictionary using dictionary comperension
+list1 =[4,5,6,2,1,7,11]
+dict={}
+for val in list1:
+    if val %2 ==0:
+        dict[val] = val**2
+    else:
+        dict[val] =val**3
+        print(dict)
+        """
+#8 python program to clear all items from the dictionary
+dict1 = {'Name':'Harry','Rollno':345,'Address':'jorden'}
+dict1.clear()
+print(dict1)
+#9 python program to remove duplicate values from dictionary
+dict1 = {'a':12,'b':2,'c':12,'d':5,'e':35,'f':5}
+dict2 ={}
+for key,val in dict1.items():
+    if val not in dict2.values():
+        dict2[key]= val
+    print(dict2)
+# 10 python program to create a dictionary from the string
+string ='SQATOOLSS'
+dict1 ={}
+for char in string:
+    dict1[char]=string.count(char)
+print(dict1)
+#11 python program to sort a dictionary using keys
+dict1 = {'d':21,'b':53,'a':13,'c':41}
+for key in sorted (dict1):
+print(dict1)
+"""
+#13 python progarm to add akey in a dictionary
+dict1 = {1:'a',2:'b'}
+dict1.update({3:'c'})
+print(dict1)
+#14 python program to concatenate two dictionaries to from a single dictionary
+dict1 = {'name':'yash','City':'Pune'}
+dict2 = {'course':'python','institute':'sqatools'}
+dict1.update(dict2)
+print(dict1)
+#15 get the sum of all the items in a dictionary
+D1 = {'x':23,'y':10,'z':7}
+total =0
+for val in D1.values():
+    total+= val
+    print (total)
 
 
 
