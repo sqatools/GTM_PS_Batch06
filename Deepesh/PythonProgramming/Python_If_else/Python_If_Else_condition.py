@@ -1,4 +1,4 @@
-git pull"""
+"""
 if condition:
    code
 else:
