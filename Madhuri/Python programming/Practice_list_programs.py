@@ -328,6 +328,7 @@ for value in list1:
       if value >= 0:
         print (value,end=" :")
     """
+"""
 # 20 problem get a list of elements divided by a number
 list1 = [3,7,0,2,6,14,88,21]
 # creating empty list
@@ -335,8 +336,12 @@ list2 =[]
 for val in list1:
     if val%3 ==0 or val%7 == 0:
         list2.append(val)
-print(val)
-
+"""
+# Home work
+#25 Problem to remove element from the list using pop method
+list1 = [33,56,89,12,45]
+# removing an element whose index is 2 using pop method
+list1.pop(2)
 
 
 

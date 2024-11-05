@@ -24,5 +24,4 @@ fruit_list = [['Apple', 50, 100], ['Mango', 40, 200], ['Banana', 3, 300]]
 3). Solve at least 20 programs of list of programs.
 https://sqatools.in/python-list-programs/
 
-
 """
