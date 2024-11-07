@@ -219,6 +219,7 @@ dict1 = {'d':21,'b':53,'a':13,'c':41}
 for key in sorted (dict1):
 print(dict1)
 """
+"""
 #13 python progarm to add akey in a dictionary
 dict1 = {1:'a',2:'b'}
 dict1.update({3:'c'})
@@ -234,6 +235,54 @@ total =0
 for val in D1.values():
     total+= val
     print (total)
+    """
+"""
+#16 program to swap the values of the keys in the dictionary
+D1 = {'name:''yash','city:''pune'}
+D2 ={}
+#for key,value in D1.items():
+ D2[value] = key
+print(D2)
+# check whether a key exists in the dictionary or not
+D1 = {'city:''pune','state:','maharashtra'}
+count = 0
+for  key in D1.keys():
+    if key== "country":
+        count+=1
+if count>0:
+        print("keys exists")
+else:
+    print("keys does not exists")
+# python program to iterate over a dictionary
+D1={'food:''burger','type:''fastfood'}
+for val in D1:
+  print(val,D1[val])
+  """
+"""
+# insert key at the beginning of the dictionary
+dict1 = {'course':'python','institute':'sqatools'}
+dict2={'name':'omkar'}
+dict2.update(dict1)
+print(dict2)
+# Create a dictionary where keys are numbers and values are squares of the keys
+dict1 ={}
+for i in range (1,6):
+    dict1[i]= i**2
+    print(dict1)
+# find the product of all items in the dictionary
+dict1 = {'a':2,'b':4,'c':5}
+result =1
+for val in dict1:
+ result   *= val
+print(result)
+"""
+# python program to remove a key from the dictionary
+dict1 = {'a':2,'b':4,'c':5}
+dict2={}
+for key,val in dict1.items():
+    if key  != "b":
+       dict2[key]=val
+print(dict2)
 
 
 
