@@ -209,3 +209,13 @@ print("set_a is superset :", set_a.issuperset(set_b)) # True
 print("set_b is subset :", set_b.issubset(set_a)) # True
 print("set_a is superset of set_c :", set_a.issuperset(set_c)) # False
 print("set_c is subset of set_a :", set_c.issubset(set_a)) # False
+
+print("_"*50)
+###########################################
+# isdisjoint method :
+set_a = {4, 6, 8, 9, 12, 34}
+set_b = {4, 8, 34}
+set_c = {5, 7, 10}
+
+print("set a and set b is isdisjoint :", set_a.isdisjoint(set_b)) # False
+print("set a and set c is isdisjoint :", set_a.isdisjoint(set_c)) # True
