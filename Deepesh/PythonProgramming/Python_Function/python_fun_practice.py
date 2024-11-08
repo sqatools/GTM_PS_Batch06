@@ -110,3 +110,141 @@ names('Ankita') # pass by value
 print("_"*50)
 var1 = 'Raghav'
 names(var1)  # pass by reference
+
+
+################# parameter data type ############
+"""
+-> We can provide function parameter data type, but it optional.
+-> In good code coding style user should provide what type of data is expected 
+for the parameters.
+
+"""
+def convert_uppercase(var1: str, var2: int,  var3: int):
+    print(var1.upper())
+    print("addition :", var2+var3)
+
+
+#convert_uppercase(23456)
+convert_uppercase('good morning', 'Hello', 'Python')
+convert_uppercase('good morning', 400, 500)
+#convert_uppercase((4, 6, 8), 400, 500)
+
+
+print("_"*50)
+################
+# *args  parameter : This parameter accept the values in the form of tuple,
+# and there is no limit to provide values and their data type.
+# args is default name provided by python, we can customize the name as per our requirement.
+
+def get_sum_of_values(*args):
+    print(args, type(args))
+    print("sum of all values :", sum(args))
+
+get_sum_of_values(5, 7, 8)
+get_sum_of_values(33, 55, 77, 99, 11)
+
+def print_all_values(*var):
+    print(var)
+    for val in var:
+        print(val)
+
+print("_"*50)
+print_all_values(3, 3.5, 'Hello', [3, 5, 7], (1, 4, 67), True)
+print("_"*50)
+print_all_values([6, 7, 9, 12]) # ([6, 7, 9, 12],)
+
+
+################### **kwargs parameter ##############
+"""
+***kwargs
+-> kwargs accept the values in the form key value pair it means the data type will
+   be dictionary
+   
+-> The default name of parameter is kwargs, and we can customize the name as per 
+   our requirement.
+   
+-> ** mainly accept the values in the dictionary format, param name could be anything
+"""
+
+
+def get_user_info(**kwargs):
+    print(kwargs)
+    for k, v in kwargs.items():
+        print(k, ":", v)
+
+print("_"*50)
+get_user_info(name='Rohan', email='rohan@gmail.com', phone=454354325, address='Pune')
+# {'name': 'Rohan', 'email': 'rohan@gmail.com', 'phone': 454354325, 'address': 'Pune'}
+
+
+def login_fun(**kwargs):
+    db_username = 'admin'
+    db_password = 'Admin@123'
+    if kwargs['username'] == db_username and kwargs['password'] == db_password:
+        print("Login Successful")
+    else:
+        print("Access Denied")
+
+
+print("_"*50)
+login_fun(username='admin', password='Admin@123')
+print("_"*50)
+login_fun(username='user123', password='admin@123')
+
+
+################# Return value from function ########
+"""
+-> Function can return value with return statement, that we can use further.
+-> We can return multiple values from function, return in form of tuple
+-> Once the return statement is executed then function will be terminated.
+   no further code will be executed.
+
+"""
+def factorials(num):
+    fact = 1
+    for i in range(num, 0, -1):
+        fact = fact*i
+    print("Factorial :", fact)
+    return fact
+
+result = factorials(5)
+#print("Factorial value :", result)
+# Factorial value : 120
+#print("multiply by 5 :", result*5)
+
+
+def math_operations(n1, n2, n3):
+    add = n1+n2
+    mul = n2*n3
+    subtract = n3-n1
+    return add, mul, subtract
+
+values = math_operations(10, 20, 30)
+print("math operation values :", values)
+
+a, b, c = math_operations(10, 20, 30)
+print("addition of n1, n2:", a)
+print("multiplication of n2, n3:", b)
+print("subtraction of n3, n1:", c)
+
+
+def get_sum_of_values(*args):
+    sum = 0
+    for val in args:
+        if sum > 50:
+            return sum
+        print(val, sum)
+        sum = sum + val
+
+    print("Execution completed")
+
+print("_"*50)
+sum_result = get_sum_of_values(10, 3, 24, 17, 19, 20, 5)
+print("sum result :", sum_result)
+
+
+
+# write a python program to create calculate where each operation has to do function
+# and return a value, like add, multi, sub, divide
+def add(n1, n2):
+    return n1+n2
