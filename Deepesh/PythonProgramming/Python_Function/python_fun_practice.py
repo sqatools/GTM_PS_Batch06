@@ -61,6 +61,9 @@ for i in range(len(list1)):
     addition(list1[i], list2[i])
 
 print("_" * 50)
+
+
+############### function with default parameter value ###############
 ###############
 ################
 
