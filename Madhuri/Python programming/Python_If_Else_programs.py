@@ -122,7 +122,6 @@ b = 70
 a , b = b, a
 """
 
-"""
 # write a python program to create a calculator where we have to three inputs from users
 Var1 = 3
 var2 = 3
@@ -142,7 +141,7 @@ elif operation == '/':
      print(var1/var2)
 else:
     print("Invalid operation")
-"""
+
 
 """
 #-----------------------------------------
