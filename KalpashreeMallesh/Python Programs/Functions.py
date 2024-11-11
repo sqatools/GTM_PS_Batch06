@@ -13,8 +13,11 @@ def divide(x, y):
   return x / y
 
 # Display operations to the user
-print("Select operation:")
+print("Select operation:" )
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
+operation = int(input("Enter choice of operation 1/2/3/4: "))
+x = int(input("Enter the First Number: "))
+y = int(input("Enter the Second Number: "))
