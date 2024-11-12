@@ -97,7 +97,7 @@ ITCompany = {
         'Customer Support': [
             {'Name': 'Matt', 'Email': 'matt@gmail.com', 'Mobile': '350295'},
             {'Name': 'Lijo', 'Email': 'lijo@gmail.com', 'Mobile': '95723'}
-        ],
+        ]
     },
 
     'Testing': {

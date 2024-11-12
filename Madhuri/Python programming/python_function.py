@@ -151,32 +151,136 @@ def mul(a,b):
 mul( a*b)
 print(a*b)
 """
+"""
 
 #  HOME WORK_________python program  to make a simple calculator using functions
-def add(a,b):
-    return(a+b)
-def subtract(a,b):
-    return(a-b)
-def multiply(a,b):
-    return(a*b)
-def divide(a,b):
-    return(a/b)
+# create an application  with function all inside function
+def add(n1,n2):
+    return(n1+n2)
+def subtract(n1,n2):
+    return(n1-n2)
+def multiply(n1,n2):
+    return(n1*n2)
+def divide(n1,n2):
+    return(n1/n2)
 
 
-num1 = int(input("Enter first number:"))
-num2 = int(input("Enter Second number:"))
-val = int(input("Enter opertion  of your choice"))
-if val in (1,2,3,4,5):
-    if val == 1:
-        print("addition of two numbers",num1,num2, add(num1+num2))
-    elif val  == 2:
-        print("subtraction of two numbers",num1,num2,subtract(num1,num2))
-    elif val == 3:
-        print("multiplication of two numbers",num1,num2, multiply(num1*num2))
-    elif val == 4:
-        print("Division of two numbers",num1,num2,divide(num1,num2))
-else:
-    print("Invalid value ")
+def substrction(v1, v2):
+    pass
+
+
+def calculator(operation_num,v1,v2):
+    if operation_num ==1:
+        add_val = add(v1,v2)
+        print ("addition:",add_val)
+    elif operation_num ==2:
+        print("mulitiplication:",multiply(v1,v2))
+    elif operation_num ==3:
+        print("subtraction:",substrction(v1,v2))
+    elif operation_num ==4:
+        print("Divide:",divide ((v1,v2)))
+
+op_val = int(input("Enter the operation number:\n"
+                   "1.Addition\n"
+                   "2.Mulitiply\n"
+                   "3.substraction\n"
+                   "4.Division|\n"))
+
+num1 = int(input("enter value for num1:"))
+num2 = int(input("enter value for num2:"))
+calculator (op_val,num1,num2)
+"""
+
+"""
+**local variables---------- when we defined any variable inside the function then it is non as local variable
+and scope of local varaible is limited to the same function  
+***global variables--------When we defined any variablle outside the function then it is non as global variable
+and scope of the global varaible is across the module.
+-----if we want t change the value of global variables inside the function then we should use global key word.
+****non local variables---------When we defined any variable inside the outer function then it is non as non local variable
+------Non lolacl variable scope is limited to all the inner funtion and all the outer function only.
+------If we want to change the value of non local variable in side the inner function then we should use non local keyword
+"""
+"""
+var_x = 500
+def function1():
+    print("-------function1------")
+    global var_x
+    var_y = 300 # local variable
+    var_x = 700
+    print ("var_x global :",var_x)
+    print("var_y local:", var_y)
+
+def function2():
+     print("-----function2----")
+     var_z = 400 # local varible
+     print("var_x global:",var_x)
+    # print("Var_y local:", var_y)
+    # local varible of any OTHER FUNCTION CAN NOT ACCESS
+     print("var_z local:",var_z)
+function2()
+function1()
+function2()
+##########non local variable######
+var_p = 50 # global variable
+def outer_function():
+ var_q =100 # non local variable
+ def inner_fun1():
+      print("---fun1-----")
+      nonlocal var_q
+      global  var_p
+      var_r = 200 # local variable
+      var_q = 500 # non local variable
+      var_p = 1000
+      print("global variable var_p:",var_p)
+      print("nonlocal variable var_q:",var_q)
+      print("local variable var_r:",var_r)
+
+ def inner_fun2():
+      print("---fun2-----")
+      var_s = 300 # local variable
+      print("global variable var_p:",var_p)
+      print("nonlocal variable var_q:",var_q)
+      print("local variable var_s:",var_s)
+ inner_fun2()
+ inner_fun1()
+ inner_fun2()
+ """
+# python function  program to print a table of a number\
+def table(num):
+    a = 0
+    for i in range(1,11):
+        a = i*num
+        print(i,"*",num,"=",a)
+n = int(input("enter the number"))
+table(n)
+# prime number
+def prime(num):
+    count = 0
+    for i in range(2,num):
+        if num%i ==0:
+            count +=1
+    if count >0:
+      print("It is not prime number ")
+    else:
+        print("it is a prime number")
+num1 = int(input("Enter a number"))
+prime(num1)
+# fibonacci series
+def fibo():
+    num1 = 0
+    num2 = 1
+    count = 0
+while count <10:
+    print(num1,end=" ")
+    n2 = num1+num2
+    num1 = num2
+    num2 = n2
+    count+=1
+fibo()
+
+
+
 
 
 
