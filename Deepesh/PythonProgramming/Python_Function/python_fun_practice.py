@@ -61,7 +61,11 @@ for i in range(len(list1)):
     addition(list1[i], list2[i])
 
 print("_" * 50)
+
+
 ############### function with default parameter value ###############
+###############
+################
 
 def multiplication(num1, num2=50):
     print(f"multiply values num1={num1}, num2={num2}: {num1 * num2}")

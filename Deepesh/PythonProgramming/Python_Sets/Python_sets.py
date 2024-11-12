@@ -168,9 +168,6 @@ print("set_6:", set_6)
 set_5.difference_update(set_6)
 print("set_5:", set_5) # {2, 4, 6}
 
-
-
-
 ###############
 print("_"*50)
 # symmetric_different method(): This method return the combine difference values from both sets.

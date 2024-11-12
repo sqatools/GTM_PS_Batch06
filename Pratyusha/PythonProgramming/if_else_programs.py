@@ -196,3 +196,4 @@ print("{} {} {} {} {}".format(first, second, third, fourth, fifth))"""
 
 #q1. str_a = "My name is John" -> "ny name is JohM"
 #q2. str_b = "India is best country" -> "IIndia iis bbest ccountry"
+
