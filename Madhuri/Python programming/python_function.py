@@ -12,7 +12,7 @@ def greeting_msg(msg):
     print(msg)
 greeting_msg("good morning")
 greeting_msg("How are you?")
-"""
+
 # import specificfunction in this module
 #greeting_msg("have a nice day")
 #greeting()
@@ -34,7 +34,7 @@ for i in range (len(list1)):
 # function with default parameter  value--
 def mulitiplication(num1,num2):
     print(f"multiple values {num1},{num2},{num1*num2}")
-
+"""
 """
 # if we cal function without passing value of default parameter
 then it will consider default value only
@@ -46,7 +46,7 @@ right:def fun1(var1,var2=50)
 # all parameters can have defalut value
 def fun(v1 =40,v2 = 50,v3 = 60)
 """
-
+"""
 #Parmeter  data type######
 def convert_uppercase(var1:str, var2:int,var3:int):
     print(var1.upper())
@@ -84,7 +84,7 @@ def get_user_info(**kwargs):
 print(""*50)
 get_user_info(name='Rohn',email='rohan@gamil.com',phone=45667799,address='pune')
 """
-
+"""
 
 def login_fun(**kwargs):
     db_username = 'admin'
@@ -246,6 +246,7 @@ def outer_function():
  inner_fun1()
  inner_fun2()
  """
+
 # python function  program to print a table of a number\
 def table(num):
     a = 0
@@ -271,14 +272,60 @@ def fibo():
     num1 = 0
     num2 = 1
     count = 0
-while count <10:
-    print(num1,end=" ")
+    while count <10:
+     print(num1,end=" ")
     n2 = num1+num2
     num1 = num2
     num2 = n2
     count+=1
 fibo()
 
+def fact(n):
+    fact = 1
+    while n > 0:
+        fact *= n
+        n -= 1
+    print(f"Factorial of {num}: {fact}")
+num = int(input("Enter a number: "))
+fact(num)
+# Home Work------------------->
+# write a python program to calculate following operation with the help of function
+def  factorial(num):
+    fact = 1
+    for i in range (num,0,-1):
+        fact = fact*i
+    return fact
+"""
+def check_prime_number(num):
+    prime = True
+    for i in range(2,num):
+        if num % i == 0:
+             prime = False
+            break
+        else:
+            continue
+    return prime
+    """
+def get_fabonacci_series(num):
+    a = 0
+    b = 1
+    series = []
+    for i in range(num):
+        a,b =b,a+b
+        series.append(a)
+    return series
+def create_table(num):
+    for i in range(1,11):
+        print(i,"*",num,"=",i*num)
+def calculate_operation(num):
+    print("--------factorial------------")
+    print(f"factorial of {num}:",factorial(num))
+    print("------ check prime number--------")
+    print("-------fabonacci series--------")
+    #print(f"checkprime number of {num}:",check_prime_number(num))
+    print(f"fabonacci series of {num}:",get_fabonacci_series(num))
+    print("-------table of given number----------")
+    create_table(num)
 
 
 
