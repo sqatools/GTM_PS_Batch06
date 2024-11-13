@@ -1,3 +1,4 @@
+
 def factorial(number):
     output = 1
     for i in range(1, number + 1):
@@ -35,3 +36,4 @@ def calulate_operation(number):
 
 
 calulate_operation(10)
+
