@@ -42,7 +42,74 @@ def append_content_to_file(filepath, content):
     file.close()
 
 #1. File does not exist : Append mode also create new file, if file does not exist.
-append_content_to_file("append_data.txt", "India will win third T20")
+#append_content_to_file("append_data.txt", "India will win third T20")
 
 #2. Existing File : Append mode update new content to existing file at end of file.
-append_content_to_file("append_existing_data.txt", "\nToday we are celebrating Diwali in India")
+#append_content_to_file("append_existing_data.txt", "\nToday we are celebrating Diwali in India")
+
+print("_"*50)
+####################################
+# context manager : Context Manager open file in it context, and it has its own enter and exist method
+# no need to close explicitly
+
+def read_with_context(filepath):
+    with open(filepath, "r") as file:
+        data = file.read()
+        print(data)
+        print("file closed inside context  :", file.closed) # False
+
+    print("file closed outside context :", file.closed)  # True
+
+
+#read_with_context("read_data.txt")
+
+
+
+
+
+
+
+# different read option
+"""
+1.  read number of bytes data :  file.read(10)
+2.  read one line at a time : file.readline()
+3.  read list of lines : file.readlines()
+"""
+
+# 1. read number of bytes data
+
+def read_num_of_bytes_data(filepath, bytes):
+    with open(filepath, "r") as file:
+        data = file.read(bytes)
+        print(data)
+
+
+#read_num_of_bytes_data("read_data.txt", 30)
+
+# 2. read_specific_number_of_lines
+
+def read_num_lines(filepath, total_line=0):
+    with open(filepath, "r") as file:
+        for i in range(total_line):
+            print(file.readline(), end="")
+
+
+# read_num_lines("read_data.txt", 4)
+
+
+# read list of all lines :
+def read_list_of_lines(filepath):
+    with open(filepath, "r") as file:
+        lines_list = file.readlines()
+        print(lines_list)
+
+# read_list_of_lines("read_data.txt")
+
+
+def read_specific_lines(filepath, start, end):
+    with open(filepath, "r") as file:
+        lines_list = file.readlines()
+        for i in range(start-1, end):
+            print(lines_list[i], end="")
+
+read_specific_lines("read_data.txt", 3, 6)
