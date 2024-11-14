@@ -112,4 +112,26 @@ def read_specific_lines(filepath, start, end):
         for i in range(start-1, end):
             print(lines_list[i], end="")
 
-read_specific_lines("read_data.txt", 3, 6)
+#read_specific_lines("read_data.txt", 3, 6)
+
+
+# tell() : This method tells you about current position of the cursor.
+# seek(number_of_byte, position)
+# 20, 0 :Zero represent reference is begining of the file
+# 30, 1 :One represent the new change of cursor with respect to current position of cursor.
+# 40, 2 : two represent the new change of cursor with respect to end of the file
+
+print("_"*50)
+def read_file_with_position(filepath):
+    with open(filepath, "rb") as file:
+        print("current position of cursor :", file.tell())
+        file.seek(30, 0)
+        print("current position of cursor :", file.tell())
+        file.seek(30, 1)
+        print("current position  of cursor after 30 byte  :", file.tell())
+        print("_"*60)
+        # set cursor position from end of the file
+        file.seek(-40, 50)
+        print("data read with negative cursor postion, ", file.read())
+
+#read_file_with_position("read_data.txt")
