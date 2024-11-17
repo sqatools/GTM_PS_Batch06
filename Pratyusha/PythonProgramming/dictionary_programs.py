@@ -22,6 +22,13 @@ print('_'*50)
 # write a python program to create a dictionary from the given list
 # get square of even and cube of odd values from list to dictionary
 list2 = [3, 4, 12, 5, 8]
+output = {}
+for val in list2:
+    if val%2 == 0:
+        output[val] = val**2
+    else:
+        output[val] = val**3
+print(output)
 
 
 print('_'*50)
@@ -34,5 +41,27 @@ for val in list3:
         output[val] = val**3"""
     output[val] = val**3    # if key is duplicate, it overrides with latest key:value pair in dictionary
 print(output)
+
+print('_'*50)
+# write a python program to solve the below dictionary
+dict1 = {'Python' : [2, 5, 7],
+        'Programming' : (5, 1, 6),
+        'Language' : [1, 7, 2]}
+
+# output = {'nythoP' : 14,
+#         'grogramminP' : 12,
+#         'eanguagL' : 10}
+output = {}
+for k, v in dict1.items():
+    print(k, v)
+    updated_key = f"{k[-1]}{k[1:-1]}{k[0]}"
+    val_sum = sum(v)
+    output[updated_key] = val_sum
+print(output)
+
+
+
+
+
 
 # https://sqatools.in/python-dictionary-programs/
