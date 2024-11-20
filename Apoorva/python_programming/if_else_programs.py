@@ -7,6 +7,7 @@ if num1%3 == 0:
 else:
     print("number is not divisible by 3:")
 '''
+import os
 
 #3.  If else program to assign grades as per total marks.
 #marks > 40: Fail
@@ -233,7 +234,7 @@ else:
     print("the number is positive:", num1)
 '''
 
-#21). Python program to check whether the given number is positive or negative and even or odd.
+'''#21). Python program to check whether the given number is positive or negative and even or odd.
 Input = 26
 Output = The given number is positive and even
 
@@ -244,8 +245,9 @@ if num1>=0
     if
 
 
-    else
+    else'''
 
+os.chown()
 
 
 
