@@ -120,3 +120,7 @@ print("LHS and RHS accordingly is :" , LHS, RHS)
 # Formula = (4/3*pi*r^2)
 # r = radius
 # pi = 3
+
+a = r**2
+r= "hello"
+print(a)
