@@ -10,7 +10,7 @@ def fact(n):
         fact *= n
         n -= 1
     print(f"Factorial of {num}: {fact}")
-num = int(input("Enter a number: "))
+num = int(input("Enter a number for Factorial: "))
 fact(num)
 
 print("*"*50)
@@ -28,12 +28,10 @@ def prime(num):
     else:
         print("It is a prime number")
 
-num1 =  int(input("Enter a number: "))
+num1 =  int(input("Enter a number for Prime: "))
 prime(num1)
 
 print("*"*50)
-
-
 
 
 def table(num):
@@ -42,8 +40,10 @@ def table(num):
         a = i*num
         print(i,"*",num,"=",a)
 
-n = int(input("Enter a number: "))
+n = int(input("Enter a number for Table: "))
 
 table(n)
 
 print("*"*50)
+
+
