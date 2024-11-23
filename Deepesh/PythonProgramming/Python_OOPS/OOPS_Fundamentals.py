@@ -7,7 +7,8 @@ method :  When we write a function inside the class, then it become method.
          1. Instance method : When we define any method with self as first parameter, then it
                               is known as instance method.
          2. Class Method : Class method, that only deals with class variable
-         3. Static Method
+         3. Static Method : static method that only belongs to the class and no need to create
+                            object of the class to access the static method.
 
 variable :
          1. Instance variable : Any variable we defined with self, then it is instance variable
@@ -71,6 +72,13 @@ class ABC:
         print("city name :", cls.CITY)
         print("Country name :", cls.Country)
 
+    @staticmethod
+    def factorial(num1):
+        fact = 1
+        for i in range(num1, 0, -1):
+            fact = fact*i
+
+        print(f"Factorial value of {num1} :", fact)
 
 if __name__ == '__main__':
     obj = ABC(30, 40)
@@ -82,6 +90,9 @@ if __name__ == '__main__':
     #obj.city_name()
     obj.largest_variable_value()
     obj.address_details()
+
+    # access the static method
+    ABC.factorial(5)
 """
     print("_"*50)
     obj1 = ABC(50, 60)
