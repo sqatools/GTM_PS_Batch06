@@ -59,12 +59,12 @@ class Car:
 
 
 # Creating objects and displaying their details
-car1 = Car("Corolla", 20000, "Toyota", "2023", 16)
+car1 = Car("Indica", 100000, "TATA", "2020", 15)
 car1.display_details()
 
 print("-" * 30)
 
-car2 = Car("Civic", 22000, "Honda", "2022", 18)
+car2 = Car("i20", 900000, "Hyundai", "2019", 19)
 car2.display_details()
 
 
