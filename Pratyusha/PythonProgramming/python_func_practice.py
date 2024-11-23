@@ -1,4 +1,4 @@
-n1 = float(input("Enter first number: "))
+"""n1 = float(input("Enter first number: "))
 n2 = float(input("Enter second number: "))
 operator = input("Choose a operator: ")
 
@@ -29,7 +29,7 @@ else:
     result = "Sorry, that's not a valid operation"
 
 
-print(f"Result: {result}")
+print(f"Result: {result}")"""
 
 
 # Write a python program to calculate following operation with the help of function
@@ -45,10 +45,6 @@ def factorial(num):
     return fact
 
 
-result = factorial(4)
-print(result)
-
-
 def prime(num):
     pm = True
     for i in range(2, num):
@@ -60,29 +56,30 @@ def prime(num):
         return "Not a prime number"
 
 
-result = prime(20)
-print(result)
-
-
 def fibonacci(num):
     a = 0
     b = 1
     fib = []
-    for _ in range(num):
+    for i in range(num):
         a, b = b, a + b
-    print()
-    return a, b
-
-
-result = fibonacci(4)
-print(result)
+        fib.append(b)
+        return fib
 
 
 def table(num):
     for i in range(1, 13):
-        num, 'x', i, '=', num * i
+        print(num, 'x', i, '=', num * i)
 
 
-result = table(4)
-print(result)
+def calculate_operation(num):
+    print("___________Factorial_____________")
+    print(f"Factorial of {num}: ", factorial(num))
+    print("___________Check prime_____________")
+    print(f"Check prime of {num}: ", prime(num))
+    print("___________Fibonacci series_____________")
+    print(f"Fibonacci series of {num}: ", fibonacci(num))
+    print("___________Table of num_____________")
+    table(num)
+
+calculate_operation(4)
 
