@@ -1,4 +1,4 @@
-class ABC:
+"""class ABC:
     def __init__(self, num1, num2):
         print("Welcome to ABC class")
         self.x = num1   # instance/object variable
@@ -25,4 +25,4 @@ if __name__ == '__main__':
 
     print('_'*50)
     obj2 = ABC(30,40)
-    obj2.addition_values()
+    obj2.addition_values()"""
