@@ -19,7 +19,8 @@ search_password = driver.find_element(By.NAME, "pass")
 print(search_password)
 search_password.send_keys("*******")
 
-
+search_btn = driver.find_element(By.NAME, "login")
+search_btn.click()
 
 
 time.sleep(30)
