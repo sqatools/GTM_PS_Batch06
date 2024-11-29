@@ -39,6 +39,12 @@ search_field = driver.find_element(By.NAME, "postcode")
 search_field.send_keys("226028")
 search_field = driver.find_element(By.ID, "street_address1")
 search_field.send_keys("Chinhat Lucknow")
+search_field = driver.find_element(By.ID, "ContactForm2_contact-form-name")
+search_field.send_keys("Vibhor Khare")
+search_field = driver.find_element(By.NAME, "email")
+search_field.send_keys("vibhorkhare23@gmail.com")
+search_field = driver.find_element(By.ID, "ContactForm2_contact-form-email-message")
+search_field.send_keys("Learning Python Automation testing")
 
 
 time.sleep(10)
