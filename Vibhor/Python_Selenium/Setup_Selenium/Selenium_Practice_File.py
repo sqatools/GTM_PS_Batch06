@@ -45,7 +45,9 @@ search_field = driver.find_element(By.NAME, "email")
 search_field.send_keys("vibhorkhare23@gmail.com")
 search_field = driver.find_element(By.ID, "ContactForm2_contact-form-email-message")
 search_field.send_keys("Learning Python Automation testing")
-
+time.sleep(3)
+python_selenium_link = driver.find_element(By.LINK_TEXT, "Python Selenium")
+python_selenium_link.click()
 
 time.sleep(10)
-# driver.close()
+driver.close()
