@@ -1,0 +1,47 @@
+XPath : Xpath is the location of any web element on the web page, that we find with the help
+        DOM structure.
+
+1. Absolute XPATH : Absolute xpath follow entire dom structure to locate any web element
+
+e.g /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+
+2. Relative XPATH : Relative xpath use the attribute of web element to locate
+      syntax : //tagname[@attribute='value']
+               //*[@attribute='value']
+
+               //input[@data-testid='royal_email']
+               //*[@data-testid='royal_email']
+
+               //input[@data-testid='royal_pass']
+               //*[@data-testid='royal_pass']
+
+               //button[@data-testid='royal_login_button']
+
+# Basic Xpath Methods
+1. text method :   Text method search the element with the help of specified text
+               syntax : //tagname[text()='text value']
+                        //button[text()='Log in']
+                        //a[text()='Create new account']
+                        //a[text()='Forgotten password?']
+
+2. contains : Contains method search the element with help of partial value of text or any attribute
+              syntax : i). with text method
+                       //tagname[contains(text(), 'text value')]
+                       //button[contains(text(), 'Log')]
+                       //a[contains(text(), 'new account')]
+                       //a[contains(text(), 'Forgotten')]
+
+                       ii). with attribute value
+                       //tagname[contains(@attribute, 'attribute value')]
+                       //input[contains(@placeholder, 'Pass')]
+                       //button[contains(@data-testid,'royal_login')]
+
+
+
+3. and & or
+
+4.  Indexing with multiple matches : (//*[contains(@data-testid,'royal')])[4]
+
+
+Home work : Automate dummy ticket website elements with xpath
+# https://automationbysqatools.blogspot.com/2021/05/dummy-website.html
