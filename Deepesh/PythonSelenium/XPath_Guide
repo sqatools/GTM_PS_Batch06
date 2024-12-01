@@ -38,10 +38,56 @@ e.g /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/di
 
 
 
-3. and & or
+3. and & or :
+           and syntax :  //tagname[@attribute1='value' and @attribute='value']
+                          //tagname[text()='value' and @attribute='value']
+                          //tagname[contains(@attribute1,'value') and @attribute='value']
+
+                          //input[@data-testid="royal_email" and @placeholder='Email address or phone number']
+                          //input[contains(@class, 'inputtext') and @name='email']
+                          //a[text()='Create new account' and @role='button']
+
+
+           or syntax  : //tagname[@attribute1='value' or @attribute='value']
+                          //tagname[text()='value' or @attribute='value']
+                          //tagname[contains(@attribute1,'value') or @attribute='value']
+
+                          //input[@data-testid="royal_email" or @placeholder='Hello']
+                          //input[contains(@data-testid, "email") or @placeholder='Hello']
+                          //input[contains(@class, 'inputtext') or @id='email']
+
 
 4.  Indexing with multiple matches : (//*[contains(@data-testid,'royal')])[4]
 
 
 Home work : Automate dummy ticket website elements with xpath
 # https://automationbysqatools.blogspot.com/2021/05/dummy-website.html
+
+5. identify element with their and or child with / movement
+
+    i) //div[@id='passContainer']/input[contains(@class, 'inputtext')]
+    ii) //div/p[text()='Enter city or airport']
+    iii) //div[@align="left"]/ul/li//input
+
+
+
+Advance XPath Methods :
+
+1. following :  When we user following method, then any element comming donw side of reference
+                will be consider target element.
+
+     syntax :  //ref_tagname[@attib1 ='value']//following::tar_tagname[@attrib='value']
+               //input[@id='billing_name']//following::input[@name='prefecture']
+               //input[@id='firstname']//following::input[@name='firstname']
+                //input[@id='firstname']//following::a[text()='Home']
+
+2. following-sibling
+       syntax :  //ref_tagname[@attib1 ='value']//following-sibling::tar_tagname[@attrib='value']
+                //span[text()='To']//following-sibling::p
+                //span[text()='From']//following-sibling::p[text()='Enter city or airport']
+3. preceding
+4. preceding-sibling
+5. parent
+6. ancestor
+7. child
+
