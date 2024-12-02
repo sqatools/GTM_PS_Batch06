@@ -85,9 +85,34 @@ Advance XPath Methods :
        syntax :  //ref_tagname[@attib1 ='value']//following-sibling::tar_tagname[@attrib='value']
                 //span[text()='To']//following-sibling::p
                 //span[text()='From']//following-sibling::p[text()='Enter city or airport']
-3. preceding
-4. preceding-sibling
-5. parent
-6. ancestor
-7. child
 
+3. preceding : In case of preceding method, it will target all the element on upper side of reference element
+
+       syntax :  //ref_tagname[@attib1 ='value']//preceding::tar_tagname[@attrib='value']
+                 //input[@id='fromcity']//preceding::input[@id='male']
+                 //a[text()='Regression Testing']//preceding::a[text()='Unit Testing ']
+
+4. preceding-sibling :  preceding-sibling method target all the elder sibling element in same family
+                        member in the webpage.
+      syntax : //ref_tagname[@attib1 ='value']//preceding-sibling::tar_tagname[@attrib='value']
+               //div[@align='left']/ul/li[3]//preceding-sibling::li[1]
+               //div[@align='left']/ul/li[3]//preceding-sibling::li/input[@value='radio_345']
+               //td[text()='Kolkata']//preceding-sibling::td/input
+
+
+5. parent : with parent method, we take reference of child to find out the parent element.
+      syntax : //tagname[@attrib='value']//parent::tar_tagname[@attrib='value']
+               //span[text()='Dummy return ticket - $300 ']//parent::li
+               //input[@value='radio_345']//parent::li
+               //td[text()='Hyderabad']//parent::tr//input[@type='checkbox']
+
+
+6. ancestor :
+     syntax : //tagname[@attrib='value']//ancestor::tar_tagname[@attrib='value']
+              //input[@type='checkbox']//ancestor::tr//td[text()='Indore']
+              //input[@value='radio_678']//ancestor::ul//input[@value='radio_558']
+
+
+
+# scary family structure xpath
+# //td[text()='Kolkata']//preceding-sibling::td/input//parent::td//parent::tr//preceding-sibling::tr[1]//td[text()='Indore']
