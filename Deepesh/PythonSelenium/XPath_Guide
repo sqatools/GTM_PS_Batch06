@@ -29,7 +29,7 @@ e.g /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/di
                        //tagname[contains(text(), 'text value')]
                        //button[contains(text(), 'Log')]
                        //a[contains(text(), 'new account')]
-                       //a[contains(text(), 'Forgotten')]
+                           //a[contains(text(), 'Forgotten')]
 
                        ii). with attribute value
                        //tagname[contains(@attribute, 'attribute value')]
