@@ -1,0 +1,118 @@
+XPath : Xpath is the location of any web element on the web page, that we find with the help
+        DOM structure.
+
+1. Absolute XPATH : Absolute xpath follow entire dom structure to locate any web element
+
+e.g /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+
+2. Relative XPATH : Relative xpath use the attribute of web element to locate
+      syntax : //tagname[@attribute='value']
+               //*[@attribute='value']
+
+               //input[@data-testid='royal_email']
+               //*[@data-testid='royal_email']
+
+               //input[@data-testid='royal_pass']
+               //*[@data-testid='royal_pass']
+
+               //button[@data-testid='royal_login_button']
+
+# Basic Xpath Methods
+1. text method :   Text method search the element with the help of specified text
+               syntax : //tagname[text()='text value']
+                        //button[text()='Log in']
+                        //a[text()='Create new account']
+                        //a[text()='Forgotten password?']
+
+2. contains : Contains method search the element with help of partial value of text or any attribute
+              syntax : i). with text method
+                       //tagname[contains(text(), 'text value')]
+                       //button[contains(text(), 'Log')]
+                       //a[contains(text(), 'new account')]
+                           //a[contains(text(), 'Forgotten')]
+
+                       ii). with attribute value
+                       //tagname[contains(@attribute, 'attribute value')]
+                       //input[contains(@placeholder, 'Pass')]
+                       //button[contains(@data-testid,'royal_login')]
+
+
+
+3. and & or :
+           and syntax :  //tagname[@attribute1='value' and @attribute='value']
+                          //tagname[text()='value' and @attribute='value']
+                          //tagname[contains(@attribute1,'value') and @attribute='value']
+
+                          //input[@data-testid="royal_email" and @placeholder='Email address or phone number']
+                          //input[contains(@class, 'inputtext') and @name='email']
+                          //a[text()='Create new account' and @role='button']
+
+
+           or syntax  : //tagname[@attribute1='value' or @attribute='value']
+                          //tagname[text()='value' or @attribute='value']
+                          //tagname[contains(@attribute1,'value') or @attribute='value']
+
+                          //input[@data-testid="royal_email" or @placeholder='Hello']
+                          //input[contains(@data-testid, "email") or @placeholder='Hello']
+                          //input[contains(@class, 'inputtext') or @id='email']
+
+
+4.  Indexing with multiple matches : (//*[contains(@data-testid,'royal')])[4]
+
+
+Home work : Automate dummy ticket website elements with xpath
+# https://automationbysqatools.blogspot.com/2021/05/dummy-website.html
+
+5. identify element with their and or child with / movement
+
+    i) //div[@id='passContainer']/input[contains(@class, 'inputtext')]
+    ii) //div/p[text()='Enter city or airport']
+    iii) //div[@align="left"]/ul/li//input
+
+
+
+Advance XPath Methods :
+
+1. following :  When we user following method, then any element comming donw side of reference
+                will be consider target element.
+
+     syntax :  //ref_tagname[@attib1 ='value']//following::tar_tagname[@attrib='value']
+               //input[@id='billing_name']//following::input[@name='prefecture']
+               //input[@id='firstname']//following::input[@name='firstname']
+                //input[@id='firstname']//following::a[text()='Home']
+
+2. following-sibling
+       syntax :  //ref_tagname[@attib1 ='value']//following-sibling::tar_tagname[@attrib='value']
+                //span[text()='To']//following-sibling::p
+                //span[text()='From']//following-sibling::p[text()='Enter city or airport']
+
+3. preceding : In case of preceding method, it will target all the element on upper side of reference element
+
+       syntax :  //ref_tagname[@attib1 ='value']//preceding::tar_tagname[@attrib='value']
+                 //input[@id='fromcity']//preceding::input[@id='male']
+                 //a[text()='Regression Testing']//preceding::a[text()='Unit Testing ']
+
+4. preceding-sibling :  preceding-sibling method target all the elder sibling element in same family
+                        member in the webpage.
+      syntax : //ref_tagname[@attib1 ='value']//preceding-sibling::tar_tagname[@attrib='value']
+               //div[@align='left']/ul/li[3]//preceding-sibling::li[1]
+               //div[@align='left']/ul/li[3]//preceding-sibling::li/input[@value='radio_345']
+               //td[text()='Kolkata']//preceding-sibling::td/input
+
+
+5. parent : with parent method, we take reference of child to find out the parent element.
+      syntax : //tagname[@attrib='value']//parent::tar_tagname[@attrib='value']
+               //span[text()='Dummy return ticket - $300 ']//parent::li
+               //input[@value='radio_345']//parent::li
+               //td[text()='Hyderabad']//parent::tr//input[@type='checkbox']
+
+
+6. ancestor :
+     syntax : //tagname[@attrib='value']//ancestor::tar_tagname[@attrib='value']
+              //input[@type='checkbox']//ancestor::tr//td[text()='Indore']
+              //input[@value='radio_678']//ancestor::ul//input[@value='radio_558']
+
+
+
+# scary family structure xpath
+# //td[text()='Kolkata']//preceding-sibling::td/input//parent::td//parent::tr//preceding-sibling::tr[1]//td[text()='Indore']
