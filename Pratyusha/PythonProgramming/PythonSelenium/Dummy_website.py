@@ -19,7 +19,7 @@ header = driver.find_element(By.TAG_NAME, "h1")
 print("header value: ", header.text)
 time.sleep(2)
 
-choose_option = driver.find_element(By.XPATH, "//div[@align='left']/ul/li[2]//following-sibling::li[2]")
+choose_option = driver.find_element(By.XPATH, "//div[@align='left']/ul/li[2]//following-sibling::li/input[@value='radio_558']")
 choose_option.click()
 time.sleep(2)
 
@@ -76,8 +76,8 @@ print("Ticket receiving platform is selected: ", receive_platform.is_selected())
 billing_address_email = driver.find_element(By.XPATH, "//input[@id='billing_name']//following::input[@id='billing_email']")
 billing_address_email.send_keys("admin123@gmail.com")
 
-city_name = driver.find_element(By.XPATH, "/tr/td[contains(text(), '6001')]//following-sibling::td[text()='Mumbai']")
-print(city_name)
+city_name = driver.find_element(By.XPATH, "//tr/td[contains(text(), '6001')]//following-sibling::td[text()='Mumbai']")
+print(city_name.text)
 
 time.sleep(2)
 """# Link Text
