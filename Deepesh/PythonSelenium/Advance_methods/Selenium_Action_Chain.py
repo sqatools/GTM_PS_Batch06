@@ -58,5 +58,39 @@ def drag_and_drop_images():
 
     time.sleep(5)
 
-drag_and_drop_images()
+#drag_and_drop_images()
+def scroll_to_element_and_click():
+    alert_box  = driver.find_element(By.XPATH, "//div[@id='footer']//a[text()='AlertBox']")
+    action = ActionChains(driver)
+    action.scroll_to_element(alert_box)
+    action.click(alert_box)
+    action.perform()
+    time.sleep(10)
+
+# scroll_to_element_and_click()
+def scroll_to_specific_position():
+    driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
+    action = ActionChains(driver)
+    action.scroll_by_amount(100, 5000)
+    action.perform()
+    time.sleep(10)
+
+#scroll_to_specific_position()
+
+def context_or_right_click():
+    # pip install pyautogui
+    import pyautogui
+    driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
+    home_tab = driver.find_element(By.XPATH, "//div[@class='widget PageList']//a[text()='Home']")
+    action = ActionChains(driver)
+    action.context_click(home_tab)
+    action.perform()
+    time.sleep(2)
+    pyautogui.press("up")
+    time.sleep(5)
+    pyautogui.press("enter")
+    time.sleep(5)
+
+context_or_right_click()
+
 driver.close()
