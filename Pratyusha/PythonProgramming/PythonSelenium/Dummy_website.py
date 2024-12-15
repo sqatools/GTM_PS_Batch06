@@ -76,6 +76,10 @@ print("Ticket receiving platform is selected: ", receive_platform.is_selected())
 billing_address_email = driver.find_element(By.XPATH, "//input[@id='billing_name']//following::input[@id='billing_email']")
 billing_address_email.send_keys("admin123@gmail.com")
 
+street_address = driver.find_element(By.XPATH, "//input[@id='street_address2']//preceding-sibling::input[@id='street_address1']")
+street_address.send_keys("dummy street")
+time.sleep(2)
+
 city_name = driver.find_element(By.XPATH, "//tr/td[contains(text(), '6001')]//following-sibling::td[text()='Mumbai']")
 print(city_name.text)
 
