@@ -1,0 +1,21 @@
+1. install pytest with command or from pycharm settings
+   pip install pytest
+
+2. create a pytest test file with prefix and "test_"
+   -> Each test file name in the pytest framework should start with "test_" prefix
+
+3. Create a test function in the test file.
+   -> Each test function name should start with "test_" as prefix.
+
+4. Run the test case with the given command in the terminal
+   python -m pytest -v <test_file_name>
+   -> first we have to open the on the location of file.
+   -> then execute the test cases with the above command
+   -> The execution of the command should return below output
+
+  test_math_operation.py::test_addition PASSED                  [ 33%]
+  test_math_operation.py::test_multiplication FAILED            [ 66%]
+  test_math_operation.py::test_subtraction PASSED               [100%]
+
+  FAILED test_math_operation.py::test_multiplication - assert (50 * 5) == 300
+  ============================ 1 failed, 2 passed in 1.87s ============================
