@@ -62,7 +62,7 @@ def get_testing_types():
     types_of_func_and_nonfunc = driver.find_elements(By.XPATH, "//*[text() = 'Functional Testing']//ancestor::ul[@class='ullist']//ul[1]//child::li//a[contains(text(), 'Testing')]")
     for type in types_of_func_and_nonfunc:
         print(f"{type.text}", ":", type.get_attribute("href"))
-
+# //a[text() = 'Functional Testing']//parent::li//following-sibling::ul[1]//a
 # get_website_title()
 # get_current_url()
 # refresh_page()
