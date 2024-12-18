@@ -33,3 +33,64 @@
 
 8. Marker execution cab be done on folder level as well, where it will
    find all the related marker test cases in each test file and execute.
+
+
+9. XFAIL marker. @pytest.mark.xfail
+   -> xfail marker generally we use for unstable test cases.
+   -> If test cases failed, then it will mark test as xfailed in report
+   -> If test cases passed, then it will mark test as xpassed in the resport
+
+10. SKIP test cases
+   -> There are two way to skip the test cases unconditional skip and conditional skip
+   -> @pytest.mark.skip : This is unconditional skip, test case will skip in any condition
+   -> @pytest.mark.skipif(condition ,  reason="skip reason")
+      condition skip only executes in specific condition'
+   ->  Test cases are also going to marks as skipped in the result.
+
+    ===== 1 failed, 3 passed, 2 skipped, 1 xfailed, 2 xpassed, 11 warnings in 0.37s ====
+
+
+11. Parametrization of test function : It allows to execute one single test function with multiple
+    parameter inputs and consider as indiadual result for each input value.
+    @pytest.mark.parametrize("username, password", [('user1', 'pass1'), ('user2', 'pass2')]
+    def test_login(username, password):
+        print("Username  :", username)
+        print("Password :", password)
+
+
+12. HTML Report :
+    -> To Generate the report we have to install pytest package(pytest-html)
+       pip install pytest-html
+
+    ->  To regenerate report we have to mention the report folder path,
+        where it will create html report file
+
+     python -m pytest -v .\basic_test\ --html=report_data\report.html
+
+
+13. Register custom markers in pytest.ini configuration file
+    -> create one config file with name pytest.ini
+    -> Add following lines into the file. then it will auto register the custom markers.
+
+    [pytest]
+    markers=
+        sanity: sanity test cases marker
+        regression: regression test cases marker
+        smoke: smoke test cases marker.
+
+
+
+14. Fixture:
+    Fixture is the function that we want execution  before and after execution of each cases or test suite
+    Fixture has following scope:
+
+   -> function : function level fixture executes along with each function
+   -> module : Module level fixture execute with test file level
+   -> package : Package level fixture will execute with package initiation which contains multiple modules.
+   -> session : Session level fixture will execution along with automation initiation and after completion of
+          automation execution.
+   -> class : class level fixture will work will each class execution.
+
+   # Execution structure of fixtures as per the scope.
+   i). session ->  package -> module ->  function
+   ii). session ->  package -> module ->  class ->  function
