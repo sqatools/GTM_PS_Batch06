@@ -94,3 +94,13 @@
    # Execution structure of fixtures as per the scope.
    i). session ->  package -> module ->  function
    ii). session ->  package -> module ->  class ->  function
+
+
+15. common fixture file :  conftest.py has to create on root location which is common
+                           fixture file for all the test files.
+
+    ->  We can defined any fixture function in conftest which is commonly available for all the
+        test files.
+
+
+

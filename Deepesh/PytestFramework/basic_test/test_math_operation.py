@@ -1,10 +1,10 @@
-def test_addition():
+def test_addition(setup_new):
     num1 = 40
     num2 = 50
     assert num1 + num2 == 90
 
 
-def test_multiplication():
+def test_multiplication(setup_new):
     num1 = 50
     num2 = 5
     assert num1 * num2 == 300
