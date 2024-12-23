@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -13,5 +15,6 @@ def setup():
 
 def test_search_on_google():
     driver.find_element(By.NAME, "q").send_keys("Python Selenium")
-    driver.find_element(By.NAME, "btnk").click()
+    driver.find_element(By.NAME, "btnK").click()
+    time.sleep(5)
 

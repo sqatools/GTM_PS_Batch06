@@ -1,9 +1,16 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-driver = webdriver.Chrome()
-driver.maximize_window()
-driver.implicitly_wait(10)
+from selenium.webdriver.chrome.options import Options
+headless = False
+
+opt = Options()
+if headless:
+    opt.add.argument("--headless")
+    opt.add_argument("--window-size=800,600")
+    opt.add_argument("--disable-popup-blocking")
+    opt.add_argument("--allow-running-insecure-contnet")
+
 driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
 driver.find_element(By.XPATH,"//a[text()='Home']").click()
 time.sleep(3)
