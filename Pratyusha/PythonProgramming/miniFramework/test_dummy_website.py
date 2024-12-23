@@ -11,7 +11,7 @@ class TestDummyWebsite:
         self.dw = DummyWebsite(self.driver)
 
 
-    def test_search_data_on_google(self):
+    def test_book_dummy_ticket(self):
         self.dw.launch_dummy_website(dummy_website_url)
         self.dw.enter_firstname(first_name)
         self.dw.enter_lastname(last_name)
