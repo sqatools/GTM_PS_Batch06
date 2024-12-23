@@ -12,7 +12,7 @@ class TestGoogleSearch:
         self.gp = GooglePage(self.driver)
 
     def test_search_data_on_google(self):
-        self.gp.launch_google_page()
+        self.gp.launch_google_page(google_url)
         self.gp.enter_value_to_search(search_data)
         self.gp.click_search_button()
         time.sleep(5)

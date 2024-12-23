@@ -1,5 +1,6 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.select import Select
 
 
 class SeleniumBase:
@@ -23,3 +24,8 @@ class SeleniumBase:
     def get_text(self, locator):
         element = self.get_element(locator)
         return element.text
+
+    def select_value_from_dropdown(self, locator, value):
+        element = self.get_element(locator)
+        select = Select(element)
+        select.select_by_visible_text(value)

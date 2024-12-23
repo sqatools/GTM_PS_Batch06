@@ -6,7 +6,7 @@ class GooglePage:
     def __init__(self, driver):
         self.driver = driver
 
-    def launch_google_page(self, url=google_url):
+    def launch_google_page(self, url):
         self.driver.get(url)
 
     def enter_value_to_search(self, search_value):
