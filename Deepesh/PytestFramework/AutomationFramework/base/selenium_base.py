@@ -18,13 +18,13 @@ class SeleniumBase:
     def get_element(self, locator,
                     wait_condition=ec.element_to_be_clickable):
         try:
-            self.log.info(f"Finding the element with locator: {locator}")
+            self.log.debug(f"Finding the element with locator: {locator}")
             element = self.wait.until(wait_condition(locator))
             return element
         except Exception as e:
             self.log.info(e)
             filename = f"element_not_found_{self.util.get_unique_name()}.png"
-            self.log.info(f"screenshot captured: {filename}")
+            self.log.warning(f"screenshot captured: {filename}")
             self.driver.save_screenshot(f"logs/{filename}")
             raise
 
@@ -32,7 +32,7 @@ class SeleniumBase:
 
         element = self.get_element(locator)
         if element:
-            self.log.info(f"clicking on the element: {locator}")
+            self.log.critical(f"clicking on the element: {locator}")
             element.click()
         else:
             self.log.info(f"element not found with locator: {element} | {locator}")
@@ -40,7 +40,7 @@ class SeleniumBase:
     def send_keys_to_element(self, locator, value):
         element = self.get_element(locator)
         if element:
-            self.log.info(f"sending text: {value},  to the element: {locator}")
+            self.log.error(f"sending text: {value},  to the element: {locator}")
             element.send_keys(value)
         else:
             self.log.info(f"element not found with locator: {element} | {locator}")
