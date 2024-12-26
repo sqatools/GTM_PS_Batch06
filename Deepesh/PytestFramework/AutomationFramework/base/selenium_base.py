@@ -1,4 +1,5 @@
 import logging
+import os
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.select import Select
@@ -12,8 +13,6 @@ class SeleniumBase:
         self.wait = WebDriverWait(self.driver, timeout)
         self.log = logging.getLogger(__name__)
         self.util = Utils()
-        #self.util.update_logs_filename(log_file_path, updated_logs_file_path)
-
 
     def get_element(self, locator,
                     wait_condition=ec.element_to_be_clickable):
@@ -24,8 +23,9 @@ class SeleniumBase:
         except Exception as e:
             self.log.info(e)
             filename = f"element_not_found_{self.util.get_unique_name()}.png"
-            self.log.warning(f"screenshot captured: {filename}")
-            self.driver.save_screenshot(f"logs/{filename}")
+            file_path = os.path.join(log_folder_path, filename)
+            self.log.warning(f"screenshot captured: {file_path}")
+            self.driver.save_screenshot(file_path)
             raise
 
     def click_element(self, locator):

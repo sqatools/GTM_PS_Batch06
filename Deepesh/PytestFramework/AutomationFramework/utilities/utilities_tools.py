@@ -16,8 +16,15 @@ class Utils:
         return datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
 
     @staticmethod
-    def update_logs_filename(filepath, update_path):
-        os.rename(filepath, update_path)
+    def create_unique_log_folder():
+        unique_folder_name = Utils.get_unique_name()
+        cwd = os.getcwd()
+        log_folder_path = os.path.join(cwd, "logs")
+        new_folder_path = os.path.join(log_folder_path, unique_folder_name)
+        if not os.path.isdir(new_folder_path):
+            os.mkdir(new_folder_path)
+
+        return new_folder_path
 
 
 # if __name__ == '__main__':
