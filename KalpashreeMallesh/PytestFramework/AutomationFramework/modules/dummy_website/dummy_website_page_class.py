@@ -21,7 +21,6 @@ class DummyWebsite(SeleniumBase):
 
     def select_male_female(self, value):
         if value.lower() == 'male':
-
             self.click_element(male_radio_btn)
         elif value.lower() == 'female':
             self.click_element(female_radio_btn)

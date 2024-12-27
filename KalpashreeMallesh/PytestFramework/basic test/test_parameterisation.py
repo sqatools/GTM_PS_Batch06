@@ -13,3 +13,4 @@ def test_facebook_login(user, password):
     print("Password :", password)
 
 #command to run python -m pytest -v -s .\test_parameterisation.py
+# python -m pytest -v .\test_parameterisation.py --html=report.html
