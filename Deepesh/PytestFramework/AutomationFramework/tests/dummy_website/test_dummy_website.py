@@ -14,7 +14,9 @@ class TestDummyWebsite:
         self.util = Utils
         self.json_data = self.util.read_json_content(json_file_path)
 
-    def test_enter_user_details(self):
+    def test_enter_user_details(self, request):
+        self.dw.log.info("_"*50)
+        self.dw.log.info(f"Test name: {request.node.name}")
         self.dw.launch_dummy_website(dummy_website_url)
         self.dw.enter_first_name(self.json_data['user_data']['first_name'])
         self.dw.enter_last_name(self.json_data['user_data']['last_name'])
