@@ -1,0 +1,11 @@
+# command to execute test cases with specific browser
+python -m pytest -v .\tests\ --html=logs/report.html --browser=firefox
+
+python -m pytest -v .\tests\ --html=logs/report.html --browser=chrome --headless=True
+
+
+####### run test case parallely  ############
+ -> install pytest-xdist module (pip install pytest-xdist)
+ -> execute the test case with given command
+   python -m pytest -v -n 3 .\test_xfail_markers_operation.py
+    -n : stand for number of CPU worker to execute the test cases.
