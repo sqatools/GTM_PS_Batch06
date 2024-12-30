@@ -1,0 +1,26 @@
+Type of API:
+
+1. REST (Rest full API)
+2. RPC (Remote Procedure)
+3. SOAP (Simple object Access Protocol)
+
+# HTTP Protocol
+
+# HTTP Methods
+->  GET (Retrieve information)
+->  POST (Add new entry to database)
+->  PUT (Update existing information)
+->  PATCH (Update specific details of existing data)
+->  DELETE (Delete the information)
+
+Response Code
+100 - 199 :  Informational response code
+200 - 299 :  Success of Operation
+300 - 399 :  Re-directional operation
+400 - 499 :  Client Errors
+500 - 599 :  Server Errors
+
+# Manual Testing
+-> We have to use tool called postman.
+
+
