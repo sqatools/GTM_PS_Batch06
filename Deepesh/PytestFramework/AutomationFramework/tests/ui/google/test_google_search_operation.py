@@ -1,8 +1,8 @@
 import time
 
 import pytest
-from modules.google.google_page_class import GooglePage
-from resources.google_page.google_page_data import *
+from modules.ui.google.google_page_class import GooglePage
+from resources.ui.google_page.google_page_data import *
 
 
 @pytest.mark.usefixtures("get_driver")

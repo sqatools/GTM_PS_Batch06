@@ -25,7 +25,10 @@ def pytest_addoption(parser):
 def get_driver(request, pytestconfig):
     browser = pytestconfig.getoption("browser")
     headless = pytestconfig.getoption("headless")
-    wd = WDFactory(browser=browser, headless=bool(headless))
+    if browser is not None and headless is not None:
+        wd = WDFactory(browser=browser, headless=bool(headless))
+    else:
+        wd = WDFactory(browser='chrome')
     driver = wd.get_driver_instance()
     request.cls.driver = driver
     yield  # teardown

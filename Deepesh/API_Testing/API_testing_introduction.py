@@ -34,7 +34,6 @@ def add_objects():
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
-
     print(response.text)
 
 
@@ -77,8 +76,8 @@ def get_specific_object(id):
     print(response.json())
 
 
-#get_specific_object("ff808181932badb60194186f756846d6")
-#get_specific_object("ff808181932badb6019418764e9f46d8")
+# get_specific_object("ff808181932badb60194186f756846d6")
+# get_specific_object("ff808181932badb6019418764e9f46d8")
 
 def delete_specific_object(id):
     url = f"https://api.restful-api.dev/objects/{id}"
@@ -89,6 +88,7 @@ def delete_specific_object(id):
     response = requests.request("DELETE", url, headers=headers, data=payload)
     print(response.status_code)
     print(response.json())
+
 
 delete_specific_object("ff808181932badb6019418764e9f46d8")
 get_specific_object("ff808181932badb6019418764e9f46d8")

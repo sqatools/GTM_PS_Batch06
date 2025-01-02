@@ -1,8 +1,8 @@
 import time
 
 import pytest
-from modules.dummy_website.dummy_website_page_class import DummyWebsite
-from resources.dummy_website.dummy_website_data import *
+from modules.ui.dummy_website.dummy_website_page_class import DummyWebsite
+from resources.ui.dummy_website.dummy_website_data import *
 from utilities.utilities_tools import Utils
 
 
