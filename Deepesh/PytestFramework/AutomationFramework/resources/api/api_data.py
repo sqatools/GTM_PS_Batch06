@@ -14,3 +14,9 @@ add_object_data = {
 headers = {
         'Content-Type': 'application/json'
     }
+
+
+users_api_url = "https://gorest.co.in/public/v2/users"
+access_token = "2c23a02b621b71b08c567fab7d5a82459005026b8e4f14ac936f4d3e3b99e9e7"
+headers_with_token = {'Authorization': f"Bearer {access_token}"}
+

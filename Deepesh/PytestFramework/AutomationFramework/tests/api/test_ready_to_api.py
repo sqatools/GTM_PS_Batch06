@@ -34,3 +34,9 @@ class TestReadyToUseApi:
         assert len(response) == 4
         assert add_object_data['name'] == response['name']
         assert status_code == 200
+
+    def test_get_users_details_with_token(self, request):
+        self.rt_api.log.info(f"test name: {request.node.name}")
+        response, status_code = self.rt_api.get_users_detail_with_token(headers=headers_with_token)
+        assert len(response) == 10
+        assert status_code == 200

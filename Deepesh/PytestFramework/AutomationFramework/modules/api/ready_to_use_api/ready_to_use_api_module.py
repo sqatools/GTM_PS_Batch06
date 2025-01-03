@@ -22,3 +22,7 @@ class ReadyToUseAPI(APIBase):
         response, status_code = self.post_method(url=common_url, headers=headers, payload=request_data)
         return response, status_code
 
+    def get_users_detail_with_token(self, headers):
+        response, status_code = self.get_method(url=users_api_url, headers=headers)
+        return response, status_code
+

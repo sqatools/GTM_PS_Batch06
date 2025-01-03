@@ -90,5 +90,20 @@ def delete_specific_object(id):
     print(response.json())
 
 
-delete_specific_object("ff808181932badb6019418764e9f46d8")
-get_specific_object("ff808181932badb6019418764e9f46d8")
+#delete_specific_object("ff808181932badb6019418764e9f46d8")
+#get_specific_object("ff808181932badb6019418764e9f46d8")
+
+
+def get_user_details_with_api_token():
+    url = "https://gorest.co.in/public/v2/users"
+    access_token = "2c23a02b621b71b08c567fab7d5a82459005026b8e4f14ac936f4d3e3b99e9e7"
+    headers = {'Authorization': f"Bearer {access_token}"}
+    response = requests.request("GET", url, headers=headers)
+    pprint(response.json())
+    print(response.status_code)
+
+get_user_details_with_api_token()
+
+
+#ETag : "etag-value"   (strong validation)
+# ETag : W/"etag-value"  (weak validation)
