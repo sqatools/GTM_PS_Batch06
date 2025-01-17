@@ -30,7 +30,7 @@ time.sleep(2)  # static wait
 driver.find_element(By.XPATH, "//div[contains(@aria-label,'Feb 28')]").click()
 driver.find_element(By.XPATH, "//span[@class='sc-12foipm-8 eXKWBG fswDownArrow fswDownArrowTraveller']").click()
 driver.find_element(By.XPATH, "//span[@class='sc-12foipm-72 ezNmSh']").click()
-time.sleep(10)
+time.sleep(20)
 
 
 time.sleep(10)
