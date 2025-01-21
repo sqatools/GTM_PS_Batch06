@@ -1,0 +1,17 @@
+{
+  "user_data" : {
+    "first_name" : "Gourav",
+    "last_name" : "Gupta",
+    "dob" : "05/05/2002",
+    "male_female" : "male",
+    "additional_pass" : "Add 2 more passenger (200%)"
+  },
+  "travel_details" : {
+    "source_city" : "Mumbai",
+    "dest_city" : "Banglore",
+    "depart_date" : "01/21/2025",
+    "return_data" : "01/31/2025"
+  }
+
+
+}
