@@ -54,7 +54,6 @@ class GoibiboWebsite(SeleniumBase):
         self.click_element(dept_date_loc)
         depart_date_xpath = (By.XPATH, f"//div[contains(@aria-label,'{departure_date}')]")
         self.click_element(depart_date_xpath)
-        self.click_element(depart_date_xpath)
 
 
     def select_travellers_and_class(self, travel_class):
