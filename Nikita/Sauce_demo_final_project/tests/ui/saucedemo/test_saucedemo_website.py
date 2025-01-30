@@ -1,8 +1,9 @@
 import time
 import pytest
-from modules.ui.saucedemo.saucedemo_website_page_class import SauceDemoWebsite
-from resources.ui.saucedemo.saucedemo_website_data import json_file_path, url
-from utilities.utilities_tools import Utils
+
+from Nikita.Sauce_demo_final_project.modules.ui.saucedemo.saucedemo_website_page_class import SauceDemoWebsite
+from Nikita.Sauce_demo_final_project.resources.ui.saucedemo.saucedemo_website_data import json_file_path, url
+from Nikita.Sauce_demo_final_project.utilities.utilities_tools import Utils
 
 
 @pytest.mark.usefixtures("get_driver")

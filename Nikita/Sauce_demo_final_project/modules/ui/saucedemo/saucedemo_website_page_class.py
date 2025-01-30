@@ -1,4 +1,4 @@
-from base.selenium_base import SeleniumBase
+from Nikita.Sauce_demo_final_project.base.selenium_base import SeleniumBase
 from .saucedemo_website_page_locator import *
 
 
