@@ -20,7 +20,7 @@ obj = BOOKING('admin', 'admin@123')
 obj.login()
 
 print(obj.__getattribute__("flight_name"))
-obj.__setattr__("flight_name", "Vistara")
+#obj.__setattr__("flight_name", "Vistara")
 
 #obj.flight_name = 'AirIndia'
 obj.flight_booking_date = "25 Dec 2024"

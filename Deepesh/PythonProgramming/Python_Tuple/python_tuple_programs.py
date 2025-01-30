@@ -11,6 +11,7 @@ result = []
 for i in range(len(list1)):
     if i < len(list2):
         result.append((list1[i], list2[i]))
+
     elif i >= len(list2):
         result.append((list1[i], 0))
         print("result data in list:", tuple(result))

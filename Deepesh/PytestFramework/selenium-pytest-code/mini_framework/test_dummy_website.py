@@ -1,3 +1,4 @@
+
 import time
 
 import pytest
@@ -7,6 +8,7 @@ from data_file import *
 
 @pytest.mark.usefixtures("get_driver")
 class TestDummyWebsite:
+    a = 1
     @pytest.fixture(autouse=True)
     def setup(self):
         self.dw = DummyWebsite(self.driver)

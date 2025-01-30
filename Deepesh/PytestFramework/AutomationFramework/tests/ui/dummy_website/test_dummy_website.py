@@ -1,9 +1,11 @@
 import time
 
 import pytest
-from modules.ui.dummy_website.dummy_website_page_class import DummyWebsite
-from resources.ui.dummy_website.dummy_website_data import *
-from utilities.utilities_tools import Utils
+
+from Deepesh.PytestFramework.AutomationFramework.modules.ui.dummy_website.dummy_website_page_class import DummyWebsite
+from Deepesh.PytestFramework.AutomationFramework.resources.ui.dummy_website.dummy_website_data import json_file_path, \
+    dummy_website_url
+from Deepesh.PytestFramework.AutomationFramework.utilities.utilities_tools import Utils
 
 
 @pytest.mark.usefixtures("get_driver")

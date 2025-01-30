@@ -3,9 +3,8 @@ import os
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.select import Select
-from resources.session_data import *
-
-from Deepesh.PytestFramework.AutomationFramework.utilities.utilities_tools import Utils
+from resources.session_data import log_folder_path
+from utilities.utilities_tools import Utils
 
 
 class SeleniumBase:

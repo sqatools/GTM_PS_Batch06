@@ -1,4 +1,4 @@
-from base.selenium_base import SeleniumBase
+from Deepesh.PytestFramework.AutomationFramework.base.selenium_base import SeleniumBase
 from .dummy_website_page_locator import *
 
 

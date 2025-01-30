@@ -19,7 +19,7 @@ var_x = 500
 
 def function1():
     print("______Function1_____")
-    global var_x
+    #global var_x
     var_y = 300  # local variable
     var_x = 700
     print("var_x global  :", var_x)

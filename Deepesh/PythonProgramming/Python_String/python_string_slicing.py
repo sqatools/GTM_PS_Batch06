@@ -9,7 +9,7 @@
 str1 = "Good Morning"
 
 print(str1[0:4])    # Good
-print(str1[4:8])    #  Mor
+print(str1[4:8])    #  Morp777
 print(str1[1:-1])   # ood Mornin
 print(str1[2:-5])   # od Mo
 print(str1[-1:5])   # can not move -1 to positive value
