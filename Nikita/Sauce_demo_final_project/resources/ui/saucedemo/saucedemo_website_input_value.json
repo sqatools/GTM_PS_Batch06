@@ -1,0 +1,19 @@
+{
+  "invalid_login_data" : {
+    "username" : "test",
+    "password" : "test"
+  },
+  "valid_login_data" : {
+    "username" : "standard_user",
+    "password" : "secret_sauce"
+  },
+  "user_data" : {
+    "firstname" : "Nikita",
+    "lastname" : "Muley",
+    "zipcode" : "452009"
+
+  }
+
+
+
+}

@@ -8,7 +8,7 @@ driver.maximize_window()
 driver.implicitly_wait(10)
 
 driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
-time.sleep(5)
+
 
 """
 search_email = driver.find_element(By.NAME, "email")
@@ -22,13 +22,24 @@ search_password.send_keys("*******")
 search_btn = driver.find_element(By.NAME, "login")
 search_btn.click()
 """
-search_pname = driver.find_element(By.NAME, "firstname")
+search_pname = driver.find_element(By.NAME,"firstname")
 print(search_pname)
-search_pname .send_keys("Nikita")
+search_pname.send_keys("Nikita")
 
+#search_lastname = driver.find_element(By.Name, "firstname")
+#print(search_lastname)
+#search_lastname .send_keys("M")
+time.sleep(5)
 
-time.sleep(30)
+#by name
+search_bname = driver.find_element(By.NAME,"birthday")
+print(search_bname)
+search_bname.send_keys("12/12/2024")
 
+#id
+search_bname = driver.find_element(By.NAME,"birthday")
+print(search_bname)
+search_bname.send_keys("12/12/2024")
 
+time.sleep(10)
 driver.close()
-

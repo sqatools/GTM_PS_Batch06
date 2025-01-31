@@ -66,12 +66,13 @@ print("_"*50)
 list_c = [5, 'Hello', 50, 'python', 4.5, 11, [3, 6 ,7]]
 
 for val in list_c:
-    #print(val)
-    if isinstance(val, int):
-        print(val, val**2)
-    elif isinstance(val, str):
-        print(val, val*2)
+    if isinstance(val, int):  # checks if val is an integer
+        print(val, val**2)  # prints the integer and its square
+    elif isinstance(val, str):  # checks if val is a string
+        print(val, val*2)  # prints the string repeated twice
 
+#Other types like 4.5 (float) and [3, 6, 7] (list)
+# are ignored, as they don't match the int or str conditions.
 
 print("_"*50)
 ############## slicing in the list ########
