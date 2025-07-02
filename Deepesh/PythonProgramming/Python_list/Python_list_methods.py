@@ -1,4 +1,4 @@
-# Python Methods
+  # Python Methods
 print(dir(list))
 """
 'append', 'clear', 'copy', 'count', 

@@ -1,4 +1,4 @@
-# 1. Python program to check whether the input number is a square of 6 or not.
+ # 1. Python program to check whether the input number is a square of 6 or not.
 # Input= 37
 
 input_a = 37
