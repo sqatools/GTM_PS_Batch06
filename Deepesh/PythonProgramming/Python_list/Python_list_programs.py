@@ -11,7 +11,7 @@ for val in list1:
     if val_count > 1:
         output.remove(val)
 
-print(output)
+print(output) 
 
 print("_"*40)
 ########## solve program without count method ######
